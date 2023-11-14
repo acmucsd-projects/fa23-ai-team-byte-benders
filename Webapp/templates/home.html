@@ -6,32 +6,56 @@
     <title>YouTube URL Input</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #3498db;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 15px;
+            align-items: flex-start;
+            color: #555;
         }
 
         input {
-            padding: 10px;
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
             font-size: 16px;
         }
 
-        #result {
-            margin-top: 20px;
-            font-weight: bold;
+        input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2980b9;
         }
     </style>
 </head>
 <body>
-
-    <h2>Enter YouTube URL:</h2>
-
-    <form id="youtubeForm" action="/" method="post">
-        <input type="text" name="youtubeUrl" id="youtubeUrl" placeholder="Enter YouTube URL" required>
-        <button type="submit">Submit</button>
+    <form method="post">
+        <h1>Enter YouTube URL</h1>
+        <label for="youtube_url">YouTube URL:</label>
+        <input type="text" id="youtube_url" name="youtube_url" placeholder="Enter full Youtube URL here" required>
+        <br>
+        <input type="submit" value="Submit">
     </form>
-
-    <div id="result"></div>
-
 </body>
 </html>
