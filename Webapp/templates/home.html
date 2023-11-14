@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube URL Input</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        input {
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Enter YouTube URL:</h2>
+
+    <form id="youtubeForm" action="/" method="post">
+        <input type="text" name="youtubeUrl" id="youtubeUrl" placeholder="Enter YouTube URL" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="result"></div>
+
+</body>
+</html>
