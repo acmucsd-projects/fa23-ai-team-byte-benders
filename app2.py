@@ -1,11 +1,10 @@
-from flask import Flask, render_template, request
 import spacy
 from youtube_transcript_api import YouTubeTranscriptApi
 from geopy import geocoders
 import geocoder
 import folium
 
-app = Flask(__name__)
+
 nlp = spacy.load('en_core_web_sm')
 
 def GPE_extract(text):
@@ -36,22 +35,13 @@ def plot_points(coord_list):
       folium.Marker([coord[1], coord[2]], popup=coord[0]).add_to(mymap)
     return mymap
 
-@app.route('/', methods=['GET', 'POST'])
-def home():
-    if request.method == 'POST':
-        url = request.form.get('youtube_url', '')
-        youtube_id = url.split("=")[1]
-        transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
-        transcript_text = ""
-        for line in transcript:
-           transcript_text += " " + line['text'].replace("\n"," ")
-        location_list = GPE_extract(transcript_text)
-        coord_list = (get_coordinates(location_list))
-        map = plot_points(coord_list)
-        map.save("templates/map.html")
-
-    return render_template('home.html')
-   
-if __name__ == '__main__':
-    app.run(debug=False)
-
+url = "https://www.youtube.com/watch?v=Acj4vAcN_ok&ab_channel=CashJordan"
+youtube_id = url.split("=")[1]
+transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
+transcript_text = ""
+for line in transcript:
+    transcript_text += " " + line['text'].replace("\n"," ")
+location_list = GPE_extract(transcript_text)
+coord_list = (get_coordinates(location_list))
+map = plot_points(coord_list)
+map.save("map.html")
