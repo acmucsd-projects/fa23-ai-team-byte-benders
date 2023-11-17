@@ -16,6 +16,7 @@ def GPE_extract(text):
       if token.label_ == "GPE":
         if token.text.strip() not in token_list:
            token_list += [token.text.strip()]
+           print(token_list)
     return token_list
 
 
@@ -31,7 +32,10 @@ def get_coordinates(token_lst):
     return coord_list
 
 def plot_points(coord_list):
-    map_center = [sum(p[1] for p in coord_list) / len(coord_list), sum(p[2] for p in coord_list) / len(coord_list)]
+    if (len(coord_list) == 0):
+       map_center = [0,0]
+    else:
+       map_center = [sum(p[1] for p in coord_list) / len(coord_list), sum(p[2] for p in coord_list) / len(coord_list)]
     mymap = folium.Map(location=map_center, zoom_start=4)
     for coord in coord_list:
       folium.Marker([coord[1], coord[2]], popup=coord[0]).add_to(mymap)
