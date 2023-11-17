@@ -4,24 +4,41 @@
     <title>Invalid Youtube Link</title>
     <style>
         body {
+            font-family: 'Helvetica', sans-serif;
             text-align: center;
             padding: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f8f8f8;
         }
         h1 {
             color: #ff0000;
+        }
+        img{
+            border: none;
+            outline: none;
         }
         button {
             padding: 10px 20px;
             font-size: 20px;
             cursor: pointer;
+            margin-top: 20px;
+            background-color: #f44336;
+            color:#ffffff;
+            border:none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #520000;
         }
     </style>
 </head>
 <body>
     <h1>Oops, there is a problem with the link you just provided.</h1>
     <p>Please check your Youtube link and try again.</p>
-    <button onclick="goBack()">Return</button>
     <img src="https://nilkhetboighor.com/static/media/404.69a803a71576eed503fb.jpeg">
+    <button onclick="goBack()">Return</button>
     <script>
         function goBack() {
             window.history.back(); // This will take the user back to the previous page

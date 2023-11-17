@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Map</title>
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            background-color: #f8f8f8;
+        }
+        h1 {
+            text-align: center;
+        }
+        #map-container {
+            width: 90%;
+            margin: auto;
+            height: 500px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Map of Locations</h1>
+    <div id="map-container">
+        <iframe src="/map" frameborder="0"></iframe>
+    </div>
+    <h1> Hotel List</h1>
+</body>
+</html>

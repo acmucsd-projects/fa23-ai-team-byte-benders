@@ -45,6 +45,10 @@ def plot_points(coord_list):
 def home():
     return render_template('home.html')
 
+@app.route('/hotel', methods=['GET', 'POST'])
+def hotel():
+   return render_template("hotel.html")
+
 @app.route('/map',methods=['GET', 'POST'])
 def map():
     if request.method == 'POST':
@@ -64,6 +68,8 @@ def map():
             map = plot_points(coord_list)
             map.save("templates/map.html")
     return render_template('map.html')
+
+
    
 if __name__ == '__main__':
     app.run(debug=False)
