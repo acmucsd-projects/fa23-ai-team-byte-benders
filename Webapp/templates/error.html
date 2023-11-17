@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invalid Youtube Link</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 10%;
+        }
+        h1 {
+            color: #ff0000;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Oops, there is a problem with the link you just provided.</h1>
+    <p>Please check your Youtube link and try again.</p>
+    <button onclick="goBack()">Return</button>
+    <img src="https://nilkhetboighor.com/static/media/404.69a803a71576eed503fb.jpeg">
+    <script>
+        function goBack() {
+            window.history.back(); // This will take the user back to the previous page
+        }
+    </script>
+</body>
+</html>
