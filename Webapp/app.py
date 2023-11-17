@@ -16,13 +16,13 @@ def GPE_extract(text):
       if token.label_ == "GPE":
         if token.text.strip() not in token_list:
            token_list += [token.text.strip()]
-           print(token_list)
+    print(token_list)
     return token_list
 
 
-def get_coordinates(token_lst):
+def get_coordinates(token_list):
     coord_list = []
-    for i in token_lst:
+    for i in token_list:
         location = geocoder.osm(i)
         if location.ok:
            latitude, longitude = location.latlng
