@@ -39,10 +39,16 @@ def plot_points(coord_list):
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
-    if request.method == 'POST' or request.method=='GET':
-        url = request.form.get('youtube_url', '')
-        if ("youtube.com/watch?v=" not in url) or ("This video isn't available anymore" in requests.get(url).text):
-           print("Invalid Link")
+    return render_template('home.html')
+
+@app.route('/map',methods=['GET', 'POST'])
+def map():
+    if request.method == 'POST':
+        url = request.form.get('youtube_url')
+        print("URL:" + url)
+        if ("youtube.com/watch" not in url) or ("This video isn't available anymore" in requests.get(url).text):
+            print("Invalid Link:" + url)
+            return render_template('error.html')
         else:
             youtube_id = url.split("=")[1]           
             transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
@@ -53,11 +59,7 @@ def home():
             coord_list = (get_coordinates(location_list))
             map = plot_points(coord_list)
             map.save("templates/map.html")
-    return render_template('home.html')
-
-@app.route('/map')
-def map():
-   return render_template('map.html')
+    return render_template('map.html')
    
 if __name__ == '__main__':
     app.run(debug=False)
