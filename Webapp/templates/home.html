@@ -6,8 +6,8 @@
     <title>YouTube URL Input</title>
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f5f5f5;
+            font-family: 'Helvetica', sans-serif;
+            background-color: #f8f8f8;
             margin: 0;
             padding: 0;
             display: flex;
@@ -17,12 +17,12 @@
         }
 
         h1 {
-            color: #3498db;
+            color: #000000;
         }
 
         label {
             display: block;
-            margin-bottom: 15px;
+            margin-bottom: 8px;
             align-items: flex-start;
             color: #555;
         }
@@ -30,15 +30,16 @@
         input {
             width: 100%;
             padding: 12px;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             box-sizing: border-box;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
             font-size: 16px;
+            transition: border-color 0.3s ease;
         }
 
         input[type="submit"] {
-            background-color: #3498db;
+            background-color: #2ecc71;
             color: white;
             cursor: pointer;
             border: none;
@@ -50,7 +51,7 @@
     </style>
 </head>
 <body>
-    <form method="post">
+    <form method="get" action="/map">
         <h1>Enter YouTube URL</h1>
         <label for="youtube_url">YouTube URL:</label>
         <input type="text" id="youtube_url" name="youtube_url" placeholder="Enter full Youtube URL here" required>
