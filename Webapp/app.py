@@ -16,7 +16,6 @@ def GPE_extract(text):
       if token.label_ == "GPE":
         if token.text.strip() not in token_list:
            token_list += [token.text.strip()]
-    print(token_list)
     return token_list
 
 
@@ -47,30 +46,27 @@ def home():
 
 @app.route('/hotel', methods=['GET', 'POST'])
 def hotel():
-   return render_template("hotel.html")
-
-@app.route('/map',methods=['GET', 'POST'])
-def map():
-    if request.method == 'POST':
+    if request.method == "POST":
         url = request.form.get('youtube_url')
-        print("URL:" + url)
         if ("youtube.com/watch" not in url) or ("This video isn't available anymore" in requests.get(url).text):
             print("Invalid Link:" + url)
             return render_template('error.html')
-        else:
-            youtube_id = url.split("=")[1]           
-            transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
-            transcript_text = ""
-            for line in transcript:
-                transcript_text += " " + line['text'].replace("\n"," ")
-            location_list = GPE_extract(transcript_text)
-            coord_list = (get_coordinates(location_list))
-            map = plot_points(coord_list)
-            map.save("templates/map.html")
+    youtube_id = url.split("=")[1]           
+    transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
+    transcript_text = ""
+    for line in transcript:
+        transcript_text += " " + line['text'].replace("\n"," ")
+    location_list = GPE_extract(transcript_text)
+    coord_list = (get_coordinates(location_list))
+    map = plot_points(coord_list)
+    map.save("templates/map.html")
+    return render_template("hotel.html")
+
+@app.route('/map',methods=['GET', 'POST'])
+def map():  
     return render_template('map.html')
 
 
    
 if __name__ == '__main__':
-    app.run(debug=False)
-
+    app.run(debug=True)
