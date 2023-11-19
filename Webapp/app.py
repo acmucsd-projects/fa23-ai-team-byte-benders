@@ -44,12 +44,7 @@ def plot_points(coord_list):
       folium.Marker([coord[1], coord[2]], popup=coord[0]).add_to(mymap)
     return mymap
 
-@app.route('/', methods=['GET', 'POST'])
-def home():
-    return render_template('home.html')
-
-@app.route('/hotel', methods=['GET', 'POST'])
-def hotel(city):
+def get_hotel(city):
     with sync_playwright() as p:
         
         city = city.replace(" ", "+")
@@ -90,8 +85,14 @@ def hotel(city):
         print(df)
         
         browser.close()
+    return df
 
-        hotel("San Diego")
+@app.route('/', methods=['GET', 'POST'])
+def home():
+    return render_template('home.html')
+
+@app.route('/hotel', methods=['GET', 'POST'])
+def hotel():
     return render_template("hotel.html")
 
 @app.route('/map',methods=['GET', 'POST'])
@@ -103,7 +104,7 @@ def map():
             print("Invalid Link:" + url)
             return render_template('error.html')
         else:
-            youtube_id = url.split("=")[1]           
+            youtube_id = url.split("=")[1]
             transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
             transcript_text = ""
             for line in transcript:
