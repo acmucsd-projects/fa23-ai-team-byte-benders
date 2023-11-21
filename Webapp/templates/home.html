@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube URL Input</title>
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #000000;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            align-items: flex-start;
+            color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="submit"] {
+            background-color: #2ecc71;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="/hotel">
+        <h1>Enter YouTube URL</h1>
+        <label for="youtube_url">YouTube URL:</label>
+        <input type="text" id="youtube_url" name="youtube_url" placeholder="Enter full Youtube URL here" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
