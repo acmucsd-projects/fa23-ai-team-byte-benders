@@ -16,18 +16,22 @@ country_to_capital = {}
 with open(country_capital, 'r') as file:
         for line in file:
             parts = line.strip().split(',')
-            country = parts[0].strip('"')
-            capital = parts[1].strip('"')
+            country = parts[0].strip('"').lower()
+            capital = parts[1].strip('"').lower()
             country_to_capital[country] = capital
-
 
 def GPE_extract(text):
     tokens = nlp(text)
-    token_list=[]
+    token_list = []
     for token in tokens.ents:
-      if token.label_ == "GPE":
-        if token.text.strip() not in token_list:
-           token_list += [token.text.strip()]    
+        if token.label_ == "GPE":                
+            gpe = token.text.strip()
+            if gpe[0:4] == "the":
+                gpe = gpe[4:]
+            if gpe.lower() not in token_list:
+                if gpe.lower() not in country_to_capital.keys():
+                    token_list.append(gpe)
+
     return token_list
 
 
@@ -106,15 +110,18 @@ def hotel():
         if ("youtube.com/watch" not in url) or ("This video isn't available anymore" in requests.get(url).text):
             print("Invalid Link:" + url)
             return render_template('error.html')
-    youtube_id = url.split("=")[1]           
-    transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
-    transcript_text = ""
-    for line in transcript:
-        transcript_text += " " + line['text'].replace("\n"," ")
-    location_list = GPE_extract(transcript_text)
-    coord_list = (get_coordinates(location_list))
-    map = plot_points(coord_list)
-    map.save("templates/map.html")
+    youtube_id = url.split("=")[1]        
+    try:
+        transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
+        transcript_text = ""
+        for line in transcript:
+            transcript_text += " " + line['text'].replace("\n"," ")
+        location_list = GPE_extract(transcript_text)
+        coord_list = (get_coordinates(location_list))
+        map = plot_points(coord_list)
+        map.save("templates/map.html")
+    except:
+        return render_template('error.html')
 
     return render_template("hotel.html")
 
@@ -123,6 +130,5 @@ def map():
     return render_template('map.html')
 
 
-   
 if __name__ == '__main__':
     app.run(debug=True)
