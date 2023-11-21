@@ -11,6 +11,15 @@ import pandas as pd
 
 app = Flask(__name__)
 nlp = spacy.load('en_core_web_sm')
+country_capital = "country-capital.txt"
+country_to_capital = {}
+with open(country_capital, 'r') as file:
+        for line in file:
+            parts = line.strip().split(',')
+            country = parts[0].strip('"')
+            capital = parts[1].strip('"')
+            country_to_capital[country] = capital
+
 
 def GPE_extract(text):
     tokens = nlp(text)
@@ -18,7 +27,7 @@ def GPE_extract(text):
     for token in tokens.ents:
       if token.label_ == "GPE":
         if token.text.strip() not in token_list:
-           token_list += [token.text.strip()]
+           token_list += [token.text.strip()]    
     return token_list
 
 
