@@ -89,8 +89,9 @@ Jordan
 Kazakhstan
 Kenya
 Kiribati
-Korea North
-Korea South
+North Korea
+South Korea
+Korea
 Kosovo
 Kuwait
 Kyrgyzstan
@@ -197,3 +198,4 @@ Vietnam
 Yemen
 Zambia
 Zimbabwe
+Kingdom of Denmark

@@ -23,17 +23,15 @@ two_code_list = code_df['Alpha-2 code'].str.lower().to_list()
 three_code_list = code_df['Alpha-3 code'].str.lower().to_list()
 
 
-
 def GPE_extract(text):
     tokens = nlp(text)
     token_list = []
     for token in tokens.ents:
         if token.label_ == "GPE":                
             gpe = token.text.strip()
-            print(gpe)
-            if gpe[0:3] == "the":
-                gpe = gpe[4::]
-            gpe = gpe.replace('.',"")
+            gpe = gpe.replace("the", "")
+            gpe = gpe.replace(".", "")
+            gpe = gpe.strip()
             if gpe not in token_list:
                 if (gpe.lower() not in countries) and (gpe.lower() not in three_code_list) and (gpe.lower() not in two_code_list):
                     print(gpe)
