@@ -8,17 +8,21 @@ import requests
 from playwright.sync_api import sync_playwright
 import datetime
 import pandas as pd
+import re
 
 app = Flask(__name__)
 nlp = spacy.load('en_core_web_sm')
-country_capital = "country-capital.txt"
-country_to_capital = {}
+country_capital = "country.txt"
+country_code = "country-code.csv"
+
 with open(country_capital, 'r') as file:
-        for line in file:
-            parts = line.strip().split(',')
-            country = parts[0].strip('"').lower()
-            capital = parts[1].strip('"').lower()
-            country_to_capital[country] = capital
+    countries = [line.replace('\n', "").lower() for line in file]
+
+code_df = pd.read_csv(country_code)
+two_code_list = code_df['Alpha-2 code'].str.lower().to_list()
+three_code_list = code_df['Alpha-3 code'].str.lower().to_list()
+
+
 
 def GPE_extract(text):
     tokens = nlp(text)
@@ -26,12 +30,14 @@ def GPE_extract(text):
     for token in tokens.ents:
         if token.label_ == "GPE":                
             gpe = token.text.strip()
-            if gpe[0:4] == "the":
-                gpe = gpe[4:]
-            if gpe.lower() not in token_list:
-                if gpe.lower() not in country_to_capital.keys():
+            print(gpe)
+            if gpe[0:3] == "the":
+                gpe = gpe[4::]
+            gpe = gpe.replace('.',"")
+            if gpe not in token_list:
+                if (gpe.lower() not in countries) and (gpe.lower() not in three_code_list) and (gpe.lower() not in two_code_list):
+                    print(gpe)
                     token_list.append(gpe)
-
     return token_list
 
 
@@ -110,7 +116,8 @@ def hotel():
         if ("youtube.com/watch" not in url) or ("This video isn't available anymore" in requests.get(url).text):
             print("Invalid Link:" + url)
             return render_template('error.html')
-    youtube_id = url.split("=")[1]        
+    youtube_id = url.split("=")[1]  
+    
     try:
         transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
         transcript_text = ""
@@ -121,7 +128,8 @@ def hotel():
         map = plot_points(coord_list)
         map.save("templates/map.html")
     except:
-        return render_template('error.html')
+        return render_template("error.html")
+    
 
     return render_template("hotel.html")
 
