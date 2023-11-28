@@ -30,6 +30,7 @@ def GPE_extract(text):
         if token.label_ == "GPE":                
             gpe = token.text.strip()
             gpe = gpe.replace("the", "")
+            gpe = gpe.replace("'s", "")
             gpe = gpe.replace(".", "")
             gpe = gpe.strip()
             gpe = gpe.title()
@@ -40,12 +41,14 @@ def GPE_extract(text):
 
 def get_coordinates(token_list):
     coord_list = []
+    country_list = []
     for i in token_list:
         location = geocoder.osm(i)
         if location.ok:
-            print(i, location.raw['address']['country'])
-            latitude, longitude = location.latlng
-            coord_list += [(i, latitude, longitude)]
+            country_list += [location.raw['address']['country']]
+            if location.raw['addresstype'] != 'state':
+                latitude, longitude = location.latlng
+                coord_list += [(i, latitude, longitude)]
         else:
             print("Error: " + i)
     return coord_list
