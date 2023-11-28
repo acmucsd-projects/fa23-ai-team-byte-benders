@@ -1,5 +1,5 @@
 # fa23-ai-team-byte-benders
-Welcome to the byte benders project! 
+Welcome to the Byte Benders project! 
 
 ## Overview
 Our goal is to develop a WebApp that, given a YouTube video URL, returns a map with a pin on each location mentioned. 
@@ -32,5 +32,7 @@ In addition, when you click on a pin, you'll see a link directing you to [bookin
 
 ## Authors info
 Olimpia Carrioli [LinkedIn link](https://www.linkedin.com/in/olimpia-carrioli-708192212/)
+
 Vishal Patel [LinkedIn link](https://www.linkedin.com/in/patvishal/)
+
 Matthew Biehler [LinkedIn link](https://www.linkedin.com/in/matthew-biehler-7804b1271/)
