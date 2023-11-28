@@ -8,6 +8,7 @@
         body {
             font-family: 'Helvetica', sans-serif;
             background-color: #f8f8f8;
+            margin:15px;
         }
         h1 {
             text-align: center;
@@ -16,6 +17,16 @@
             width: 90%;
             margin: auto;
             height: 500px;
+        }
+        a {
+            padding: 10px 10px;
+            font-size: 20px;
+            cursor: pointer;
+            background-color: #646464;
+            color:#ffffff;
+            border:none;
+            border-radius: 5px;
+            text-decoration:none;
         }
 
         iframe {
@@ -26,6 +37,7 @@
     </style>
 </head>
 <body>
+    <a href = "/">Back</a>
     <h1>Map of Locations</h1>
     <div id="map-container">
         <iframe src="/map" frameborder="0"></iframe>
