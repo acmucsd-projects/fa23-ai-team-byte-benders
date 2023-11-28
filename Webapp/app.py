@@ -42,12 +42,12 @@ def plot_points(coord_list):
     mymap = folium.Map(location=map_center, zoom_start=4)
     
     for coord in coord_list:
-        click_here = f' <a href="www.booking.com/searchresults.en-gb.html?ss={coord[0].replace(" ", "+")}" target="_blank">Go to Booking.com for a room! </a>'
+        click_here = f' <a href="https://www.booking.com/searchresults.en-us.html?ss={coord[0].replace(" ", "+")}" target="_blank"> Go to Booking.com for a room! </a>'
         booking_html = pd.DataFrame([{coord[0], f'Want to book a hotel at {coord[0]}?{click_here}'}]).to_html(escape=False, index=False)
         print(click_here)
 
-        myframe = folium.IFrame(booking_html, width=800, height=100)
-        popup = folium.Popup(myframe, max_width=100)
+        myframe = folium.IFrame(booking_html, width=400, height=120)
+        popup = folium.Popup(myframe, min_width=500, min_height=100)
         folium.Marker([coord[1], coord[2]], popup=popup).add_to(mymap)
     return mymap
 
