@@ -73,7 +73,7 @@ def plot_points(coord_list):
 
         myframe = folium.IFrame(booking_html, width=800, height=100)
         popup = folium.Popup(myframe, max_width=100)
-        folium.Marker([coord[1], coord[2]], popup=popup).add_to(mymap)
+        folium.Marker([coord[1], coord[2]], popup=coord[0]).add_to(mymap)
     return mymap
 
 def get_hotel(city, browser):
