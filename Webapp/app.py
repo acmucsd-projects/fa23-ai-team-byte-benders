@@ -13,8 +13,8 @@ from collections import Counter
 
 app = Flask(__name__)
 nlp = spacy.load('en_core_web_sm')
-country_capital = "country.txt"
-country_code = "country-code.csv"
+country_capital = "Datasets/country.txt"
+country_code = "Datasets/country-code.csv"
 
 with open(country_capital, 'r') as file:
     countries = [line.replace('\n', "").lower() for line in file]
@@ -22,7 +22,6 @@ with open(country_capital, 'r') as file:
 code_df = pd.read_csv(country_code)
 two_code_list = code_df['Alpha-2 code'].str.lower().to_list()
 three_code_list = code_df['Alpha-3 code'].str.lower().to_list()
-
 
 def GPE_extract(text):
     tokens = nlp(text)
@@ -50,7 +49,6 @@ def get_coordinates(token_list):
     counter = Counter(country_list)
     most_common_element = counter.most_common()
     most_common_string = most_common_element[0][0]
-    print(most_common_string)
     for i in token_list:
         location = geocoder.osm(i)
         if location.ok:
