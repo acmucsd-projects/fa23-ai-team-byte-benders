@@ -188,7 +188,6 @@ def home():
 @app.route('/hotel', methods=['GET', 'POST'])
 def hotel():
     if request.method == "POST":
-    if request.method == "POST":
         url = request.form.get('youtube_url')
         if ("youtube.com/watch" not in url) or ("This video isn't available anymore" in requests.get(url).text):
             print("Invalid Link:" + url)
