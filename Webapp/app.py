@@ -9,6 +9,7 @@ from playwright.sync_api import sync_playwright
 import datetime
 import pandas as pd
 import re
+from collections import Counter
 
 app = Flask(__name__)
 nlp = spacy.load('en_core_web_sm')
@@ -46,9 +47,17 @@ def get_coordinates(token_list):
         location = geocoder.osm(i)
         if location.ok:
             country_list += [location.raw['address']['country']]
+    counter = Counter(country_list)
+    most_common_element = counter.most_common()
+    most_common_string = most_common_element[0][0]
+    print(most_common_string)
+    for i in token_list:
+        location = geocoder.osm(i)
+        if location.ok:
             if location.raw['addresstype'] != 'state':
-                latitude, longitude = location.latlng
-                coord_list += [(i, latitude, longitude)]
+                if location.raw['address']['country'] == most_common_string:
+                    latitude, longitude = location.latlng
+                    coord_list += [(i, latitude, longitude)]
         else:
             print("Error: " + i)
     return coord_list
