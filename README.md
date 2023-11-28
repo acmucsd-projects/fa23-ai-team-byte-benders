@@ -24,8 +24,10 @@ In addition, when you clicl on a pin, you'll see a link directing you to [bookin
 - Heroku (Webapp deployment)
   
 ## Challenges
-. Disambiguation of location names: how does spacy know if the 'Venice' mentioned in the video is in Italy or California? 
+. Disambiguation of location names: how does spacy know if the 'Venice' mentioned in the video is in Italy or California?
+
 . Optimization of webapp and parallel processing: the tool is very slow as of right now; we are looking for a way to fasten it. 
+
 . Misclassification of locations: sometimes, spacy misclassifies people's names (or other instances) with locations.
 
 ## Authors info
