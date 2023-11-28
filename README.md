@@ -31,5 +31,5 @@ In addition, when you clicl on a pin, you'll see a link directing you to [bookin
 . Misclassification of locations: sometimes, spacy misclassifies people's names (or other instances) with locations.
 
 ## Authors info
-Olimpia Carrioli [LinkedIn link](https://www.linkedin.com/in/olimpia-carrioli-708192212/)
+Olimpia Carrioli [LinkedIn link](https://www.linkedin.com/in/olimpia-carrioli-708192212/)  
 Vishal Patel [LinkedIn link](https://www.linkedin.com/in/patvishal/)
