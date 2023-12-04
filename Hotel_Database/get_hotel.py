@@ -20,7 +20,7 @@ get_score_and_reviews = True
 hotels_per_city = 5
 max_retries = 3
 filename = f"hotels{str(exe_range)}.csv"
-check_point_interval = 100 # save file after this number of cities
+check_point_interval = 10 # save file after this number of cities
 
 sem = asyncio.Semaphore(3) # number of threads. High chance of not working if higher than 3.
 failed_cities = []
@@ -95,7 +95,7 @@ async def main():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
         tasks = [get_hotel((exe_list.iat[i, 0]+','+exe_list.iat[i, 1]).replace(" ","+"), exe_list.iat[i, 2].lower(), browser) for i in range(exe_range[0],exe_range[1])]
-        for future in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc='Scraping hotels. Do not quit or pause the scrpit'):
+        for future in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc='Scraping hotels. Do not quit or pause the script'):
             result = await future
             hotel_list.extend(result)
             city_counter += 1  # Increment the counter
