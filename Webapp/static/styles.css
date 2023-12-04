@@ -1,0 +1,113 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+    background: #f0f0f0; /* Light pastel background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-wrapper {
+    background: #ffffff; /* White background for the form area */
+    padding: 50px;
+    border-radius: 10px; /* Rounded corners for the form */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 80%; /* Form takes up 50% of container width */
+    max-width: 500px; /* Maximum width of form */
+}
+
+.title {
+    color: #333;
+    margin-bottom: 40px; /* More space below the title */
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 40px; /* More space between form elements */
+}
+
+.input-text {
+    border: 2px solid #3498db; /* Pastel blue border */
+    border-radius: 20px; /* Rounded borders for the input */
+    padding: 15px 20px;
+    font-size: 20px; /* Larger font size for input */
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    margin-bottom: 10px; /* Space between input and button */
+}
+
+.input-text:focus {
+    border-color: #2980b9; /* Darker blue when the input is focused */
+    outline: none;
+}
+
+.submit-btn {
+    background: #3498db; /* Pastel blue background for the button */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 20px; /* Rounded borders for the button */
+    cursor: pointer;
+    font-size: 20px; /* Larger font size for the button */
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #2980b9; /* Darker blue on hover */
+}
+
+@media (max-width: 768px) {
+    .form-wrapper {
+        width: 75%; /* Form takes up more width on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .form-wrapper {
+        width: 90%; /* Form takes up more width on very small screens */
+        padding: 30px; /* Less padding on very small screens */
+    }
+
+    .title {
+        font-size: 24px; /* Smaller font size for the title on very small screens */
+    }
+
+    .input-text, .submit-btn {
+        font-size: 18px; /* Smaller font size for inputs and button on very small screens */
+    }
+}
+.error-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff6b6b; /* Error color, choose a pastel shade that fits your design */
+    background: #ffebeb; /* Light background for the error message */
+    border: 1px solid #ffcccc; /* Light border for the error message */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0; /* Space above and below the error message */
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(255, 107, 107, .2); /* Optional: subtle shadow for the error message */
+    visibility: hidden; /* Use visibility instead of display to reserve space */
+    height: 0; /* Start with a height of 0 to not take space */
+    opacity: 0; /* Start with an opacity of 0 to be invisible */
+    transition: opacity 0.3s ease, height 0.3s ease; /* Transition for smooth appearance */
+}
+
+.error-message.show {
+    visibility: visible;
+    height: auto; /* Allow it to expand to fit content */
+    opacity: 1; /* Make it fully visible */
+}

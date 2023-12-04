@@ -1,62 +1,58 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube URL Input</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <form class="url-form" method="post" action="/hotel">
+            <h1>YouTube URL Input</h1>
+            <div class="form-group">
+                <label for="youtube_url">YouTube URL</label>
+                <input type="text" id="youtube_url" name="youtube_url" placeholder="https://www.youtube.com/watch?v=dQw4w9WgXcQ" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html> -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube URL Input</title>
-    <style>
-        body {
-            font-family: 'Helvetica', sans-serif;
-            background-color: #f8f8f8;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: flex-start;
-            justify-content: center;
-            height: 100vh;
-        }
-
-        h1 {
-            color: #000000;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-            align-items: flex-start;
-            color: #555;
-        }
-
-        input {
-            width: 100%;
-            padding: 12px;
-            margin-bottom: 15px;
-            box-sizing: border-box;
-            border: 1px solid #ddd;
-            border-radius: 6px;
-            font-size: 16px;
-            transition: border-color 0.3s ease;
-        }
-
-        input[type="submit"] {
-            background-color: #2ecc71;
-            color: white;
-            cursor: pointer;
-            border: none;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #2980b9;
-        }
-    </style>
+    <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
-    <form method="post" action="/hotel">
-        <h1>Enter YouTube URL</h1>
-        <label for="youtube_url">YouTube URL:</label>
-        <input type="text" id="youtube_url" name="youtube_url" placeholder="Enter full Youtube URL here" required>
-        <br>
-        <input type="submit" value="Submit">
-    </form>
+    <div class="container">
+        <div class="form-wrapper">
+            <form class="url-form" method="post" action="/hotel">
+                <h1 class="title">YouTube URL Input</h1>
+                <div class="form-group">
+                    <input type="text" id="youtube_url" name="youtube_url" class="input-text" placeholder="Enter YouTube URL here" oninvalid="setCustomValidity('')" oninput="setCustomValidity('')">
+                    <span class="error-message" id="error-message">Please fill out this field.</span>
+                    <input type="submit" value="Submit" class="submit-btn">
+                </div>
+            </form>
+        </div>
+    </div>
+<script>
+document.querySelector('.url-form').addEventListener('submit', function(event) {
+    var input = document.getElementById('youtube_url');
+    var errorMessage = document.getElementById('error-message');
+    if (!input.value) { // if the input is empty
+        errorMessage.classList.add('show'); // show the error message with smooth transition
+        event.preventDefault(); // prevent the form from being submitted
+    } else {
+        errorMessage.classList.remove('show'); // hide the error message
+    }
+});
+</script>
 </body>
 </html>

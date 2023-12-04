@@ -1,14 +1,14 @@
 from flask import Flask, render_template, request
 import spacy
 from youtube_transcript_api import YouTubeTranscriptApi
-from geopy import geocoders
+#from geopy import geocoders
 import geocoder
 import folium
 import requests
-from playwright.sync_api import sync_playwright
-import datetime
+#from playwright.sync_api import sync_playwright
+#import datetime
 import pandas as pd
-import re
+#import re
 from collections import Counter
 
 app = Flask(__name__)
