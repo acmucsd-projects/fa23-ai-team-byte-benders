@@ -12,7 +12,7 @@ city_list_short = pd.read_csv("world_cities_major.csv", keep_default_na=False)[[
 
 # configuration / parameters
 exe_list = city_list_short
-exe_range = (0,10000) # excluding end index
+exe_range = (0,10000)
 get_score_and_reviews = True
 hotels_per_city = 5
 max_retries = 3
@@ -35,7 +35,7 @@ async def get_hotel(city, country_code, browser):
 
         for _ in range(max_retries):
             try:
-                await page.goto(page_url, timeout=60000)
+                await page.goto(page_url, timeout=45000)
                 break
             except:
                 print(f"Timeout error at {city}, retrying...")
