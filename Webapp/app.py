@@ -51,19 +51,22 @@ def get_coordinates(token_list):
     for i in token_list:
         location = geocoder.osm(i)
         if location.ok:
-            country_list += [location.raw['address']['country']]
-    counter = Counter(country_list)
-    most_common_element = counter.most_common()
-    most_common_string = most_common_element[0][0]
-    for i in token_list:
-        location = geocoder.osm(i)
-        if location.ok:
             if location.raw['addresstype'] != 'state':
                 latitude, longitude = location.latlng
                 coord_list += [(i, latitude, longitude)]
         else:
             print("Error: " + i)
     return coord_list
+
+def get_disamb_list(filepath):
+    df = pd.read_csv(filepath)
+    location_list  = []
+    for i in range(df.shape[0]):
+        name = df['Output_sne'][i]
+        lat = df['lat'][i]
+        long = df['lng'][i]
+        location_list += [(name, lat, long)]
+    return location_list
 
 def plot_points(coord_list):
     if (len(coord_list) == 0):
@@ -150,11 +153,13 @@ def hotel():
     transcript_text = ""
     for line in transcript:
         transcript_text += " " + line['text'].replace("\n"," ")
-    location_list = GPE_extract(transcript_text)
+    location_list = spacySne(transcript_text)
     getMultiCand(location_list, 'multi_cand_file')
     applyDisamb('Snetoolkit/candidates/multi_cand_file.json')
-    coord_list = (get_coordinates(location_list))
-    map = plot_points(coord_list)
+    disambig_list = get_disamb_list('Snetoolkit/disambiguated/disambiguatedfas.csv')
+    print(disambig_list)
+    #coord_list = (get_coordinates(location_list))
+    map = plot_points(disambig_list)
     map.save("templates/map.html")
     """except:
         return render_template("error.html")"""
