@@ -77,7 +77,6 @@ def plot_points(coord_list):
     for coord in coord_list:
         click_here = f' <a href="https://www.booking.com/searchresults.en-us.html?ss={coord[0].replace(" ", "+")}" target="_blank"> Go to Booking.com for a room! </a>'
         booking_html = pd.DataFrame([{coord[0], f'Want to book a hotel at {coord[0]}?{click_here}'}]).to_html(escape=False, index=False)
-        print(click_here)
 
         myframe = folium.IFrame(booking_html, width=400, height=120)
         popup = folium.Popup(myframe, min_width=500, min_height=100)
@@ -153,15 +152,11 @@ def hotel():
     transcript_text = ""
     for line in transcript:
         transcript_text += " " + line['text'].replace("\n"," ")
-    
+
     location_list = spacySne(transcript_text)
-    print("1")
     getMultiCand(location_list, 'multi_cand_file')
-    print("2")
     applyDisamb('Snetoolkit/candidates/multi_cand_file.json')
-    print("3")
     disambig_list = get_disamb_list('Snetoolkit/disambiguated/disambiguatedfas.csv')
-    print(disambig_list)
     #coord_list = (get_coordinates(location_list))
     map = plot_points(disambig_list)
     map.save("templates/map.html")
