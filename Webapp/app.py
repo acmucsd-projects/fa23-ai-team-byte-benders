@@ -11,6 +11,12 @@ import pandas as pd
 import re
 from collections import Counter
 
+from Snetoolkit.Snetkit import spacySne
+from Snetoolkit.Snetkit import getDefltCand
+from Snetoolkit.Snetkit import getMultiCand
+from Snetoolkit.Snetkit import applyDisamb
+
+
 app = Flask(__name__)
 nlp = spacy.load('en_core_web_sm')
 country_capital = "Datasets/country.txt"
@@ -53,9 +59,8 @@ def get_coordinates(token_list):
         location = geocoder.osm(i)
         if location.ok:
             if location.raw['addresstype'] != 'state':
-                if location.raw['address']['country'] == most_common_string:
-                    latitude, longitude = location.latlng
-                    coord_list += [(i, latitude, longitude)]
+                latitude, longitude = location.latlng
+                coord_list += [(i, latitude, longitude)]
         else:
             print("Error: " + i)
     return coord_list
@@ -67,14 +72,15 @@ def plot_points(coord_list):
        map_center = [sum(p[1] for p in coord_list) / len(coord_list), sum(p[2] for p in coord_list) / len(coord_list)]
     mymap = folium.Map(location=map_center, zoom_start=4)
     for coord in coord_list:
-        click_here = f' <a href="www.booking.com/searchresults.en-gb.html?ss={coord[0].replace(" ", "+")}" target="_blank">Go to Booking.com for a room! </a>'
+        click_here = f' <a href="https://www.booking.com/searchresults.en-us.html?ss={coord[0].replace(" ", "+")}" target="_blank"> Go to Booking.com for a room! </a>'
         booking_html = pd.DataFrame([{coord[0], f'Want to book a hotel at {coord[0]}?{click_here}'}]).to_html(escape=False, index=False)
         print(click_here)
 
-        myframe = folium.IFrame(booking_html, width=800, height=100)
-        popup = folium.Popup(myframe, max_width=100)
-        folium.Marker([coord[1], coord[2]], popup=coord[0]).add_to(mymap)
+        myframe = folium.IFrame(booking_html, width=400, height=120)
+        popup = folium.Popup(myframe, min_width=500, min_height=100)
+        folium.Marker([coord[1], coord[2]], popup=popup).add_to(mymap)
     return mymap
+
 
 def get_hotel(city, browser):
     
@@ -139,17 +145,19 @@ def hotel():
             return render_template('error.html')
     youtube_id = url.split("=")[1]  
     
-    try:
-        transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
-        transcript_text = ""
-        for line in transcript:
-            transcript_text += " " + line['text'].replace("\n"," ")
-        location_list = GPE_extract(transcript_text)
-        coord_list = (get_coordinates(location_list))
-        map = plot_points(coord_list)
-        map.save("templates/map.html")
-    except:
-        return render_template("error.html")
+
+    transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
+    transcript_text = ""
+    for line in transcript:
+        transcript_text += " " + line['text'].replace("\n"," ")
+    location_list = GPE_extract(transcript_text)
+    getMultiCand(location_list, 'multi_cand_file')
+    applyDisamb('Snetoolkit/candidates/multi_cand_file.json')
+    coord_list = (get_coordinates(location_list))
+    map = plot_points(coord_list)
+    map.save("templates/map.html")
+    """except:
+        return render_template("error.html")"""
     
 
     return render_template("hotel.html")
