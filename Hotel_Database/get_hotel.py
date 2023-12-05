@@ -21,6 +21,8 @@ check_point_interval = 10 # save file after this number of cities
 
 sem = asyncio.Semaphore(3) # number of threads. High chance of not working if higher than 3.
 failed_cities = []
+start = exe_range[0]
+end = exe_range[1]
 
 async def get_hotel(city, country_code, browser):
     async with sem:
@@ -35,7 +37,7 @@ async def get_hotel(city, country_code, browser):
 
         for _ in range(max_retries):
             try:
-                await page.goto(page_url, timeout=45000)
+                await page.goto(page_url, timeout=60000)
                 break
             except:
                 print(f"Timeout error at {city}, retrying...")
@@ -81,13 +83,13 @@ async def main():
     hotel_list = []
     city_counter = 0
     if os.path.exists(filename):
-        hotel_list = pd.read_csv(filename)
-        exe_range[0] = len(hotel_list['city'].unique())
-        print(f"Resuming from saved state with {len(hotel_list)} hotels already scraped.")
-    if (exe_range[1] - exe_range[0] <= 0 | exe_range[1] > exe_list.shape[0]):
+        hotel_list = pd.read_csv(filename).to_dict('records')
+        start = len(pd.DataFrame(hotel_list)['city'].unique())
+        print(f"Resuming from saved state with {start - 1} cities already scraped.")
+    if (end - start <= 0 | end > exe_list.shape[0]):
         print("invalid range. Quiting.")
         return
-    print(f"\nHotel scraping is starting. {exe_range[1] - exe_range[0]} cities will be searched.\n")
+    print(f"\nHotel scraping is starting. {end - start} cities will be searched.\n")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
