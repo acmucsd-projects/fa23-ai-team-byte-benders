@@ -109,6 +109,7 @@ async def main():
                     hotel_list.extend(result)
                 await browser.close()
     await pd.DataFrame(hotel_list).to_csv(filename)
+    print("Done!")
 
 # Run the main function
 asyncio.run(main())
