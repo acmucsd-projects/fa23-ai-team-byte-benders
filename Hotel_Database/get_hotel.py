@@ -8,10 +8,7 @@ import string
 import os
 
 # import database(s)
-city_list_short = pd.read_csv("worldcities.csv", keep_default_na=False)[['city','country','iso2']]
-
-# city_list_full = pd.read_csv("GEODATASOURCE-CITIES-FREE.TXT", sep='\t')[['FULL_NAME_ND','CC_FIPS','CC_ISO']]
-# attraction_list = pd.read_csv("top_attractions.txt")
+city_list_short = pd.read_csv("world_cities_major.csv", keep_default_na=False)[['city','country','iso2']]
 
 # configuration / parameters
 exe_list = city_list_short
