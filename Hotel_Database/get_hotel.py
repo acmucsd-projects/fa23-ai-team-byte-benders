@@ -93,7 +93,7 @@ async def main():
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
-        tasks = [get_hotel((exe_list.iat[i, 0]+','+exe_list.iat[i, 1]).replace(" ","+"), exe_list.iat[i, 2].lower(), browser) for i in range(exe_range[0],exe_range[1])]
+        tasks = [get_hotel((exe_list.iat[i, 0]+','+exe_list.iat[i, 1]).replace(" ","+"), exe_list.iat[i, 2].lower(), browser) for i in range(start,end)]
         for future in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc='Scraping hotels. Do not quit or pause the script'):
             result = await future
             hotel_list.extend(result)
