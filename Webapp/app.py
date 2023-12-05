@@ -153,9 +153,13 @@ def hotel():
     transcript_text = ""
     for line in transcript:
         transcript_text += " " + line['text'].replace("\n"," ")
+    
     location_list = spacySne(transcript_text)
+    print("1")
     getMultiCand(location_list, 'multi_cand_file')
+    print("2")
     applyDisamb('Snetoolkit/candidates/multi_cand_file.json')
+    print("3")
     disambig_list = get_disamb_list('Snetoolkit/disambiguated/disambiguatedfas.csv')
     print(disambig_list)
     #coord_list = (get_coordinates(location_list))
