@@ -80,6 +80,7 @@ async def get_hotel(city, country_code, browser):
         return hotel_list
 
 async def main():
+    global start
     hotel_list = []
     city_counter = 0
     if os.path.exists(filename):
