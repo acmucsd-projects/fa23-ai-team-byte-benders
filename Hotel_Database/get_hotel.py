@@ -1,5 +1,4 @@
 import asyncio
-import playwright
 from playwright.async_api import async_playwright
 import datetime
 import pandas as pd
@@ -12,17 +11,17 @@ city_list_short = pd.read_csv("world_cities_major.csv", keep_default_na=False)[[
 
 # configuration / parameters
 exe_list = city_list_short
-exe_range = (0,10000)
+exe_range = (0, 10000)
 get_score_and_reviews = True
 hotels_per_city = 5
 max_retries = 3
 filename = f"hotels{str(exe_range)}.csv"
-check_point_interval = 10 # save file after this number of cities
+check_point_interval = 20 # save file after this number of cities
 
 sem = asyncio.Semaphore(3) # number of threads. High chance of not working if higher than 3.
 failed_cities = []
-start = exe_range[0]
-end = exe_range[1]
+start = 0
+end = exe_range[1] - exe_range[0]
 
 async def get_hotel(city, country_code, browser):
     async with sem:
@@ -80,14 +79,20 @@ async def get_hotel(city, country_code, browser):
         return hotel_list
 
 async def main():
-    global start
+    global exe_list
+    global end
     hotel_list = []
     city_counter = 0
     if os.path.exists(filename):
-        hotel_list = pd.read_csv(filename).to_dict('records')
-        start = len(pd.DataFrame(hotel_list)['city'].unique())
-        print(f"Resuming from saved state with {start - 1} cities already scraped.")
-    if (end - start <= 0 | end > exe_list.shape[0]):
+        hotel_df = pd.read_csv(filename)
+        hotel_list = hotel_df.to_dict('records')
+        exe_list['city'] = exe_list['city'] + ',' + exe_list['country'].replace(" ", "+")
+        mask = exe_list['city'].isin(hotel_df['city'].unique())
+        exe_list = exe_list[~mask]
+        num_exed = len(hotel_df['city'].unique())
+        end = end - num_exed
+        print(f"Resuming from saved state with {num_exed} cities already scraped.")
+    if (end <= 0 | end > exe_list.shape[0]):
         print("invalid range. Quiting.")
         return
     print(f"\nHotel scraping is starting. {end - start} cities will be searched.\n")
@@ -107,6 +112,7 @@ async def main():
             async with async_playwright() as p:
                 browser = await p.chromium.launch(headless=True)
                 tasks = [get_hotel(city, country_code, browser) for city, country_code in failed_cities]
+                print(tasks)
                 for future in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc='Scraping hotels'):
                     result = await future
                     hotel_list.extend(result)
