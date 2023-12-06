@@ -97,13 +97,13 @@ async def main():
     if (end <= 0 | end > exe_list.shape[0]):
         print("invalid range. Quiting.")
         return
-    print(f"\nHotel scraping is starting. {end - start} cities will be searched.\n")
-    print("Do not modify the auto-generated hotel(range).csv file.\n. Press Ctrl + C to quit")
+    print(f"\n{end - start} cities will be searched.\n")
+    print("======================================================\nDo not modify the auto-generated hotel(range).csv file.\n======================================================\n")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
         tasks = [get_hotel((exe_list.iat[i, 0]+','+exe_list.iat[i, 1]).replace(" ","+"), exe_list.iat[i, 2].lower(), browser) for i in range(start,end)]
-        for future in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc='Scraping hotels'):
+        for future in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc='Scraping hotels. Press Ctrl + C to quit'):
             result = await future
             hotel_list.extend(result)
             city_counter += 1  # Increment the counter
