@@ -15,6 +15,7 @@ hotels_per_city = 5
 max_retries = 5
 filename = f"hotels{str(exe_range)}.csv"
 check_point_interval = 10 # save file after this number of cities
+timeout = 120000 # determined by the internet connection you have. If you keep getting timeout error, try a higher number.
 
 sem = asyncio.Semaphore(3) # number of threads. High chance of not working if higher than 3.
 failed_cities = []
@@ -35,7 +36,7 @@ async def get_hotel(city, country_code, browser):
 
         for _ in range(max_retries):
             try:
-                await page.goto(page_url, timeout=120000)
+                await page.goto(page_url, timeout=timeout)
                 break
             except:
                 print(f"Timeout error at {city}, retrying...")
@@ -121,5 +122,4 @@ async def main():
     print("Done!")
 
 # Run the main function
-
 asyncio.run(main())
