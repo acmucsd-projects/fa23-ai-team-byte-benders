@@ -22,6 +22,7 @@ sem = asyncio.Semaphore(3) # number of threads. High chance of not working if hi
 failed_cities = []
 start = 0
 end = exe_range[1] - exe_range[0]
+exe_list = exe_list.iloc[exe_range[0]:exe_range[1]]
 
 async def get_hotel(city, country_code, browser):
     async with sem:
