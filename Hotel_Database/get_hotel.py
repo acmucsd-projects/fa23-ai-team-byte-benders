@@ -16,7 +16,7 @@ get_score_and_reviews = True
 hotels_per_city = 5
 max_retries = 3
 filename = f"hotels{str(exe_range)}.csv"
-check_point_interval = 20 # save file after this number of cities
+check_point_interval = 10 # save file after this number of cities
 
 sem = asyncio.Semaphore(3) # number of threads. High chance of not working if higher than 3.
 failed_cities = []
@@ -87,8 +87,9 @@ async def main():
     if os.path.exists(filename):
         hotel_df = pd.read_csv(filename)
         hotel_list = hotel_df.to_dict('records')
-        exe_list['city'] = exe_list['city'] + ',' + exe_list['country'].replace(" ", "+")
-        mask = exe_list['city'].isin(hotel_df['city'].unique())
+        temp = exe_list.copy()
+        temp.loc[:, 'city_country'] = exe_list['city'] + ',' + (exe_list['country'].replace(" ", "+"))
+        mask = temp['city_country'].isin(hotel_df['city'].unique())
         exe_list = exe_list[~mask]
         num_exed = len(hotel_df['city'].unique())
         end = end - num_exed
@@ -101,7 +102,8 @@ async def main():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
         tasks = [get_hotel((exe_list.iat[i, 0]+','+exe_list.iat[i, 1]).replace(" ","+"), exe_list.iat[i, 2].lower(), browser) for i in range(start,end)]
-        for future in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc='Scraping hotels. Do not quit or pause the script'):
+        print("Do not modify the auto-generated hotel(range).csv file.\n")
+        for future in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc='Scraping hotels. Press Ctrl + C to quit'):
             result = await future
             hotel_list.extend(result)
             city_counter += 1  # Increment the counter
@@ -113,7 +115,6 @@ async def main():
             async with async_playwright() as p:
                 browser = await p.chromium.launch(headless=True)
                 tasks = [get_hotel(city, country_code, browser) for city, country_code in failed_cities]
-                print(tasks)
                 for future in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc='Scraping hotels'):
                     result = await future
                     hotel_list.extend(result)
@@ -122,4 +123,5 @@ async def main():
     print("Done!")
 
 # Run the main function
+
 asyncio.run(main())

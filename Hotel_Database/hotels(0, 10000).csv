@@ -12294,80 +12294,36 @@ Unnamed: 0,city,hotel,price,score,reviews count,url
 12292.0,"Nevşehir,Turkey",Cappadocia Ennar Cave & Swimming Pool Hot,$82,9.3,371,https://www.booking.com/hotel/tr/Cappadocia-Ennar-Cave-Swimming-Pool-Hot
 12293.0,"Nevşehir,Turkey",Leda Stone House,$95,Not Available,Not Available,https://www.booking.com/hotel/tr/Leda-Stone-House
 12294.0,"Nevşehir,Turkey",Kapadokya Hill Hotel & Spa (12+),$244,8.9,798,https://www.booking.com/hotel/tr/Kapadokya-Hill-Hotel-Spa-12
-,"Peshawar,Pakistan,Pakistan",Shelton Accommodator,$22,8.0,7,https://www.booking.com/hotel/pk/Shelton-Accommodator
-,"Leicester,United+Kingdom,United+Kingdom",Hotel Brooklyn Leicester,$141,8.9,"4,130",https://www.booking.com/hotel/gb/Hotel-Brooklyn-Leicester
-,"Leicester,United+Kingdom,United+Kingdom",Leicester Marriott Hotel,$115,8.1,"1,740",https://www.booking.com/hotel/gb/Leicester-Marriott-Hotel
-,"Leicester,United+Kingdom,United+Kingdom",St Martins Lodge,$162,8.9,"2,798",https://www.booking.com/hotel/gb/St-Martins-Lodge
-,"Leicester,United+Kingdom,United+Kingdom",Ramada Encore Leicester City Centre,$107,7.7,"3,110",https://www.booking.com/hotel/gb/Ramada-Encore-Leicester-City-Centre
-,"Leicester,United+Kingdom,United+Kingdom",Belmont Hotel Leicester,$106,8.5,"3,139",https://www.booking.com/hotel/gb/Belmont-Hotel-Leicester
-,"Wilkes-Barre,United+States,United+States",The Woodlands Inn,$121,7.9,"1,012",https://www.booking.com/hotel/us/The-Woodlands-Inn
-,"Wilkes-Barre,United+States,United+States",Courtyard by Marriott Wilkes-Barre Arena,$128,8.9,119,https://www.booking.com/hotel/us/Courtyard-by-Marriott-WilkesBarre-Arena
-,"Wilkes-Barre,United+States,United+States","Holiday Inn Wilkes Barre - East Mountain, an IHG Hotel",$139,8.1,"1,459",https://www.booking.com/hotel/us/Holiday-Inn-Wilkes-Barre-East-Mountain-an-IHG-Hotel
-,"Wilkes-Barre,United+States,United+States",Fairfield by Marriott Wilkes-Barre,$118,7.7,146,https://www.booking.com/hotel/us/Fairfield-by-Marriott-WilkesBarre
-,"Wilkes-Barre,United+States,United+States",Home2 Suites By Hilton Wilkes-Barre,$129,9.2,118,https://www.booking.com/hotel/us/Home2-Suites-By-Hilton-WilkesBarre
-,"Sapporo,Japan,Japan",Vessel Hotel Campana Susukino,$179,8.9,277,https://www.booking.com/hotel/jp/Vessel-Hotel-Campana-Susukino
-,"Sapporo,Japan,Japan",Hotel Monterey Edelhof Sapporo,$538,8.4,728,https://www.booking.com/hotel/jp/Hotel-Monterey-Edelhof-Sapporo
-,"Sapporo,Japan,Japan",Keio Plaza Hotel Sapporo,$186,8.5,958,https://www.booking.com/hotel/jp/Keio-Plaza-Hotel-Sapporo
-,"Sapporo,Japan,Japan",APA Hotel & Resort Sapporo,$152,7.9,781,https://www.booking.com/hotel/jp/APA-Hotel-Resort-Sapporo
-,"Sapporo,Japan,Japan",Hotel Resol Trinity Sapporo,$166,8.3,889,https://www.booking.com/hotel/jp/Hotel-Resol-Trinity-Sapporo
-,"Jinshi,China,China",Jinshi Hotel,Not Available,7.3,7,https://www.booking.com/hotel/cn/Jinshi-Hotel
-,"Jinshi,China,China",Paco Hotel Jiangtai Lu Metro Guangzhou ---Free Shuttle Bus For CantonFair,$44,7.4,93,https://www.booking.com/hotel/cn/Paco-Hotel-Jiangtai-Lu-Metro-Guangzhou-Free-Shuttle-Bus-For-CantonFair
-,"Jinshi,China,China",Element Guangzhou Baiyun,$73,8.8,35,https://www.booking.com/hotel/cn/Element-Guangzhou-Baiyun
-,"Jinshi,China,China","Crowne Plaza Guangzhou Huadu, an IHG Hotel",$93,8.8,138,https://www.booking.com/hotel/cn/Crowne-Plaza-Guangzhou-Huadu-an-IHG-Hotel
-,"Jinshi,China,China",Guangzhou Marriott Hotel Baiyun,$105,9.1,32,https://www.booking.com/hotel/cn/Guangzhou-Marriott-Hotel-Baiyun
-,"Nabunturan,Philippines,Philippines",OYO 558 Edilberto's Place,$9,7.6,89,https://www.booking.com/hotel/ph/OYO-558-Edilbertos-Place
-,"Nabunturan,Philippines,Philippines",Inside Room Inn,$17,7.8,17,https://www.booking.com/hotel/ph/Inside-Room-Inn
-,"Nabunturan,Philippines,Philippines",Lemoons Apartelle,$37,Not Available,Not Available,https://www.booking.com/hotel/ph/Lemoons-Apartelle
-,"Nabunturan,Philippines,Philippines",VMJ Inland Resort,$30,Not Available,Not Available,https://www.booking.com/hotel/ph/VMJ-Inland-Resort
-,"Nagaoka,Japan,Japan",Hotel New Otani Nagaoka,$111,7.8,309,https://www.booking.com/hotel/jp/Hotel-New-Otani-Nagaoka
-,"Nagaoka,Japan,Japan",Hotel New Green,$79,5.8,815,https://www.booking.com/hotel/jp/Hotel-New-Green
-,"Nagaoka,Japan,Japan",Hotel Route-Inn Nagaoka Inter,$101,7.6,497,https://www.booking.com/hotel/jp/Hotel-RouteInn-Nagaoka-Inter
-,"Nagaoka,Japan,Japan",Hotel New Green Plaza,$87,6.5,105,https://www.booking.com/hotel/jp/Hotel-New-Green-Plaza
-,"Nagaoka,Japan,Japan",Hotel Hokke Club Niigata Nagaoka,$88,7.8,287,https://www.booking.com/hotel/jp/Hotel-Hokke-Club-Niigata-Nagaoka
-,"Sukuta,The+Gambia,The+Gambia",The Rink Apartment's,Not Available,9.1,21,https://www.booking.com/hotel/gm/The-Rink-Apartments
-,"Sukuta,The+Gambia,The+Gambia",Kololi Beach Resort,$96,8.1,278,https://www.booking.com/hotel/gm/Kololi-Beach-Resort
-,"Sukuta,The+Gambia,The+Gambia",Metzy Residence Hotel,$46,7.4,320,https://www.booking.com/hotel/gm/Metzy-Residence-Hotel
-,"Sukuta,The+Gambia,The+Gambia",Tropic Garden Hotel,$77,7.2,179,https://www.booking.com/hotel/gm/Tropic-Garden-Hotel
-,"Sukuta,The+Gambia,The+Gambia",Rainbow beach resort,$23,7.9,82,https://www.booking.com/hotel/gm/Rainbow-beach-resort
-,"Chōfugaoka,Japan,Japan",Chofu Creston Hotel,$139,6.8,94,https://www.booking.com/hotel/jp/Chofu-Creston-Hotel
-,"Chōfugaoka,Japan,Japan",Stylish house & Rooftop terrace / Oasis in Tokyo,$6,Not Available,Not Available,https://www.booking.com/hotel/jp/Stylish-house-Rooftop-terrace-Oasis-in-Tokyo
-,"Chōfugaoka,Japan,Japan",Business Inn Grandeur Fuchu,$149,7.7,373,https://www.booking.com/hotel/jp/Business-Inn-Grandeur-Fuchu
-,"Chōfugaoka,Japan,Japan",Hotel Asahi Grandeur Fuchu,$119,8.1,409,https://www.booking.com/hotel/jp/Hotel-Asahi-Grandeur-Fuchu
-,"Chōfugaoka,Japan,Japan",Komae - House - Vacation STAY 13522,$657,Not Available,Not Available,https://www.booking.com/hotel/jp/Komae-House-Vacation-STAY-13522
-,"Ban+Bang+Phun,Thailand,Thailand",Chaisupa Place,$22,5.0,8,https://www.booking.com/hotel/th/Chaisupa-Place
-,"Ban+Bang+Phun,Thailand,Thailand",Novotel Bangkok Future Park Rangsit,$71,8.7,516,https://www.booking.com/hotel/th/Novotel-Bangkok-Future-Park-Rangsit
-,"Ban+Bang+Phun,Thailand,Thailand",Matini Premium @ Klong 1,$20,7.8,190,https://www.booking.com/hotel/th/Matini-Premium-Klong-1
-,"Ban+Bang+Phun,Thailand,Thailand",Hop Inn Rangsit,$26,8.6,630,https://www.booking.com/hotel/th/Hop-Inn-Rangsit
-,"Ban+Bang+Phun,Thailand,Thailand",PP@Hotel Rangsit,$22,8.0,365,https://www.booking.com/hotel/th/PPHotel-Rangsit
-,"Tsing+Yi+Town,Hong+Kong,Hong+Kong","Silka Tsuen Wan, Hong Kong",$62,7.2,271,https://www.booking.com/hotel/hk/Silka-Tsuen-Wan-Hong-Kong
-,"Tsing+Yi+Town,Hong+Kong,Hong+Kong","Dorsett Tsuen Wan, Hong Kong",$81,7.4,587,https://www.booking.com/hotel/hk/Dorsett-Tsuen-Wan-Hong-Kong
-,"Tsing+Yi+Town,Hong+Kong,Hong+Kong",Grand Bay View Hotel,$70,7.7,196,https://www.booking.com/hotel/hk/Grand-Bay-View-Hotel
-,"Tsing+Yi+Town,Hong+Kong,Hong+Kong",Hotel Ease Tsuen Wan,$73,7.5,499,https://www.booking.com/hotel/hk/Hotel-Ease-Tsuen-Wan
-,"Tsing+Yi+Town,Hong+Kong,Hong+Kong",Hotel Ease Access Tsuen Wan,$63,7.2,605,https://www.booking.com/hotel/hk/Hotel-Ease-Access-Tsuen-Wan
-,"Osijek,Croatia,Croatia",Hotel Osijek,$134,9.2,"1,136",https://www.booking.com/hotel/hr/Hotel-Osijek
-,"Osijek,Croatia,Croatia",Hotel Waldinger,$165,9.2,521,https://www.booking.com/hotel/hr/Hotel-Waldinger
-,"Osijek,Croatia,Croatia",SAVOY residence,$87,9.5,497,https://www.booking.com/hotel/hr/SAVOY-residence
-,"Osijek,Croatia,Croatia",Boutique hotel Tvrđa,$133,9.8,479,https://www.booking.com/hotel/hr/Boutique-hotel-Tvrđa
-,"Osijek,Croatia,Croatia",Apartman TENA,$83,10,6,https://www.booking.com/hotel/hr/Apartman-TENA
-,"Ecatepec,Mexico,Mexico",Fiesta Inn Ecatepec,Not Available,8.6,553,https://www.booking.com/hotel/mx/Fiesta-Inn-Ecatepec
-,"Ecatepec,Mexico,Mexico",Hotel Palace México,$36,7.7,680,https://www.booking.com/hotel/mx/Hotel-Palace-México
-,"Ecatepec,Mexico,Mexico",Posada Colibri - Hotel & Spa,$110,8.4,407,https://www.booking.com/hotel/mx/Posada-Colibri-Hotel-Spa
-,"Ecatepec,Mexico,Mexico",First Inn Hotel & Business,$37,7.5,440,https://www.booking.com/hotel/mx/First-Inn-Hotel-Business
-,"Ecatepec,Mexico,Mexico",Casa Decu,$108,8.8,774,https://www.booking.com/hotel/mx/Casa-Decu
-,"Kirkby,United+Kingdom,United+Kingdom",The Royal Hotel,$204,8.8,"1,230",https://www.booking.com/hotel/gb/The-Royal-Hotel
-,"Kirkby,United+Kingdom,United+Kingdom",Sun Inn,$218,8.9,758,https://www.booking.com/hotel/gb/Sun-Inn
-,"Kirkby,United+Kingdom,United+Kingdom",Snooty Fox,$132,7.9,950,https://www.booking.com/hotel/gb/Snooty-Fox
-,"Kirkby,United+Kingdom,United+Kingdom",Outhouse Bothy,$119,8.9,74,https://www.booking.com/hotel/gb/Outhouse-Bothy
-,"Kirkby,United+Kingdom,United+Kingdom",Kings Arms Hotel,$177,Not Available,Not Available,https://www.booking.com/hotel/gb/Kings-Arms-Hotel
-,"San+Francisco,Costa+Rica,Costa+Rica",The Dreamcatcher Bus,$53,9.2,30,https://www.booking.com/hotel/cr/The-Dreamcatcher-Bus
-,"San+Francisco,Costa+Rica,Costa+Rica",Dreamcatcher House Bus Experience 2,$53,9.1,18,https://www.booking.com/hotel/cr/Dreamcatcher-House-Bus-Experience-2
-,"San+Francisco,Costa+Rica,Costa+Rica",Tiny House Dreamcatcher,$64,9.4,123,https://www.booking.com/hotel/cr/Tiny-House-Dreamcatcher
-,"San+Francisco,Costa+Rica,Costa+Rica",Bongalow Villa Sarchi,$59,9.2,57,https://www.booking.com/hotel/cr/Bongalow-Villa-Sarchi
-,"San+Francisco,Costa+Rica,Costa+Rica",Apartamentos en sarchi,$60,Not Available,Not Available,https://www.booking.com/hotel/cr/Apartamentos-en-sarchi
-,"Al+‘Amārah,Iraq,Iraq",Kurmick Maysan Hotel,$170,8.8,14,https://www.booking.com/hotel/iq/Kurmick-Maysan-Hotel
-,"Al+‘Āshir+min+Ramaḑān,Egypt,Egypt",villa,$473,Not Available,Not Available,https://www.booking.com/hotel/eg/villa
-,"Al+‘Āshir+min+Ramaḑān,Egypt,Egypt",Beautiful Old Apartment,$33,1.0,1,https://www.booking.com/hotel/eg/Beautiful-Old-Apartment
-,"Al+‘Āshir+min+Ramaḑān,Egypt,Egypt",بدر رقم 2 السعر,$37,Not Available,Not Available,https://www.booking.com/hotel/eg/بدر-رقم-2-السعر
-,"Al+‘Āshir+min+Ramaḑān,Egypt,Egypt",بدر رقم 4 السعر 70,$66,Not Available,Not Available,https://www.booking.com/hotel/eg/بدر-رقم-4-السعر-70
-,"Al+‘Āshir+min+Ramaḑān,Egypt,Egypt",بدر رقم 5 السعر,$25,Not Available,Not Available,https://www.booking.com/hotel/eg/بدر-رقم-5-السعر
-,"Chervonohrad,Ukraine,Ukraine",Shato Hotel,$39,9.3,477,https://www.booking.com/hotel/ua/Shato-Hotel
+,"Khushab,Pakistan",Avari Xpress Faisalabad,$55,8.2,666,https://www.booking.com/hotel/pk/Avari-Xpress-Faisalabad
+,"Khushab,Pakistan",West Inn Hotel Faisalabad,$44,8.3,20,https://www.booking.com/hotel/pk/West-Inn-Hotel-Faisalabad
+,"Khushab,Pakistan",Sleep Inn Hotel,$8,6.7,89,https://www.booking.com/hotel/pk/Sleep-Inn-Hotel
+,"Khushab,Pakistan",Hotel New Madina,$16,5.1,30,https://www.booking.com/hotel/pk/Hotel-New-Madina
+,"Khushab,Pakistan",Babar House,$9,6.2,62,https://www.booking.com/hotel/pk/Babar-House
+,"Lipa+City,Philippines",The Farm at San Benito,$175,8.8,239,https://www.booking.com/hotel/ph/The-Farm-at-San-Benito
+,"Lipa+City,Philippines",Solano Hotel,$54,8.5,24,https://www.booking.com/hotel/ph/Solano-Hotel
+,"Lipa+City,Philippines",3 Peaks Resort & Boutique Hotel,$61,8.2,38,https://www.booking.com/hotel/ph/3-Peaks-Resort-Boutique-Hotel
+,"Lipa+City,Philippines",The Zillion Builders Pavilion,$20,7.9,205,https://www.booking.com/hotel/ph/The-Zillion-Builders-Pavilion
+,"Lipa+City,Philippines",Solano Hotel & Resort At Casa Ysabel,$65,4.0,1,https://www.booking.com/hotel/ph/Solano-Hotel-Resort-At-Casa-Ysabel
+,"South+San+Francisco,United+States",La Quinta by Wyndham San Francisco Airport North,$136,7.7,"1,411",https://www.booking.com/hotel/us/La-Quinta-by-Wyndham-San-Francisco-Airport-North
+,"South+San+Francisco,United+States",DoubleTree by Hilton San Francisco South Airport Blvd,$179,8.1,542,https://www.booking.com/hotel/us/DoubleTree-by-Hilton-San-Francisco-South-Airport-Blvd
+,"South+San+Francisco,United+States",Hilton Garden Inn San Francisco Airport North,$139,8.0,396,https://www.booking.com/hotel/us/Hilton-Garden-Inn-San-Francisco-Airport-North
+,"South+San+Francisco,United+States",Sonesta Select San Francisco Airport Oyster Point Waterfront,$179,7.9,"1,561",https://www.booking.com/hotel/us/Sonesta-Select-San-Francisco-Airport-Oyster-Point-Waterfront
+,"South+San+Francisco,United+States",Home2 Suites By Hilton San Francisco Airport North,$155,8.6,531,https://www.booking.com/hotel/us/Home2-Suites-By-Hilton-San-Francisco-Airport-North
+,"Paso+de+Ovejas,Mexico",Hotel Alameda Maravatio,$40,7.9,53,https://www.booking.com/hotel/mx/Hotel-Alameda-Maravatio
+,"Paso+de+Ovejas,Mexico",Casa Marina Habitacion Seattle,$50,9.5,4,https://www.booking.com/hotel/mx/Casa-Marina-Habitacion-Seattle
+,"Mandaue+City,Philippines",Maayo Hotel,$45,8.7,569,https://www.booking.com/hotel/ph/Maayo-Hotel
+,"Mandaue+City,Philippines",bai Hotel Cebu,$61,8.7,"1,386",https://www.booking.com/hotel/ph/bai-Hotel-Cebu
+,"Mandaue+City,Philippines",Fairfield by Marriott Cebu Mandaue City,$90,10,1,https://www.booking.com/hotel/ph/Fairfield-by-Marriott-Cebu-Mandaue-City
+,"Mandaue+City,Philippines",Toyoko Inn Cebu,$32,7.9,476,https://www.booking.com/hotel/ph/Toyoko-Inn-Cebu
+,"Mandaue+City,Philippines",OYO 166 Maanyag Pension House,$11,7.5,291,https://www.booking.com/hotel/ph/OYO-166-Maanyag-Pension-House
+,"Prilep,Macedonia",Atlas City Center Hotel,$75,8.3,254,https://www.booking.com/hotel/mk/Atlas-City-Center-Hotel
+,"Prilep,Macedonia","Residence ""Ana Pletvarska""",$27,10,1,https://www.booking.com/hotel/mk/Residence-Ana-Pletvarska
+,"Prilep,Macedonia",Hotel Salida,$54,8.4,123,https://www.booking.com/hotel/mk/Hotel-Salida
+,"Prilep,Macedonia",Hotel Kristal Palas,$82,7.9,103,https://www.booking.com/hotel/mk/Hotel-Kristal-Palas
+,"Prilep,Macedonia",CITY CENTER CORNER,$26,9.8,22,https://www.booking.com/hotel/mk/CITY-CENTER-CORNER
+,"Nawāda,India",The Buddha Regency Nawada,$154,Not Available,Not Available,https://www.booking.com/hotel/in/The-Buddha-Regency-Nawada
+,"Nawāda,India",SPOT ON Hotel Krishna Garden,$9,2.4,7,https://www.booking.com/hotel/in/SPOT-ON-Hotel-Krishna-Garden
+,"Nawāda,India",Collection O Puja Wedding Villa,$16,3.0,1,https://www.booking.com/hotel/in/Collection-O-Puja-Wedding-Villa
+,"Nawāda,India",Indo Hokke Hotel,$72,8.0,32,https://www.booking.com/hotel/in/Indo-Hokke-Hotel
+,"Nawāda,India",Kripanidhi Retreat Rajgir,$78,7.1,16,https://www.booking.com/hotel/in/Kripanidhi-Retreat-Rajgir
+,"Muktsar,India","Hotel Madaan Continental, Kotkapura Punjab",$84,Not Available,Not Available,https://www.booking.com/hotel/in/Hotel-Madaan-Continental-Kotkapura-Punjab
