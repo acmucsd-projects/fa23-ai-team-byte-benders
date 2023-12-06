@@ -15,7 +15,7 @@ hotels_per_city = 5
 max_retries = 5
 filename = f"hotels{str(exe_range)}.csv"
 check_point_interval = 10 # save file after this number of cities
-timeout = 120000 # determined by the internet connection you have. If you keep getting timeout error, try a higher number.
+timeout = 180000 # determined by the internet connection you have. If you keep getting timeout error, try a higher number.
 
 sem = asyncio.Semaphore(3) # number of threads. High chance of not working if higher than 3.
 failed_cities = []
@@ -39,9 +39,9 @@ async def get_hotel(city, country_code, browser):
                 await page.goto(page_url, timeout=timeout)
                 break
             except:
-                print(f"Timeout error at {city}, retrying...")
+                print(f"\nTimeout error at {city}, retrying...")
         else:
-            print(f"Failed to get hotel page at {city} after {max_retries} retries.")
+            print(f"\nFailed to get hotel page at {city} after {max_retries} retries.")
             await page.close()
             failed_cities.append((city, country_code)) # Add the failed city to the list
             return [{'city' : city, "hotel": "Error: Hotel Not Found"}]
@@ -54,7 +54,7 @@ async def get_hotel(city, country_code, browser):
             try:
                 hotel_dict['hotel'] = await hotel.locator('//div[@data-testid="title"]').inner_text()
             except:
-                print(f"get hotel name failed at {city}.")
+                print(f"\nGet hotel name failed at {city}.")
                 hotel_dict['hotel'] = 'Not Available'
             try:
                 hotel_dict['price'] = await hotel.locator('//span[@data-testid="price-and-discounted-price"]').inner_text()
@@ -92,12 +92,12 @@ async def main():
         exe_list = exe_list[~mask]
         num_exed = len(hotel_df['city'].unique())
         end = end - num_exed
-        print(f"Resuming from saved state with {num_exed} cities already scraped.")
+        print(f"\nResuming from saved state with {num_exed} cities already scraped.")
     if (end <= 0 | end > exe_list.shape[0]):
-        print("invalid range. Quiting.")
+        print("\ninvalid range. Quiting.")
         return
     print(f"\n{end - start} cities will be scraped.\n")
-    print("======================================================\nDo not modify the auto-generated hotel(range).csv file.\n======================================================\n")
+    print("=============================================================\n   Do not modify the auto-generated hotel(range).csv file.   \n=============================================================\n")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
@@ -110,7 +110,7 @@ async def main():
                 pd.DataFrame(hotel_list).to_csv(filename, index=False)
         await browser.close()
         if failed_cities:
-            print(f"Rerunning the scraping for {len(failed_cities)} failed cities...")
+            print(f"\nRerunning the scraping for {len(failed_cities)} failed cities...")
             async with async_playwright() as p:
                 browser = await p.chromium.launch(headless=True)
                 tasks = [get_hotel(city, country_code, browser) for city, country_code in failed_cities]
