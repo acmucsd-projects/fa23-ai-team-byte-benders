@@ -21844,3 +21844,65 @@ Unnamed: 0,city,hotel,price,score,reviews count,url
 ,"Centurion,South+Africa",ANEW Hotel Centurion Pretoria,$65,8.1,725,https://www.booking.com/hotel/za/ANEW-Hotel-Centurion-Pretoria
 ,"Centurion,South+Africa",The Centurion Hotel,$74,7.8,220,https://www.booking.com/hotel/za/The-Centurion-Hotel
 ,"Centurion,South+Africa",The Monte Carlo,$62,7.7,198,https://www.booking.com/hotel/za/The-Monte-Carlo
+,"Kamakurayama,Japan",Kamakurayama Holiday Flat,Not Available,9.0,139,https://www.booking.com/hotel/jp/Kamakurayama-Holiday-Flat
+,"Kamakurayama,Japan",kamakura seizan,$125,8.7,720,https://www.booking.com/hotel/jp/kamakura-seizan
+,"Kamakurayama,Japan",Hotel New Grand,$145,9.0,"2,954",https://www.booking.com/hotel/jp/Hotel-New-Grand
+,"Kamakurayama,Japan",Sotetsu Fresa Inn Yokohama Higashiguchi,$66,8.2,"3,958",https://www.booking.com/hotel/jp/Sotetsu-Fresa-Inn-Yokohama-Higashiguchi
+,"Kamakurayama,Japan",Hotel Metropolitan Kamakura,$103,9.1,814,https://www.booking.com/hotel/jp/Hotel-Metropolitan-Kamakura
+,"Dāganbhuiya,Bangladesh",Hotel Valentino,$34,8.0,2,https://www.booking.com/hotel/bd/Hotel-Valentino
+,"The+Valley,Anguilla",JC Comfort Suit and Villa,$175,9.0,1,https://www.booking.com/hotel/ai/JC-Comfort-Suit-and-Villa
+,"The+Valley,Anguilla",LittleLux Living,$86,9.4,47,https://www.booking.com/hotel/ai/LittleLux-Living
+,"The+Valley,Anguilla","Zemi Beach House, LXR Hotels & Resorts","$1,096",8.3,15,https://www.booking.com/hotel/ai/Zemi-Beach-House-LXR-Hotels-Resorts
+,"The+Valley,Anguilla",Turtle's Nest Beach Resort,$385,8.7,93,https://www.booking.com/hotel/ai/Turtles-Nest-Beach-Resort
+,"The+Valley,Anguilla",Malliouhana Resort Anguilla,"$2,258",8.8,4,https://www.booking.com/hotel/ai/Malliouhana-Resort-Anguilla
+,"Kasur,Pakistan","Haven Lodge, cheerful holiday home with park access",$95,Not Available,Not Available,https://www.booking.com/hotel/pk/Haven-Lodge-cheerful-holiday-home-with-park-access
+,"Kasur,Pakistan",Beautiful 6 bedroom family home,$280,Not Available,Not Available,https://www.booking.com/hotel/pk/Beautiful-6-bedroom-family-home
+,"Kasur,Pakistan",Fully Serviced Holiday Home Near Lahore Ring Road,$32,9.3,22,https://www.booking.com/hotel/pk/Fully-Serviced-Holiday-Home-Near-Lahore-Ring-Road
+,"Kasur,Pakistan",Furnished Private Ground Floor - Pasha House,$17,8.8,18,https://www.booking.com/hotel/pk/Furnished-Private-Ground-Floor-Pasha-House
+,"Kasur,Pakistan",Modern 3 Bed Villa in DHA,$91,8.2,5,https://www.booking.com/hotel/pk/Modern-3-Bed-Villa-in-DHA
+,"San+Dionisio,Philippines",Relaxing Garden Resort,$27,8.8,4,https://www.booking.com/hotel/ph/Relaxing-Garden-Resort
+,"San+Dionisio,Philippines",Canong Borres Mansion,$41,Not Available,Not Available,https://www.booking.com/hotel/ph/Canong-Borres-Mansion
+,"San+Dionisio,Philippines",RODBON PLACE,$21,Not Available,Not Available,https://www.booking.com/hotel/ph/RODBON-PLACE
+,"San+Dionisio,Philippines",Jairo's Nest,$36,Not Available,Not Available,https://www.booking.com/hotel/ph/Jairos-Nest
+,"San+Dionisio,Philippines",RCJ Pension House,$14,7.3,9,https://www.booking.com/hotel/ph/RCJ-Pension-House
+,"Kotamobagu,Indonesia",Permata Homestay Kotamobagu,$12,Not Available,Not Available,https://www.booking.com/hotel/id/Permata-Homestay-Kotamobagu
+,"Kotamobagu,Indonesia",Hotel Funramah Kotamobagu,$21,Not Available,Not Available,https://www.booking.com/hotel/id/Hotel-Funramah-Kotamobagu
+,"Kotamobagu,Indonesia",Villa Pink,$50,Not Available,Not Available,https://www.booking.com/hotel/id/Villa-Pink
+,"Lauderdale+Lakes,United+States",DoubleTree by Hilton Sunrise - Sawgrass Mills,$229,8.2,"3,550",https://www.booking.com/hotel/us/DoubleTree-by-Hilton-Sunrise-Sawgrass-Mills
+,"Lauderdale+Lakes,United+States",Wyndham Garden Ft Lauderdale Airport & Cruise Port,$229,8.2,"3,097",https://www.booking.com/hotel/us/Wyndham-Garden-Ft-Lauderdale-Airport-Cruise-Port
+,"Lauderdale+Lakes,United+States",La Quinta by Wyndham Plantation at SW 6th St,$142,7.4,"1,752",https://www.booking.com/hotel/us/La-Quinta-by-Wyndham-Plantation-at-SW-6th-St
+,"Lauderdale+Lakes,United+States","Holiday Inn Express Fort Lauderdale Airport South, an IHG Hotel",$209,8.0,"1,103",https://www.booking.com/hotel/us/Holiday-Inn-Express-Fort-Lauderdale-Airport-South-an-IHG-Hotel
+,"Lauderdale+Lakes,United+States",AC Hotel by Marriott Fort Lauderdale Sawgrass Mills Sunrise,$316,8.6,767,https://www.booking.com/hotel/us/AC-Hotel-by-Marriott-Fort-Lauderdale-Sawgrass-Mills-Sunrise
+,"Gwangju,South+Korea","Holiday Inn Gwangju, an IHG Hotel",$103,8.0,337,https://www.booking.com/hotel/kr/Holiday-Inn-Gwangju-an-IHG-Hotel
+,"Gwangju,South+Korea",Ramada Plaza by Wyndham Gwangju,$101,7.7,252,https://www.booking.com/hotel/kr/Ramada-Plaza-by-Wyndham-Gwangju
+,"Gwangju,South+Korea",Stay Hotel,$51,8.4,806,https://www.booking.com/hotel/kr/Stay-Hotel
+,"Gwangju,South+Korea",Brown Dot Hotel Sinan,$50,8.5,20,https://www.booking.com/hotel/kr/Brown-Dot-Hotel-Sinan
+,"Gwangju,South+Korea",H1 Hotel,$98,8.8,171,https://www.booking.com/hotel/kr/H1-Hotel
+,"Porto+Alegre,Brazil","Hilton Porto Alegre, Brazil",$113,8.5,"1,514",https://www.booking.com/hotel/br/Hilton-Porto-Alegre-Brazil
+,"Porto+Alegre,Brazil",Master Express Dom Pedro II - Aeroporto,$49,8.2,"4,124",https://www.booking.com/hotel/br/Master-Express-Dom-Pedro-II-Aeroporto
+,"Porto+Alegre,Brazil",Hotel Deville Prime Porto Alegre,$128,9.1,"2,615",https://www.booking.com/hotel/br/Hotel-Deville-Prime-Porto-Alegre
+,"Porto+Alegre,Brazil",Ritter Hotéis,$38,8.3,"4,314",https://www.booking.com/hotel/br/Ritter-Hotéis
+,"Porto+Alegre,Brazil",Master Cosmopolitan Moinhos de Vento,$80,8.1,"6,560",https://www.booking.com/hotel/br/Master-Cosmopolitan-Moinhos-de-Vento
+,"Cachoeiro+de+Itapemirim,Brazil",Easy Hotel Cachoeiro de Itapemirim by Atlantica,$81,8.4,963,https://www.booking.com/hotel/br/Easy-Hotel-Cachoeiro-de-Itapemirim-by-Atlantica
+,"Cachoeiro+de+Itapemirim,Brazil",CAXU HOSTEL,$15,Not Available,Not Available,https://www.booking.com/hotel/br/CAXU-HOSTEL
+,"Cachoeiro+de+Itapemirim,Brazil",Pousada e Hospedaria Regina,$39,8.3,163,https://www.booking.com/hotel/br/Pousada-e-Hospedaria-Regina
+,"Hagen,Germany",Campushotel,$91,9.0,"1,002",https://www.booking.com/hotel/de/Campushotel
+,"Hagen,Germany",Mercure Hotel Hagen,$87,7.5,"1,963",https://www.booking.com/hotel/de/Mercure-Hotel-Hagen
+,"Hagen,Germany","SAXX Hotel ""Am Theater Karree""",$172,9.0,770,https://www.booking.com/hotel/de/SAXX-Hotel-Am-Theater-Karree
+,"Hagen,Germany",Hotel Lex,$128,7.9,597,https://www.booking.com/hotel/de/Hotel-Lex
+,"Hagen,Germany",Hotel Art-Ambiente,$86,7.8,437,https://www.booking.com/hotel/de/Hotel-ArtAmbiente
+,"Highbury,United+Kingdom",nhow London,$176,8.9,"3,624",https://www.booking.com/hotel/gb/nhow-London
+,"Highbury,United+Kingdom",Citadines Islington London,$180,8.8,"1,371",https://www.booking.com/hotel/gb/Citadines-Islington-London
+,"Highbury,United+Kingdom",Holloway Apartments,$189,8.0,240,https://www.booking.com/hotel/gb/Holloway-Apartments
+,"Highbury,United+Kingdom",One Bedroom Flat in the heart of Islington,$195,8.0,7,https://www.booking.com/hotel/gb/One-Bedroom-Flat-in-the-heart-of-Islington
+,"Highbury,United+Kingdom",2 BEDROOM FLAT NEXT TO ARSENAL STADIUM - HIGHBURY,$184,7.7,34,https://www.booking.com/hotel/gb/2-BEDROOM-FLAT-NEXT-TO-ARSENAL-STADIUM-HIGHBURY
+,"Hallandale+Beach,United+States",Hallandale Bliss Stunning Studio Pool Parking,$146,Not Available,Not Available,https://www.booking.com/hotel/us/Hallandale-Bliss-Stunning-Studio-Pool-Parking
+,"Hallandale+Beach,United+States",Cozy Studio1Bath Hallandale BeachPool Parking,$133,8.8,4,https://www.booking.com/hotel/us/Cozy-Studio1Bath-Hallandale-BeachPool-Parking
+,"Hallandale+Beach,United+States",Cozy 1BRBath Hallandale Free Parking,$200,9.0,2,https://www.booking.com/hotel/us/Cozy-1BRBath-Hallandale-Free-Parking
+,"Hallandale+Beach,United+States",23rd floor Luxury & Spacious BeachWalk Resort Apartment with Amazing View,$147,7.0,33,https://www.booking.com/hotel/us/23rd-floor-Luxury-Spacious-BeachWalk-Resort-Apartment-with-Amazing-View
+,"Hallandale+Beach,United+States",Amazing Studio in Hallandale w Pool Parking,$134,8.1,7,https://www.booking.com/hotel/us/Amazing-Studio-in-Hallandale-w-Pool-Parking
+,"Abu+Dhabi,United+Arab+Emirates",Park Inn by Radisson Abu Dhabi Yas Island,$86,7.9,"5,682",https://www.booking.com/hotel/ae/Park-Inn-by-Radisson-Abu-Dhabi-Yas-Island
+,"Abu+Dhabi,United+Arab+Emirates",Park Hyatt Abu Dhabi Hotel and Villas,$494,8.9,"1,982",https://www.booking.com/hotel/ae/Park-Hyatt-Abu-Dhabi-Hotel-and-Villas
+,"Abu+Dhabi,United+Arab+Emirates",Top Stars Hotel,$53,7.5,"4,074",https://www.booking.com/hotel/ae/Top-Stars-Hotel
+,"Abu+Dhabi,United+Arab+Emirates",Premier Inn Abu Dhabi International Airport,$87,8.1,"13,827",https://www.booking.com/hotel/ae/Premier-Inn-Abu-Dhabi-International-Airport
+,"Abu+Dhabi,United+Arab+Emirates",Centro Al Manhal by Rotana,$62,8.1,"2,532",https://www.booking.com/hotel/ae/Centro-Al-Manhal-by-Rotana

@@ -1,10 +1,8 @@
 import asyncio
 from playwright.async_api import async_playwright
-import datetime
-import pandas as pd
 from tqdm.asyncio import tqdm
-import string
-import os
+import pandas as pd
+import datetime, string, os
 
 # import database(s)
 city_list_short = pd.read_csv("world_cities_major.csv", keep_default_na=False)[['city','country','iso2']]
@@ -14,7 +12,7 @@ exe_list = city_list_short
 exe_range = (0, 10000)
 get_score_and_reviews = True
 hotels_per_city = 5
-max_retries = 3
+max_retries = 5
 filename = f"hotels{str(exe_range)}.csv"
 check_point_interval = 10 # save file after this number of cities
 
@@ -37,7 +35,7 @@ async def get_hotel(city, country_code, browser):
 
         for _ in range(max_retries):
             try:
-                await page.goto(page_url, timeout=60000)
+                await page.goto(page_url, timeout=120000)
                 break
             except:
                 print(f"Timeout error at {city}, retrying...")
@@ -97,7 +95,7 @@ async def main():
     if (end <= 0 | end > exe_list.shape[0]):
         print("invalid range. Quiting.")
         return
-    print(f"\n{end - start} cities will be searched.\n")
+    print(f"\n{end - start} cities will be scraped.\n")
     print("======================================================\nDo not modify the auto-generated hotel(range).csv file.\n======================================================\n")
 
     async with async_playwright() as p:
