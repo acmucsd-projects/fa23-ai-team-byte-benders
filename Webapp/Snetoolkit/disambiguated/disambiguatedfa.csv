@@ -1,9 +1,9 @@
 Output_sne,lat,lng,Country_Code,Type,Population,Desamb_Phase,input_sne,source
 London,51.50853,-0.12574,GB,P,8961989,fuzzySWHighMatch1,London,doc
-Old England,17.98503,-77.46017,JM,A,4288,fuzzySWHighMatch2,England,doc
+England,52.16045,-0.70312,GB,A,56286961,fuzzySWHighMatch1,England,doc
 United Kingdom,54.75844,-2.69531,GB,A,66488991,fuzzySWHighMatch1,United Kingdom,doc
 London,37.12898,-84.08326,US,P,8126,fuzzyMWPartialMatch,Central London,doc
-Soho,39.88778,124.35306,KP,P,0,fuzzySWHighMatch1,Soho,doc
+Soho,51.5144,-0.13535,GB,P,19634,fuzzySWHighMatch1,Soho,doc
 West End,26.68711,-78.97702,BS,P,12724,fuzzySWHighMatch1,West End,doc
 Camden,39.92595,-75.11962,US,P,76119,fuzzySWHighMatch1,Camden,doc
 Kensington,-33.92019,151.22241,AU,P,15021,fuzzySWHighMatch1,Kensington,doc
