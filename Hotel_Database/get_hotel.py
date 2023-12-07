@@ -15,7 +15,7 @@ hotels_per_city = 5
 max_retries = 5
 filename = f"hotels{str(exe_range)}.csv"
 check_point_interval = 10 # save file after this number of cities
-timeout = 180000 # determined by the internet connection you have. If you keep getting timeout error, try a higher number.
+timeout = 120000 # determined by the internet connection you have. If you keep getting timeout error, try a higher number.
 
 sem = asyncio.Semaphore(3) # number of threads. High chance of not working if higher than 3.
 failed_cities = []
@@ -97,7 +97,9 @@ async def main():
         print("\ninvalid range. Quiting.")
         return
     print(f"\n{end - start} cities will be scraped.\n")
-    print("=============================================================\n   Do not modify the auto-generated hotel(range).csv file.   \n=============================================================\n")
+    print("\n==========================================================================")
+    print(f"   Do not modify the auto-generated webpages or hotel{str(exe_range)}.csv file.   ")
+    print("==========================================================================\n")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)

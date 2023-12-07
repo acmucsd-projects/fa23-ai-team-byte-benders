@@ -22829,3 +22829,1120 @@ Unnamed: 0,city,hotel,price,score,reviews count,url
 ,"Tartu,Estonia",Art Hotel Pallas by Tartuhotels,$78,8.7,"3,178",https://www.booking.com/hotel/ee/Art-Hotel-Pallas-by-Tartuhotels
 ,"Tartu,Estonia",Dorpat Hotel,$86,8.6,"9,259",https://www.booking.com/hotel/ee/Dorpat-Hotel
 ,"Tartu,Estonia",Hotel Soho,$80,8.5,"1,924",https://www.booking.com/hotel/ee/Hotel-Soho
+,"Le+Cannet,France",Zenitude Hôtel-Résidences Le Cannet,$84,7.7,445,https://www.booking.com/hotel/fr/Zenitude-HôtelRésidences-Le-Cannet
+,"Le+Cannet,France",Resothel Group,$76,6.6,457,https://www.booking.com/hotel/fr/Resothel-Group
+,"Le+Cannet,France",LE COCON- Jacuzzi & Sauna privés By SweetDreams,$149,8.9,10,https://www.booking.com/hotel/fr/LE-COCON-Jacuzzi-Sauna-privés-By-SweetDreams
+,"Le+Cannet,France",Chambre spacieuse indépendante dans villa plus parking privée,$70,8.9,169,https://www.booking.com/hotel/fr/Chambre-spacieuse-indépendante-dans-villa-plus-parking-privée
+,"Le+Cannet,France",STUDIO classé 3 étoiles 10 mn Cannes,$323,8.2,5,https://www.booking.com/hotel/fr/STUDIO-classé-3-étoiles-10-mn-Cannes
+,"Chitré,Panama","Hotel Faranda Guayacanes, a member of Radisson Individuals",$64,8.1,913,https://www.booking.com/hotel/pa/Hotel-Faranda-Guayacanes-a-member-of-Radisson-Individuals
+,"Chitré,Panama",Hospedaje Los Lirios Chitré,$30,8.5,188,https://www.booking.com/hotel/pa/Hospedaje-Los-Lirios-Chitré
+,"Chitré,Panama",Casa Limón,$48,10,2,https://www.booking.com/hotel/pa/Casa-Limón
+,"Chitré,Panama",Paradise Resort,$75,8.0,141,https://www.booking.com/hotel/pa/Paradise-Resort
+,"Chitré,Panama","Voyager Int’l Hostel, Panama La Villa de Los Santos",$26,Not Available,Not Available,https://www.booking.com/hotel/pa/Voyager-Int’l-Hostel-Panama-La-Villa-de-Los-Santos
+,"Ciudad+López+Mateos,Mexico",Kaia Suites,$48,8.9,119,https://www.booking.com/hotel/mx/Kaia-Suites
+,"Ciudad+López+Mateos,Mexico",HOTEL MADEIRA,$38,8.4,316,https://www.booking.com/hotel/mx/HOTEL-MADEIRA
+,"Ciudad+López+Mateos,Mexico",Antigua Hotel Boutique,$163,8.4,34,https://www.booking.com/hotel/mx/Antigua-Hotel-Boutique
+,"Ciudad+López+Mateos,Mexico",Hotel Atizapan,$22,8.6,330,https://www.booking.com/hotel/mx/Hotel-Atizapan
+,"Ciudad+López+Mateos,Mexico",Casa Completa en Lomas de Tepalcapa,$154,Not Available,Not Available,https://www.booking.com/hotel/mx/Casa-Completa-en-Lomas-de-Tepalcapa
+,"Los+Mochis,Mexico",Fiesta Inn Los Mochis,$110,8.8,414,https://www.booking.com/hotel/mx/Fiesta-Inn-Los-Mochis
+,"Los+Mochis,Mexico",Hotel Fenix,$35,9.1,"1,153",https://www.booking.com/hotel/mx/Hotel-Fenix
+,"Los+Mochis,Mexico",Ibis Los Mochis,$62,8.7,"1,259",https://www.booking.com/hotel/mx/Ibis-Los-Mochis
+,"Los+Mochis,Mexico",Best Western PLUS Los Mochis,$101,9.2,834,https://www.booking.com/hotel/mx/Best-Western-PLUS-Los-Mochis
+,"Los+Mochis,Mexico",City Express by Marriott Los Mochis,$71,8.9,525,https://www.booking.com/hotel/mx/City-Express-by-Marriott-Los-Mochis
+,"Makeni,Sierra+Leone",Wusum Hotel,$58,7.4,8,https://www.booking.com/hotel/sl/Wusum-Hotel
+,"Badulla,Sri+Lanka",Boo Kirinda Holiday Resort,$31,9.0,62,https://www.booking.com/hotel/lk/Boo-Kirinda-Holiday-Resort
+,"Badulla,Sri+Lanka",Springvalley Holiday Home,$14,8.2,20,https://www.booking.com/hotel/lk/Springvalley-Holiday-Home
+,"Badulla,Sri+Lanka",River side Garden,$14,Not Available,Not Available,https://www.booking.com/hotel/lk/River-side-Garden
+,"Badulla,Sri+Lanka",The Cliff Tea Glamping,$21,9.5,6,https://www.booking.com/hotel/lk/The-Cliff-Tea-Glamping
+,"Badulla,Sri+Lanka",Crystal Resort,$20,9.5,19,https://www.booking.com/hotel/lk/Crystal-Resort
+,"Nagykanizsa,Hungary",OÁZIS Hotel***,$59,7.9,398,https://www.booking.com/hotel/hu/OÁZIS-Hotel
+,"Nagykanizsa,Hungary",Hotel Touring,$31,6.5,600,https://www.booking.com/hotel/hu/Hotel-Touring
+,"Nagykanizsa,Hungary",Berényi Fogadó,$67,6.8,629,https://www.booking.com/hotel/hu/Berényi-Fogadó
+,"Nagykanizsa,Hungary",Rena Vendégház,$43,9.3,142,https://www.booking.com/hotel/hu/Rena-Vendégház
+,"Nagykanizsa,Hungary",Oázis Panzió****,$57,8.0,136,https://www.booking.com/hotel/hu/Oázis-Panzió
+,"Suceava,Romania",Mandachi Hotel & SPA,$67,9.4,"3,203",https://www.booking.com/hotel/ro/Mandachi-Hotel-SPA
+,"Suceava,Romania",Continental Suceava,$52,8.2,"3,474",https://www.booking.com/hotel/ro/Continental-Suceava
+,"Suceava,Romania",Luxury Cozy Apartments and Studios Boulevard G. Enescu Suceava,$54,9.3,22,https://www.booking.com/hotel/ro/Luxury-Cozy-Apartments-and-Studios-Boulevard-G-Enescu-Suceava
+,"Suceava,Romania",Marvelous Aparthotel with Master Apartments Suceava,$74,9.1,38,https://www.booking.com/hotel/ro/Marvelous-Aparthotel-with-Master-Apartments-Suceava
+,"Suceava,Romania",Hotel Residenz,$54,8.7,"1,013",https://www.booking.com/hotel/ro/Hotel-Residenz
+,"Apatzingan+de+la+Constitucion,Mexico",Hotel Camelinas,$87,Not Available,Not Available,https://www.booking.com/hotel/mx/Hotel-Camelinas
+,"Apatzingan+de+la+Constitucion,Mexico",Amplia habitación con baño privado,$40,Not Available,Not Available,https://www.booking.com/hotel/mx/Amplia-habitación-con-baño-privado
+,"Poughkeepsie,United+States","Holiday Inn Poughkeepsie, an IHG Hotel",$107,7.8,855,https://www.booking.com/hotel/us/Holiday-Inn-Poughkeepsie-an-IHG-Hotel
+,"Poughkeepsie,United+States",Residence Inn Poughkeepsie,$152,8.5,91,https://www.booking.com/hotel/us/Residence-Inn-Poughkeepsie
+,"Poughkeepsie,United+States",Hyatt Place Poughkeepsie,$110,8.4,988,https://www.booking.com/hotel/us/Hyatt-Place-Poughkeepsie
+,"Poughkeepsie,United+States","Holiday Inn Express Poughkeepsie, an IHG Hotel",$125,7.9,326,https://www.booking.com/hotel/us/Holiday-Inn-Express-Poughkeepsie-an-IHG-Hotel
+,"Poughkeepsie,United+States",Homewood Suites By Hilton Poughkeepsie,$143,9.2,374,https://www.booking.com/hotel/us/Homewood-Suites-By-Hilton-Poughkeepsie
+,"Harbin,China",Qihang Hotel Harbin Taiping Airport,$23,7.0,222,https://www.booking.com/hotel/cn/Qihang-Hotel-Harbin-Taiping-Airport
+,"Harbin,China",Fairfield by Marriott Harbin Downtown,$107,8.9,119,https://www.booking.com/hotel/cn/Fairfield-by-Marriott-Harbin-Downtown
+,"Harbin,China","The Ritz-Carlton, Harbin",$216,9.4,47,https://www.booking.com/hotel/cn/The-RitzCarlton-Harbin
+,"Harbin,China",哈尔滨机场东方红运宾馆,$31,7.0,37,https://www.booking.com/hotel/cn/哈尔滨机场东方红运宾馆
+,"Harbin,China",Shangri-La Harbin,$140,7.6,60,https://www.booking.com/hotel/cn/ShangriLa-Harbin
+,"Wan+Tau+Tong,Hong+Kong","Silka Tsuen Wan, Hong Kong",$65,7.2,274,https://www.booking.com/hotel/hk/Silka-Tsuen-Wan-Hong-Kong
+,"Wan+Tau+Tong,Hong+Kong","Hyatt Regency Hong Kong, Sha Tin",$134,8.1,"1,398",https://www.booking.com/hotel/hk/Hyatt-Regency-Hong-Kong-Sha-Tin
+,"Wan+Tau+Tong,Hong+Kong","Dorsett Tsuen Wan, Hong Kong",$63,7.4,589,https://www.booking.com/hotel/hk/Dorsett-Tsuen-Wan-Hong-Kong
+,"Wan+Tau+Tong,Hong+Kong",Courtyard by Marriott Hong Kong Sha Tin,$98,8.2,709,https://www.booking.com/hotel/hk/Courtyard-by-Marriott-Hong-Kong-Sha-Tin
+,"Wan+Tau+Tong,Hong+Kong",Royal Park Hotel,$117,7.9,"2,383",https://www.booking.com/hotel/hk/Royal-Park-Hotel
+,"Boise,United+States",Inn America - Boise,$99,7.8,"2,165",https://www.booking.com/hotel/us/Inn-America-Boise
+,"Boise,United+States",SpringHill Suites by Marriott Boise ParkCenter,$118,8.6,330,https://www.booking.com/hotel/us/SpringHill-Suites-by-Marriott-Boise-ParkCenter
+,"Boise,United+States",Home2 Suites By Hilton Boise Downtown,$149,9.4,456,https://www.booking.com/hotel/us/Home2-Suites-By-Hilton-Boise-Downtown
+,"Boise,United+States",Hilton Garden Inn Boise Downtown,$167,8.6,245,https://www.booking.com/hotel/us/Hilton-Garden-Inn-Boise-Downtown
+,"Boise,United+States",Comfort Inn & Suites Boise Airport,$93,8.8,863,https://www.booking.com/hotel/us/Comfort-Inn-Suites-Boise-Airport
+,"Bertoua,Cameroon",EDISON CITY PALACE GUEST HOME,$19,Not Available,Not Available,https://www.booking.com/hotel/cm/EDISON-CITY-PALACE-GUEST-HOME
+,"Abuja,Nigeria",Transcorp Hilton Abuja,$245,8.1,717,https://www.booking.com/hotel/ng/Transcorp-Hilton-Abuja
+,"Abuja,Nigeria",Abuja Continental Hotel,$174,6.8,321,https://www.booking.com/hotel/ng/Abuja-Continental-Hotel
+,"Abuja,Nigeria",Malvern suites,$70,Not Available,Not Available,https://www.booking.com/hotel/ng/Malvern-suites
+,"Abuja,Nigeria",FOUR PALMS RESIDENCE,$99,8.2,47,https://www.booking.com/hotel/ng/FOUR-PALMS-RESIDENCE
+,"Abuja,Nigeria",Crest Inn,$120,8.4,97,https://www.booking.com/hotel/ng/Crest-Inn
+,"Yokohama,Japan",Yokohama Royal Park Hotel,$159,8.9,"7,124",https://www.booking.com/hotel/jp/Yokohama-Royal-Park-Hotel
+,"Yokohama,Japan","InterContinental Yokohama Grand, an IHG Hotel",$131,8.5,"4,250",https://www.booking.com/hotel/jp/InterContinental-Yokohama-Grand-an-IHG-Hotel
+,"Yokohama,Japan",Mitsui Garden Hotel Yokohama Minatomirai Premier,$128,9.0,"1,335",https://www.booking.com/hotel/jp/Mitsui-Garden-Hotel-Yokohama-Minatomirai-Premier
+,"Yokohama,Japan",Hotel New Grand,$145,9.0,"2,954",https://www.booking.com/hotel/jp/Hotel-New-Grand
+,"Yokohama,Japan",APA Hotel & Resort Yokohama Bay Tower,$55,8.1,"12,924",https://www.booking.com/hotel/jp/APA-Hotel-Resort-Yokohama-Bay-Tower
+,"Santa+Rosa,Philippines",Seda Nuvali,$92,8.5,306,https://www.booking.com/hotel/ph/Seda-Nuvali
+,"Santa+Rosa,Philippines",Microtel by Wyndham South Forbes near Nuvali,$66,8.2,84,https://www.booking.com/hotel/ph/Microtel-by-Wyndham-South-Forbes-near-Nuvali
+,"Santa+Rosa,Philippines",Technopark Hotel,$44,7.8,89,https://www.booking.com/hotel/ph/Technopark-Hotel
+,"Santa+Rosa,Philippines",Paseo Premiere Hotel,$64,7.4,72,https://www.booking.com/hotel/ph/Paseo-Premiere-Hotel
+,"Santa+Rosa,Philippines",Homestay at 24 Laguna Bel-Air by Red Door House Rental,$49,7.6,10,https://www.booking.com/hotel/ph/Homestay-at-24-Laguna-BelAir-by-Red-Door-House-Rental
+,"Versailles,France",Hôtel Le Versailles,$156,8.1,"2,536",https://www.booking.com/hotel/fr/Hôtel-Le-Versailles
+,"Versailles,France",Waldorf Astoria Versailles - Trianon Palace,$299,8.3,"1,926",https://www.booking.com/hotel/fr/Waldorf-Astoria-Versailles-Trianon-Palace
+,"Versailles,France",Le Louis Versailles Château - MGallery,$158,8.4,"1,478",https://www.booking.com/hotel/fr/Le-Louis-Versailles-Château-MGallery
+,"Versailles,France",Hotel des Lys,$122,8.3,"1,501",https://www.booking.com/hotel/fr/Hotel-des-Lys
+,"Versailles,France",ibis Versailles Château,$82,7.5,"2,388",https://www.booking.com/hotel/fr/ibis-Versailles-Château
+,"Qiryat+Bialik,Israel",דירת3חדרים,$106,9.2,13,https://www.booking.com/hotel/il/דירת3חדרים
+,"Qiryat+Bialik,Israel",Lenny villa,$322,Not Available,Not Available,https://www.booking.com/hotel/il/Lenny-villa
+,"Qiryat+Bialik,Israel",T'eo 25 suite,$105,9.3,34,https://www.booking.com/hotel/il/Teo-25-suite
+,"Qiryat+Bialik,Israel",בית חוף מושלם עם גקוזי ומרפסת - Beachside Bliss W jacuzzi,$191,9.8,6,https://www.booking.com/hotel/il/בית-חוף-מושלם-עם-גקוזי-ומרפסת-Beachside-Bliss-W-jacuzzi
+,"Qiryat+Bialik,Israel",Amazing sea view,$94,7.7,12,https://www.booking.com/hotel/il/Amazing-sea-view
+,"Rio+Grande,Brazil",Lonier Praia Inn Flats,$67,7.6,"1,923",https://www.booking.com/hotel/br/Lonier-Praia-Inn-Flats
+,"Rio+Grande,Brazil",Asalem,$250,9.1,291,https://www.booking.com/hotel/br/Asalem
+,"Rio+Grande,Brazil",Pousada Agua Viva,$111,8.7,777,https://www.booking.com/hotel/br/Pousada-Agua-Viva
+,"Rio+Grande,Brazil",Che Lagarto Hostel Ilha Grande,$226,7.7,"1,223",https://www.booking.com/hotel/br/Che-Lagarto-Hostel-Ilha-Grande
+,"Rio+Grande,Brazil",Pousada Só Natureza,$133,8.8,252,https://www.booking.com/hotel/br/Pousada-Só-Natureza
+,"Antehiroka,Madagascar",Avamada Lodge,$36,8.6,335,https://www.booking.com/hotel/mg/Avamada-Lodge
+,"Antehiroka,Madagascar",Relais des Plateaux & Spa– Ivato International Airport,$116,8.3,328,https://www.booking.com/hotel/mg/Relais-des-Plateaux-Spa–-Ivato-International-Airport
+,"Antehiroka,Madagascar",OCEANIS HOME & VOYAGES,$29,7.9,609,https://www.booking.com/hotel/mg/OCEANIS-HOME-VOYAGES
+,"Antehiroka,Madagascar",Nosy Manga - Hotel Ivato Airport,$62,9.0,171,https://www.booking.com/hotel/mg/Nosy-Manga-Hotel-Ivato-Airport
+,"Antehiroka,Madagascar",Green Palace,$38,8.4,53,https://www.booking.com/hotel/mg/Green-Palace
+,"Alabel,Philippines",Grand Summit Hotel General Santos,$51,8.4,170,https://www.booking.com/hotel/ph/Grand-Summit-Hotel-General-Santos
+,"Alabel,Philippines",MESSÉ Home Stay,$32,5.0,1,https://www.booking.com/hotel/ph/MESSÉ-Home-Stay
+,"Alabel,Philippines",Leann's House,$20,Not Available,Not Available,https://www.booking.com/hotel/ph/Leanns-House
+,"Alabel,Philippines",Cactus villa 2,$24,9.4,5,https://www.booking.com/hotel/ph/Cactus-villa-2
+,"Alabel,Philippines",FOMAG House GenSan 2BR,$23,Not Available,Not Available,https://www.booking.com/hotel/ph/FOMAG-House-GenSan-2BR
+,"North+Lauderdale,United+States",Beautiful cozy home near Fort Lauderdale airport,$224,8.0,1,https://www.booking.com/hotel/us/Beautiful-cozy-home-near-Fort-Lauderdale-airport
+,"North+Lauderdale,United+States",Courtyard by Marriott Fort Lauderdale Coral Springs,$229,7.7,323,https://www.booking.com/hotel/us/Courtyard-by-Marriott-Fort-Lauderdale-Coral-Springs
+,"North+Lauderdale,United+States",Courtyard by Marriott Fort Lauderdale North/Cypress Creek,$158,8.2,571,https://www.booking.com/hotel/us/Courtyard-by-Marriott-Fort-Lauderdale-NorthCypress-Creek
+,"North+Lauderdale,United+States",Comfort Inn & Suites Fort Lauderdale West Turnpike,$164,7.3,546,https://www.booking.com/hotel/us/Comfort-Inn-Suites-Fort-Lauderdale-West-Turnpike
+,"North+Lauderdale,United+States",Kool Runnings BNB,$90,Not Available,Not Available,https://www.booking.com/hotel/us/Kool-Runnings-BNB
+,"Baojishi,China",Jinjiang Inn Select Baoji Jing Er Road Railway Station,$31,Not Available,Not Available,https://www.booking.com/hotel/cn/Jinjiang-Inn-Select-Baoji-Jing-Er-Road-Railway-Station
+,"Baojishi,China",Ramada by Wyndham Baoji Jintai,$34,Not Available,Not Available,https://www.booking.com/hotel/cn/Ramada-by-Wyndham-Baoji-Jintai
+,"Baojishi,China","Holiday Inn Express Baoji City Centre, an IHG Hotel",$29,8.9,7,https://www.booking.com/hotel/cn/Holiday-Inn-Express-Baoji-City-Centre-an-IHG-Hotel
+,"Baojishi,China","Holiday Inn Baoji Central, an IHG Hotel",$52,9.0,2,https://www.booking.com/hotel/cn/Holiday-Inn-Baoji-Central-an-IHG-Hotel
+,"Baojishi,China","Crowne Plaza Baoji City Center, an IHG Hotel",$64,9.0,15,https://www.booking.com/hotel/cn/Crowne-Plaza-Baoji-City-Center-an-IHG-Hotel
+,"Xiamen,China","Holiday Inn Express Xiamen Airport Zone, an IHG Hotel",$48,8.1,247,https://www.booking.com/hotel/cn/Holiday-Inn-Express-Xiamen-Airport-Zone-an-IHG-Hotel
+,"Xiamen,China",Pan Pacific Xiamen(Near the Ferry to Gulang Island and Metro Station),$62,8.6,224,https://www.booking.com/hotel/cn/Pan-Pacific-XiamenNear-the-Ferry-to-Gulang-Island-and-Metro-Station
+,"Xiamen,China",HUALUXE Xiamen Haicang Habour View - An IHG Hotel,$80,9.0,121,https://www.booking.com/hotel/cn/HUALUXE-Xiamen-Haicang-Habour-View-An-IHG-Hotel
+,"Xiamen,China","Holiday Inn Express Xiamen Lushan -Shopping Center, an IHG Hotel",$47,8.3,55,https://www.booking.com/hotel/cn/Holiday-Inn-Express-Xiamen-Lushan-Shopping-Center-an-IHG-Hotel
+,"Xiamen,China",Le Méridien Xiamen,$78,8.7,58,https://www.booking.com/hotel/cn/Le-Méridien-Xiamen
+,"Rahimyar+Khan,Pakistan",Royal Desert Palm Hotel,$37,8.0,3,https://www.booking.com/hotel/pk/Royal-Desert-Palm-Hotel
+,"Rahimyar+Khan,Pakistan",Golden Sand Hotel Rahim Yar Khan,$23,7.2,40,https://www.booking.com/hotel/pk/Golden-Sand-Hotel-Rahim-Yar-Khan
+,"Rahimyar+Khan,Pakistan",Plaza Inn Hotel,$15,5.8,36,https://www.booking.com/hotel/pk/Plaza-Inn-Hotel
+,"Umm+al+Qaywayn,United+Arab+Emirates",Barracuda Resort,$83,7.8,858,https://www.booking.com/hotel/ae/Barracuda-Resort
+,"Umm+al+Qaywayn,United+Arab+Emirates",Bedouin Oasis Desert Camp- Ras Al Khaimah,$177,7.9,410,https://www.booking.com/hotel/ae/Bedouin-Oasis-Desert-Camp-Ras-Al-Khaimah
+,"Umm+al+Qaywayn,United+Arab+Emirates",AL JUNAIDI FARM BY BRIDGE RETREATS,"$2,082",Not Available,Not Available,https://www.booking.com/hotel/ae/AL-JUNAIDI-FARM-BY-BRIDGE-RETREATS
+,"Umm+al+Qaywayn,United+Arab+Emirates",Desert Inn Resort and Camp,$204,8.0,179,https://www.booking.com/hotel/ae/Desert-Inn-Resort-and-Camp
+,"Umm+al+Qaywayn,United+Arab+Emirates","The Ritz-Carlton Ras Al Khaimah, Al Wadi Desert",$593,8.9,"1,679",https://www.booking.com/hotel/ae/The-RitzCarlton-Ras-Al-Khaimah-Al-Wadi-Desert
+,"Ágioi+Anárgyroi,Greece",Aithoni (Nightingale) Agioi Anargyroi Beach,Not Available,9.8,17,https://www.booking.com/hotel/gr/Aithoni-Nightingale-Agioi-Anargyroi-Beach
+,"Ágioi+Anárgyroi,Greece",Irini Rooms,$59,9.4,400,https://www.booking.com/hotel/gr/Irini-Rooms
+,"Ágioi+Anárgyroi,Greece",Siroco's Rooms And Studios,$32,8.1,"1,115",https://www.booking.com/hotel/gr/Sirocos-Rooms-And-Studios
+,"Ágioi+Anárgyroi,Greece",Ippokampos Town Apartments,$65,8.6,140,https://www.booking.com/hotel/gr/Ippokampos-Town-Apartments
+,"Ágioi+Anárgyroi,Greece",Hotel Grotta,$85,9.8,"1,380",https://www.booking.com/hotel/gr/Hotel-Grotta
+,"Winston-Salem,United+States","The Historic Brookstown Inn, Trademark Collection by Wyndham",$129,9.1,634,https://www.booking.com/hotel/us/The-Historic-Brookstown-Inn-Trademark-Collection-by-Wyndham
+,"Winston-Salem,United+States",Hampton Inn & Suites Winston-Salem/University Area,$107,8.6,243,https://www.booking.com/hotel/us/Hampton-Inn-Suites-WinstonSalemUniversity-Area
+,"Winston-Salem,United+States",Best Western Plus Hanes Mall,$82,7.4,"1,349",https://www.booking.com/hotel/us/Best-Western-Plus-Hanes-Mall
+,"Winston-Salem,United+States","Kimpton Cardinal Hotel, an IHG Hotel",$157,8.6,276,https://www.booking.com/hotel/us/Kimpton-Cardinal-Hotel-an-IHG-Hotel
+,"Winston-Salem,United+States",Hampton Inn & Suites Winston-Salem Downtown,$124,8.8,643,https://www.booking.com/hotel/us/Hampton-Inn-Suites-WinstonSalem-Downtown
+,"Ayase,Japan",APA Hotel Ayase Ekimae,$62,8.0,"1,330",https://www.booking.com/hotel/jp/APA-Hotel-Ayase-Ekimae
+,"Ayase,Japan",HOTEL LiVEMAX Tokyo Ayase-Ekimae,$68,6.7,509,https://www.booking.com/hotel/jp/HOTEL-LiVEMAX-Tokyo-AyaseEkimae
+,"Ayase,Japan",Vivian house,$84,5.6,5,https://www.booking.com/hotel/jp/Vivian-house
+,"Ayase,Japan",Randor Residence Tokyo Suites,$82,7.5,553,https://www.booking.com/hotel/jp/Randor-Residence-Tokyo-Suites
+,"Ayase,Japan",Urbain Tokyo Ueno Kitasenju,$76,8.0,625,https://www.booking.com/hotel/jp/Urbain-Tokyo-Ueno-Kitasenju
+,"Salem,United+States","Hampton Inn Salem, Ma",$119,8.9,"1,449",https://www.booking.com/hotel/us/Hampton-Inn-Salem-Ma
+,"Salem,United+States",Salem Waterfront Hotel & Suites,$149,8.4,"1,164",https://www.booking.com/hotel/us/Salem-Waterfront-Hotel-Suites
+,"Salem,United+States",Hawthorne Hotel,$181,8.8,655,https://www.booking.com/hotel/us/Hawthorne-Hotel
+,"Salem,United+States",The Cove At Salem,$167,8.8,42,https://www.booking.com/hotel/us/The-Cove-At-Salem
+,"Salem,United+States",The Hotel Salem,$162,8.2,570,https://www.booking.com/hotel/us/The-Hotel-Salem
+,"Fuzhou,China",Fuzhou Marriott Hotel Riverside,$76,8.1,10,https://www.booking.com/hotel/cn/Fuzhou-Marriott-Hotel-Riverside
+,"Fuzhou,China",The Westin Fuzhou Minjiang,$84,9.0,11,https://www.booking.com/hotel/cn/The-Westin-Fuzhou-Minjiang
+,"Fuzhou,China",InterContinental Fuzhou,$93,8.4,55,https://www.booking.com/hotel/cn/InterContinental-Fuzhou
+,"Fuzhou,China","Holiday Inn Express Fuzhou Downtown, an IHG Hotel",$45,8.4,10,https://www.booking.com/hotel/cn/Holiday-Inn-Express-Fuzhou-Downtown-an-IHG-Hotel
+,"Fuzhou,China",Hyatt Regency Fuzhou Cangshan,$89,9.2,10,https://www.booking.com/hotel/cn/Hyatt-Regency-Fuzhou-Cangshan
+,"Sūhāj,Egypt",Al Amir Palace Hotel,$20,6.3,36,https://www.booking.com/hotel/eg/Al-Amir-Palace-Hotel
+,"Sūhāj,Egypt",ابو ادم,$28,1.0,2,https://www.booking.com/hotel/eg/ابو-ادم
+,"Sūhāj,Egypt",سوهاج الجديدة,$48,1.0,1,https://www.booking.com/hotel/eg/سوهاج-الجديدة
+,"Ciudad+de+Ceuta,Spain",Parador de Ceuta,$71,7.9,"1,134",https://www.booking.com/hotel/es/Parador-de-Ceuta
+,"Ciudad+de+Ceuta,Spain",Hotel Ceuta Puerta de Africa,$80,7.4,489,https://www.booking.com/hotel/es/Hotel-Ceuta-Puerta-de-Africa
+,"Ciudad+de+Ceuta,Spain",Apartamentos Villajovita,$59,8.0,114,https://www.booking.com/hotel/es/Apartamentos-Villajovita
+,"Ciudad+de+Ceuta,Spain",Hostal Central,$65,7.6,701,https://www.booking.com/hotel/es/Hostal-Central
+,"Ciudad+de+Ceuta,Spain",Oh Nice Revellin Ceuta,$83,8.1,671,https://www.booking.com/hotel/es/Oh-Nice-Revellin-Ceuta
+,"Laindon,United+Kingdom",Adoniapro Basildon Lodge,$166,1.0,1,https://www.booking.com/hotel/gb/Adoniapro-Basildon-Lodge
+,"Laindon,United+Kingdom",Basildon Holiday Home in Essex UK,$172,6.8,6,https://www.booking.com/hotel/gb/Basildon-Holiday-Home-in-Essex-UK
+,"Laindon,United+Kingdom","Holiday Inn Basildon, an IHG Hotel",$80,7.7,"2,133",https://www.booking.com/hotel/gb/Holiday-Inn-Basildon-an-IHG-Hotel
+,"Laindon,United+Kingdom",Campanile Hotel - Basildon - East of London,$45,5.9,"1,927",https://www.booking.com/hotel/gb/Campanile-Hotel-Basildon-East-of-London
+,"Laindon,United+Kingdom",WindyS Basildon Smart Home,$90,9.1,125,https://www.booking.com/hotel/gb/WindyS-Basildon-Smart-Home
+,"Anshan,China",Hilton Garden Inn Anshan,$41,9.3,6,https://www.booking.com/hotel/cn/Hilton-Garden-Inn-Anshan
+,"Anshan,China",Hilton Garden Inn Anshan Haicheng,$36,8.0,2,https://www.booking.com/hotel/cn/Hilton-Garden-Inn-Anshan-Haicheng
+,"Anshan,China","Holiday Inn Express Anshan Downtown, an IHG Hotel",$40,9.5,2,https://www.booking.com/hotel/cn/Holiday-Inn-Express-Anshan-Downtown-an-IHG-Hotel
+,"Anshan,China",Pullman Anshan Time Square,$62,7.1,8,https://www.booking.com/hotel/cn/Pullman-Anshan-Time-Square
+,"Anshan,China",Jinjiang Inn Anshan Thriving Square,$17,8.0,2,https://www.booking.com/hotel/cn/Jinjiang-Inn-Anshan-Thriving-Square
+,"Boa+Vista,Brazil",Aipana Plaza Hotel,$86,8.6,386,https://www.booking.com/hotel/br/Aipana-Plaza-Hotel
+,"Boa+Vista,Brazil",Uiramutam Palace Hotel,$71,8.1,448,https://www.booking.com/hotel/br/Uiramutam-Palace-Hotel
+,"Boa+Vista,Brazil",Hotel Orla do Rio Branco,$81,8.2,252,https://www.booking.com/hotel/br/Hotel-Orla-do-Rio-Branco
+,"Boa+Vista,Brazil",ibis Styles Boa Vista,$103,8.3,317,https://www.booking.com/hotel/br/ibis-Styles-Boa-Vista
+,"Boa+Vista,Brazil",Barrudada Palace Hotel-Boa Vista,$38,7.1,19,https://www.booking.com/hotel/br/Barrudada-Palace-HotelBoa-Vista
+,"Lower+Bicutan,Philippines",RedDoorz at DBuilders Rooms Lower Bicutan,Not Available,6.7,59,https://www.booking.com/hotel/ph/RedDoorz-at-DBuilders-Rooms-Lower-Bicutan
+,"Lower+Bicutan,Philippines",Lub d Philippines Makati,$28,8.1,"1,305",https://www.booking.com/hotel/ph/Lub-d-Philippines-Makati
+,"Lower+Bicutan,Philippines",Timberland Highlands Resort,$57,9.0,411,https://www.booking.com/hotel/ph/Timberland-Highlands-Resort
+,"Lower+Bicutan,Philippines",Julzhome PH Properties by Juliet AfricaPervaze,$59,7.5,23,https://www.booking.com/hotel/ph/Julzhome-PH-Properties-by-Juliet-AfricaPervaze
+,"Lower+Bicutan,Philippines",Hop Inn Hotel Aseana City Manila,$34,8.2,"1,941",https://www.booking.com/hotel/ph/Hop-Inn-Hotel-Aseana-City-Manila
+,"Zaozhuang,China",GreenTree Inn Shandong Zaozhuang Xuecheng District Road Taishan Road Road Communist Youth League School Express Hotel,$20,Not Available,Not Available,https://www.booking.com/hotel/cn/GreenTree-Inn-Shandong-Zaozhuang-Xuecheng-District-Road-Taishan-Road-Road-Communist-Youth-League-School-Express-Hotel
+,"Zaozhuang,China",GreenTree Inn Zaozhuang Taierzhuang Ancient City Tourist Service Center Business Hotel,$19,Not Available,Not Available,https://www.booking.com/hotel/cn/GreenTree-Inn-Zaozhuang-Taierzhuang-Ancient-City-Tourist-Service-Center-Business-Hotel
+,"Zaozhuang,China",GreenTree Inn Zaozhuang Xuecheng Qilianshan Road Business Hotel,$23,Not Available,Not Available,https://www.booking.com/hotel/cn/GreenTree-Inn-Zaozhuang-Xuecheng-Qilianshan-Road-Business-Hotel
+,"Zaozhuang,China",7Days Premium Zaozhuang High-Speed Railway Station Guangming West Road Branch,$18,Not Available,Not Available,https://www.booking.com/hotel/cn/7Days-Premium-Zaozhuang-HighSpeed-Railway-Station-Guangming-West-Road-Branch
+,"Zaozhuang,China",Geli Hotel Zaozhuang High-Speed Railway Station,$26,Not Available,Not Available,https://www.booking.com/hotel/cn/Geli-Hotel-Zaozhuang-HighSpeed-Railway-Station
+,"Rohnert+Park,United+States",Oxford Suites Sonoma - Rohnert Park,$139,9.1,594,https://www.booking.com/hotel/us/Oxford-Suites-Sonoma-Rohnert-Park
+,"Rohnert+Park,United+States",Hampton Inn & Suites Rohnert Park - Sonoma County,$135,8.9,160,https://www.booking.com/hotel/us/Hampton-Inn-Suites-Rohnert-Park-Sonoma-County
+,"Rohnert+Park,United+States",DoubleTree by Hilton Sonoma Wine Country,$135,7.5,319,https://www.booking.com/hotel/us/DoubleTree-by-Hilton-Sonoma-Wine-Country
+,"Rohnert+Park,United+States",Cambria Hotel Sonoma Wine Country,$127,8.9,599,https://www.booking.com/hotel/us/Cambria-Hotel-Sonoma-Wine-Country
+,"Rohnert+Park,United+States",Fairfield Inn & Suites by Marriott Santa Rosa Rohnert Park,$124,9.0,198,https://www.booking.com/hotel/us/Fairfield-Inn-Suites-by-Marriott-Santa-Rosa-Rohnert-Park
+,"Medan,Indonesia",JW Marriott Hotel Medan,$72,8.4,399,https://www.booking.com/hotel/id/JW-Marriott-Hotel-Medan
+,"Medan,Indonesia",Radisson Medan,$41,7.9,381,https://www.booking.com/hotel/id/Radisson-Medan
+,"Medan,Indonesia",Hotel Deli River and Restaurant Omlandia,$56,8.8,203,https://www.booking.com/hotel/id/Hotel-Deli-River-and-Restaurant-Omlandia
+,"Medan,Indonesia",Anara Sky Kualanamu Hotel,$46,7.9,443,https://www.booking.com/hotel/id/Anara-Sky-Kualanamu-Hotel
+,"Medan,Indonesia",d'primahotel Kualanamu Medan Formerly Prime Plaza Hotel,$41,8.2,419,https://www.booking.com/hotel/id/dprimahotel-Kualanamu-Medan-Formerly-Prime-Plaza-Hotel
+,"Neijiang,China",Wanda Realm Neijiang,$149,9.0,1,https://www.booking.com/hotel/cn/Wanda-Realm-Neijiang
+,"Neijiang,China",7Days Inn Neijiang Longchang Xinhua Street Branch,$26,Not Available,Not Available,https://www.booking.com/hotel/cn/7Days-Inn-Neijiang-Longchang-Xinhua-Street-Branch
+,"Neijiang,China",TRYP By Wyndham Zizhou,$73,Not Available,Not Available,https://www.booking.com/hotel/cn/TRYP-By-Wyndham-Zizhou
+,"Neijiang,China",7Days Premium Neijiang Wanda Square,$21,Not Available,Not Available,https://www.booking.com/hotel/cn/7Days-Premium-Neijiang-Wanda-Square
+,"Neijiang,China",Lavande Hotel Neijiang Hanan Avenue,$43,Not Available,Not Available,https://www.booking.com/hotel/cn/Lavande-Hotel-Neijiang-Hanan-Avenue
+,"Paracho+de+Verduzco,Mexico","Holiday Inn Uruapan, an IHG Hotel",$78,9.0,595,https://www.booking.com/hotel/mx/Holiday-Inn-Uruapan-an-IHG-Hotel
+,"Paracho+de+Verduzco,Mexico",Hotel Pie de la Sierra,$34,8.4,466,https://www.booking.com/hotel/mx/Hotel-Pie-de-la-Sierra
+,"Paracho+de+Verduzco,Mexico",PASEO REAL HOTEL BOUTIQUE,$95,Not Available,Not Available,https://www.booking.com/hotel/mx/PASEO-REAL-HOTEL-BOUTIQUE
+,"Paracho+de+Verduzco,Mexico",Loft atardecer,$45,10,1,https://www.booking.com/hotel/mx/Loft-atardecer
+,"Glendale,United+States",Glendale Express Hotel Los Angeles,$159,7.8,"1,640",https://www.booking.com/hotel/us/Glendale-Express-Hotel-Los-Angeles
+,"Glendale,United+States",Residence Inn Los Angeles Glendale,$300,9.0,109,https://www.booking.com/hotel/us/Residence-Inn-Los-Angeles-Glendale
+,"Glendale,United+States",Embassy Suites Los Angeles Glendale,$229,7.8,472,https://www.booking.com/hotel/us/Embassy-Suites-Los-Angeles-Glendale
+,"Glendale,United+States",Glendale Hotel,$123,8.1,587,https://www.booking.com/hotel/us/Glendale-Hotel
+,"Glendale,United+States",Motel Sakura,$131,9.4,767,https://www.booking.com/hotel/us/Motel-Sakura
+,"Sabaneta,Colombia",Elegante apartamento: Sabaneta Central,$30,10,3,https://www.booking.com/hotel/co/Elegante-apartamento-Sabaneta-Central
+,"Sabaneta,Colombia",Habitación Privada en sabaneta,$13,Not Available,Not Available,https://www.booking.com/hotel/co/Habitación-Privada-en-sabaneta
+,"Sabaneta,Colombia",Habitación doble con baño privado,$17,9.8,6,https://www.booking.com/hotel/co/Habitación-doble-con-baño-privado
+,"Sabaneta,Colombia","Cómoda habitación con baño privado, excelente ubicación cerca al parque principal de Sabaneta",$17,8.8,53,https://www.booking.com/hotel/co/Cómoda-habitación-con-baño-privado-excelente-ubicación-cerca-al-parque-principal-de-Sabaneta
+,"Sabaneta,Colombia",Praia Apartaestudios,$42,9.4,62,https://www.booking.com/hotel/co/Praia-Apartaestudios
+,"Freeport,United+States",Hilton Garden Inn Freeport Downtown,$118,8.6,464,https://www.booking.com/hotel/us/Hilton-Garden-Inn-Freeport-Downtown
+,"Freeport,United+States",The Harraseeket Inn & Suites,$189,8.9,"1,322",https://www.booking.com/hotel/us/The-Harraseeket-Inn-Suites
+,"Freeport,United+States",Hampton Inn Freeport/Brunswick,$120,8.6,330,https://www.booking.com/hotel/us/Hampton-Inn-FreeportBrunswick
+,"Freeport,United+States",Best Western - Freeport Inn,$76,7.2,509,https://www.booking.com/hotel/us/Best-Western-Freeport-Inn
+,"Freeport,United+States","The Freeport Hotel, Ascend Hotel Collection",$86,7.7,511,https://www.booking.com/hotel/us/The-Freeport-Hotel-Ascend-Hotel-Collection
+,"San+Pedro+de+Macorís,Dominican+Republic",Villa de Lujo con Picsina Privada,$43,Not Available,Not Available,https://www.booking.com/hotel/do/Villa-de-Lujo-con-Picsina-Privada
+,"San+Pedro+de+Macorís,Dominican+Republic",Lovely 2-bedroom apt with private parking and pool- Minimum stay 2 nights- Only accept reservations 24 hours before arrival,$53,8.0,1,https://www.booking.com/hotel/do/Lovely-2bedroom-apt-with-private-parking-and-pool-Minimum-stay-2-nights-Only-accept-reservations-24-hours-before-arrival
+,"San+Pedro+de+Macorís,Dominican+Republic",Country house with river view,$60,10,1,https://www.booking.com/hotel/do/Country-house-with-river-view
+,"San+Pedro+de+Macorís,Dominican+Republic",Marbella 2bedroom Beachfrom Apt,$180,Not Available,Not Available,https://www.booking.com/hotel/do/Marbella-2bedroom-Beachfrom-Apt
+,"San+Pedro+de+Macorís,Dominican+Republic",Villa hermosa en Playa Nueva Romana,$216,Not Available,Not Available,https://www.booking.com/hotel/do/Villa-hermosa-en-Playa-Nueva-Romana
+,"Wenzhou,China",Wenzhou Airport Marriott Hotel,$85,9.0,34,https://www.booking.com/hotel/cn/Wenzhou-Airport-Marriott-Hotel
+,"Wenzhou,China",The Westin Wenzhou,$133,8.7,39,https://www.booking.com/hotel/cn/The-Westin-Wenzhou
+,"Wenzhou,China",Sheraton Wenzhou Hotel,$92,8.4,43,https://www.booking.com/hotel/cn/Sheraton-Wenzhou-Hotel
+,"Wenzhou,China",Shangri-La Wenzhou,$109,8.6,33,https://www.booking.com/hotel/cn/ShangriLa-Wenzhou
+,"Wenzhou,China",SSAW Boutique Hotel Wenzhou Jiushan Lake,$61,7.9,21,https://www.booking.com/hotel/cn/SSAW-Boutique-Hotel-Wenzhou-Jiushan-Lake
+,"Sunrise+Manor,United+States",2bed 1 bath condo near Nellis afb & the strip,$220,9.0,4,https://www.booking.com/hotel/us/2bed-1-bath-condo-near-Nellis-afb-the-strip
+,"Sunrise+Manor,United+States",Home2 Suites By Hilton Las Vegas North,$248,8.7,33,https://www.booking.com/hotel/us/Home2-Suites-By-Hilton-Las-Vegas-North
+,"Sunrise+Manor,United+States",Comfort Inn & Suites Las Vegas - Nellis,$153,7.8,205,https://www.booking.com/hotel/us/Comfort-Inn-Suites-Las-Vegas-Nellis
+,"Sunrise+Manor,United+States",Boulder Station Hotel & Casino,$53,8.2,17,https://www.booking.com/hotel/us/Boulder-Station-Hotel-Casino
+,"Sunrise+Manor,United+States",La Quinta Inn & Suites by Wyndham Las Vegas Nellis,$168,8.7,417,https://www.booking.com/hotel/us/La-Quinta-Inn-Suites-by-Wyndham-Las-Vegas-Nellis
+,"Clichy,France",L'Imprimerie Hôtel,$120,9.0,"1,816",https://www.booking.com/hotel/fr/LImprimerie-Hôtel
+,"Clichy,France",Appart'City Confort Paris Clichy - Mairie,$97,8.7,"3,983",https://www.booking.com/hotel/fr/AppartCity-Confort-Paris-Clichy-Mairie
+,"Clichy,France",Hotel Residence Europe & Spa,$126,8.0,"3,017",https://www.booking.com/hotel/fr/Hotel-Residence-Europe-Spa
+,"Clichy,France","voco Paris - Porte de Clichy, an IHG Hotel",$115,7.9,"1,694",https://www.booking.com/hotel/fr/voco-Paris-Porte-de-Clichy-an-IHG-Hotel
+,"Clichy,France",Hampton By Hilton Paris Clichy,$129,7.9,890,https://www.booking.com/hotel/fr/Hampton-By-Hilton-Paris-Clichy
+,"Caerphilly,United+Kingdom",Y Fan,$151,9.7,160,https://www.booking.com/hotel/gb/Y-Fan
+,"Caerphilly,United+Kingdom",Entire 3 bedroom house near Caerphilly station,$202,9.1,18,https://www.booking.com/hotel/gb/Entire-3-bedroom-house-near-Caerphilly-station
+,"Caerphilly,United+Kingdom",New House Country Hotel,$444,8.5,"1,001",https://www.booking.com/hotel/gb/New-House-Country-Hotel
+,"Caerphilly,United+Kingdom",Wingfield Hotel,$91,8.3,26,https://www.booking.com/hotel/gb/Wingfield-Hotel
+,"Caerphilly,United+Kingdom",Manor Parc Hotel,$195,8.8,810,https://www.booking.com/hotel/gb/Manor-Parc-Hotel
+,"Changzhou,China",Changzhou Marriott Hotel Jintan,$98,8.9,7,https://www.booking.com/hotel/cn/Changzhou-Marriott-Hotel-Jintan
+,"Changzhou,China","Holiday Inn Express Changzhou Lanling, an IHG Hotel",$45,8.9,16,https://www.booking.com/hotel/cn/Holiday-Inn-Express-Changzhou-Lanling-an-IHG-Hotel
+,"Changzhou,China",Changzhou Marriott Hotel,$104,8.7,38,https://www.booking.com/hotel/cn/Changzhou-Marriott-Hotel
+,"Changzhou,China",Hilton Changzhou,$80,8.4,48,https://www.booking.com/hotel/cn/Hilton-Changzhou
+,"Changzhou,China",The Grand View Hotel Changzhou,$63,10,1,https://www.booking.com/hotel/cn/The-Grand-View-Hotel-Changzhou
+,"Thủ+Dầu+Một,Vietnam",Thien Ha Hotel,$20,7.8,14,https://www.booking.com/hotel/vn/Thien-Ha-Hotel
+,"Thủ+Dầu+Một,Vietnam",Long Bao Chau Hotel,$21,8.0,49,https://www.booking.com/hotel/vn/Long-Bao-Chau-Hotel
+,"Thủ+Dầu+Một,Vietnam",The Mira Hotel,$51,8.1,101,https://www.booking.com/hotel/vn/The-Mira-Hotel
+,"Thủ+Dầu+Một,Vietnam",Amanda Boutique -Serviced Apartment - Hotel Bình Dương,$37,9.6,93,https://www.booking.com/hotel/vn/Amanda-Boutique-Serviced-Apartment-Hotel-Bình-Dương
+,"Thủ+Dầu+Một,Vietnam",The Green House - Serviced Apartment,$37,8.7,104,https://www.booking.com/hotel/vn/The-Green-House-Serviced-Apartment
+,"Torre+del+Greco,Italy",Hotel Poseidon,$104,8.0,815,https://www.booking.com/hotel/it/Hotel-Poseidon
+,"Torre+del+Greco,Italy",Villa Carafa De Cillis,$103,9.7,138,https://www.booking.com/hotel/it/Villa-Carafa-De-Cillis
+,"Torre+del+Greco,Italy",Hotel Sakura,$97,7.6,201,https://www.booking.com/hotel/it/Hotel-Sakura
+,"Torre+del+Greco,Italy",Adamo&Eva apartement,$58,Not Available,Not Available,https://www.booking.com/hotel/it/AdamoEva-apartement
+,"Torre+del+Greco,Italy",B&B Casina de Goyzueta,$127,9.5,379,https://www.booking.com/hotel/it/BB-Casina-de-Goyzueta
+,"Yulinshi,China",Atour Hotel Yuyang West Road,$54,Not Available,Not Available,https://www.booking.com/hotel/cn/Atour-Hotel-Yuyang-West-Road
+,"Yulinshi,China",Atour X Hotel Yulin Changcheng Road Confucius Temple,$46,Not Available,Not Available,https://www.booking.com/hotel/cn/Atour-X-Hotel-Yulin-Changcheng-Road-Confucius-Temple
+,"Yulinshi,China",7Days Inn Yulin south gate bus station,$19,Not Available,Not Available,https://www.booking.com/hotel/cn/7Days-Inn-Yulin-south-gate-bus-station
+,"Yulinshi,China",枣花香乡村度假区,$235,Not Available,Not Available,https://www.booking.com/hotel/cn/枣花香乡村度假区
+,"Yulinshi,China",7Days Inn Yulin Guangji building,$19,Not Available,Not Available,https://www.booking.com/hotel/cn/7Days-Inn-Yulin-Guangji-building
+,"Llanelli,United+Kingdom","Sessile Oak, Llanelli by Marston's Inns",$63,8.0,"1,344",https://www.booking.com/hotel/gb/Sessile-Oak-Llanelli-by-Marstons-Inns
+,"Llanelli,United+Kingdom",Thomas Arms Hotel,$63,7.5,770,https://www.booking.com/hotel/gb/Thomas-Arms-Hotel
+,"Llanelli,United+Kingdom",The Diplomat Hotel Restaurant & Spa,$233,8.0,"1,064",https://www.booking.com/hotel/gb/The-Diplomat-Hotel-Restaurant-Spa
+,"Llanelli,United+Kingdom",LLwyn Country House,$139,8.8,287,https://www.booking.com/hotel/gb/LLwyn-Country-House
+,"Llanelli,United+Kingdom",The Angharad Hotel and Restaurant,$110,7.8,346,https://www.booking.com/hotel/gb/The-Angharad-Hotel-and-Restaurant
+,"Kenema,Sierra+Leone",Nyawa Inn & Resort,$35,Not Available,Not Available,https://www.booking.com/hotel/sl/Nyawa-Inn-Resort
+,"Kenema,Sierra+Leone",Vehicle,$95,Not Available,Not Available,https://www.booking.com/hotel/sl/Vehicle
+,"Syracuse,United+States","Collegian Hotel & Suites, Trademark Collection by Wyndham",$87,7.2,635,https://www.booking.com/hotel/us/Collegian-Hotel-Suites-Trademark-Collection-by-Wyndham
+,"Syracuse,United+States",Marriott Syracuse Downtown,$135,7.8,390,https://www.booking.com/hotel/us/Marriott-Syracuse-Downtown
+,"Syracuse,United+States",Clarion Pointe Downtown,$76,7.2,191,https://www.booking.com/hotel/us/Clarion-Pointe-Downtown
+,"Syracuse,United+States",Courtyard by Marriott Syracuse Downtown at Armory Square,$116,7.7,197,https://www.booking.com/hotel/us/Courtyard-by-Marriott-Syracuse-Downtown-at-Armory-Square
+,"Syracuse,United+States",Aloft Syracuse Inner Harbor,$109,8.0,333,https://www.booking.com/hotel/us/Aloft-Syracuse-Inner-Harbor
+,"Hawthorne,United+States",Courtyard by Marriott Los Angeles LAX/Hawthorne,$152,8.3,"1,048",https://www.booking.com/hotel/us/Courtyard-by-Marriott-Los-Angeles-LAXHawthorne
+,"Hawthorne,United+States",SpringHill Suites Los Angeles LAX/Manhattan Beach,$161,7.8,334,https://www.booking.com/hotel/us/SpringHill-Suites-Los-Angeles-LAXManhattan-Beach
+,"Hawthorne,United+States","Holiday Inn Express Hotel & Suites Los Angeles Airport Hawthorne, an IHG Hotel",$149,7.7,"1,504",https://www.booking.com/hotel/us/Holiday-Inn-Express-Hotel-Suites-Los-Angeles-Airport-Hawthorne-an-IHG-Hotel
+,"Hawthorne,United+States",TownePlace Suites Los Angeles LAX Manhattan Beach,$161,7.9,205,https://www.booking.com/hotel/us/TownePlace-Suites-Los-Angeles-LAX-Manhattan-Beach
+,"Hawthorne,United+States",Ayres Hotel Manhattan Beach,$209,8.7,378,https://www.booking.com/hotel/us/Ayres-Hotel-Manhattan-Beach
+,"Brikama,The+Gambia",Tapis Guest House,$44,9.0,3,https://www.booking.com/hotel/gm/Tapis-Guest-House
+,"Brikama,The+Gambia",Maajob Resort,$38,Not Available,Not Available,https://www.booking.com/hotel/gm/Maajob-Resort
+,"Brikama,The+Gambia",Faith and Grace Guest House,$29,8.1,14,https://www.booking.com/hotel/gm/Faith-and-Grace-Guest-House
+,"Brikama,The+Gambia",Touray Guest House,$16,7.7,33,https://www.booking.com/hotel/gm/Touray-Guest-House
+,"Brikama,The+Gambia",Nicely Furnished Comfortable Holiday Apartment Home at Yarambamba Estate,$29,Not Available,Not Available,https://www.booking.com/hotel/gm/Nicely-Furnished-Comfortable-Holiday-Apartment-Home-at-Yarambamba-Estate
+,"Trujillo+Alto,Puerto+Rico",The Village Inn,$137,8.0,309,https://www.booking.com/hotel/pr/The-Village-Inn
+,"Trujillo+Alto,Puerto+Rico",San Juan Home,$51,9.2,191,https://www.booking.com/hotel/pr/San-Juan-Home
+,"Trujillo+Alto,Puerto+Rico",Home San Juan,$51,9.2,146,https://www.booking.com/hotel/pr/Home-San-Juan
+,"Trujillo+Alto,Puerto+Rico",Kasa Metrópolis,$180,10,1,https://www.booking.com/hotel/pr/Kasa-Metrópolis
+,"Trujillo+Alto,Puerto+Rico",Metro Luxuty studio,$235,Not Available,Not Available,https://www.booking.com/hotel/pr/Metro-Luxuty-studio
+,"Maasin,Philippines",GV Hotel - Maasin,$11,5.1,22,https://www.booking.com/hotel/ph/GV-Hotel-Maasin
+,"Maasin,Philippines",Burgos Reef Boutique Resort,$168,8.0,1,https://www.booking.com/hotel/ph/Burgos-Reef-Boutique-Resort
+,"Maasin,Philippines",Portofino Homestay,$46,9.2,11,https://www.booking.com/hotel/ph/Portofino-Homestay
+,"Maasin,Philippines",CHUE&LARRY'S BEACHSIDE HOMESTAY,$57,9.7,3,https://www.booking.com/hotel/ph/CHUELARRYS-BEACHSIDE-HOMESTAY
+,"Maasin,Philippines",Chue&larry's Beachside Homestay,$63,9.7,3,https://www.booking.com/hotel/ph/Chuelarrys-Beachside-Homestay
+,"Nanchang,China","Crowne Plaza Nanchang Riverside, an IHG Hotel",$74,9.1,10,https://www.booking.com/hotel/cn/Crowne-Plaza-Nanchang-Riverside-an-IHG-Hotel
+,"Nanchang,China",Sheraton Nanchang Hotel,$84,8.6,17,https://www.booking.com/hotel/cn/Sheraton-Nanchang-Hotel
+,"Nanchang,China","Holiday Inn Express Nanchang Riverside, an IHG Hotel",$41,8.1,17,https://www.booking.com/hotel/cn/Holiday-Inn-Express-Nanchang-Riverside-an-IHG-Hotel
+,"Nanchang,China",Shangri-La Nanchang,$95,9.0,17,https://www.booking.com/hotel/cn/ShangriLa-Nanchang
+,"Nanchang,China",Hilton Garden Inn Nanchang,$49,8.4,11,https://www.booking.com/hotel/cn/Hilton-Garden-Inn-Nanchang
+,"Jiaozuo,China",Jinjiang Inn Jiaozuo Stadium,$28,8.0,1,https://www.booking.com/hotel/cn/Jinjiang-Inn-Jiaozuo-Stadium
+,"Jiaozuo,China",Jinjiang Inn Jiaozuo Jianshe Road,$34,Not Available,Not Available,https://www.booking.com/hotel/cn/Jinjiang-Inn-Jiaozuo-Jianshe-Road
+,"Jiaozuo,China",Pai Hotel Jiaozuo Passenger Transport Terminal,$15,Not Available,Not Available,https://www.booking.com/hotel/cn/Pai-Hotel-Jiaozuo-Passenger-Transport-Terminal
+,"Jiaozuo,China",7 Days Premium Jiaozuo Renmin Road Teachers College,$21,Not Available,Not Available,https://www.booking.com/hotel/cn/7-Days-Premium-Jiaozuo-Renmin-Road-Teachers-College
+,"Nueva+Rosita,Mexico",Hotel Posada Santa Fe,$37,8.4,149,https://www.booking.com/hotel/mx/Hotel-Posada-Santa-Fe
+,"Nueva+Rosita,Mexico",Hotel El Dorado,$43,7.9,22,https://www.booking.com/hotel/mx/Hotel-El-Dorado
+,"Ingeniero+Pablo+Nogués,Argentina",Pileta quincho parque 8 personas grand bourg comfirmar reserva x telefono,$225,Not Available,Not Available,https://www.booking.com/hotel/ar/Pileta-quincho-parque-8-personas-grand-bourg-comfirmar-reserva-x-telefono
+,"Ingeniero+Pablo+Nogués,Argentina",Lindo y cómodo dpto,$38,8.3,3,https://www.booking.com/hotel/ar/Lindo-y-cómodo-dpto
+,"Ingeniero+Pablo+Nogués,Argentina",Tu lugar Departamento 2 ambientes Hindu Club Don Torcuato,$100,8.2,12,https://www.booking.com/hotel/ar/Tu-lugar-Departamento-2-ambientes-Hindu-Club-Don-Torcuato
+,"Ingeniero+Pablo+Nogués,Argentina",DEPARTAMENTO EN TIGRE CONDOMINIO HINDU CLUB,$46,Not Available,Not Available,https://www.booking.com/hotel/ar/DEPARTAMENTO-EN-TIGRE-CONDOMINIO-HINDU-CLUB
+,"Ingeniero+Pablo+Nogués,Argentina",Cabañas Hindu,$59,9.1,184,https://www.booking.com/hotel/ar/Cabañas-Hindu
+,"Grand+Prairie,United+States",La Quinta by Wyndham Dallas Grand Prairie North,$100,8.5,"1,098",https://www.booking.com/hotel/us/La-Quinta-by-Wyndham-Dallas-Grand-Prairie-North
+,"Grand+Prairie,United+States",Hilton Garden Inn Grand Prairie At EpicCentral,$153,Not Available,Not Available,https://www.booking.com/hotel/us/Hilton-Garden-Inn-Grand-Prairie-At-EpicCentral
+,"Grand+Prairie,United+States",La Quinta by Wyndham Dallas Grand Prairie South,$85,8.1,776,https://www.booking.com/hotel/us/La-Quinta-by-Wyndham-Dallas-Grand-Prairie-South
+,"Grand+Prairie,United+States",Homewood Suites By Hilton Grand Prairie At EpicCentral,$146,Not Available,Not Available,https://www.booking.com/hotel/us/Homewood-Suites-By-Hilton-Grand-Prairie-At-EpicCentral
+,"Grand+Prairie,United+States",Comfort Suites Grand Prairie - Arlington North,$90,8.3,439,https://www.booking.com/hotel/us/Comfort-Suites-Grand-Prairie-Arlington-North
+,"Lawrence,United+States",SpringHill Suites by Marriott Lawrence Downtown,$105,8.3,141,https://www.booking.com/hotel/us/SpringHill-Suites-by-Marriott-Lawrence-Downtown
+,"Lawrence,United+States","The Oread Lawrence, Tapestry Collection by Hilton",$120,7.5,107,https://www.booking.com/hotel/us/The-Oread-Lawrence-Tapestry-Collection-by-Hilton
+,"Lawrence,United+States",Comfort Inn & Suites Lawrence,$91,7.9,272,https://www.booking.com/hotel/us/Comfort-Inn-Suites-Lawrence
+,"Lawrence,United+States",Tru By Hilton Lawrence,$84,7.8,231,https://www.booking.com/hotel/us/Tru-By-Hilton-Lawrence
+,"Lawrence,United+States","StoneHill Lawrence, Trademark Collection by Wyndham",$85,8.9,496,https://www.booking.com/hotel/us/StoneHill-Lawrence-Trademark-Collection-by-Wyndham
+,"Paju,South+Korea",Hotel Sienna,$67,8.0,338,https://www.booking.com/hotel/kr/Hotel-Sienna
+,"Paju,South+Korea",Q Hotel,$38,7.1,89,https://www.booking.com/hotel/kr/Q-Hotel
+,"Paju,South+Korea",Rodem Free,$148,Not Available,Not Available,https://www.booking.com/hotel/kr/Rodem-Free
+,"Paju,South+Korea",Paju Picasso,"$3,814",9.0,2,https://www.booking.com/hotel/kr/Paju-Picasso
+,"Paju,South+Korea",Hotel Yam - Paju Geumchon,"$7,627",10,1,https://www.booking.com/hotel/kr/Hotel-Yam-Paju-Geumchon
+,"Salina+Cruz,Mexico",One Salina Cruz,$79,8.8,472,https://www.booking.com/hotel/mx/One-Salina-Cruz
+,"Salina+Cruz,Mexico",Casa Mirador Salina Cruz,$74,8.5,129,https://www.booking.com/hotel/mx/Casa-Mirador-Salina-Cruz
+,"Salina+Cruz,Mexico",City Express by Marriott Salina Cruz,$78,8.4,414,https://www.booking.com/hotel/mx/City-Express-by-Marriott-Salina-Cruz
+,"Salina+Cruz,Mexico",Hotel Calendas,$38,7.8,112,https://www.booking.com/hotel/mx/Hotel-Calendas
+,"Salina+Cruz,Mexico",Bungalows Punta conejo,$60,9.0,2,https://www.booking.com/hotel/mx/Bungalows-Punta-conejo
+,"Ibadan,Nigeria",Adis Hotels Prime,$58,8.2,51,https://www.booking.com/hotel/ng/Adis-Hotels-Prime
+,"Ibadan,Nigeria",Delad Hotel and Suites,$25,8.8,8,https://www.booking.com/hotel/ng/Delad-Hotel-and-Suites
+,"Ibadan,Nigeria",Trinich Suite,$21,Not Available,Not Available,https://www.booking.com/hotel/ng/Trinich-Suite
+,"Ibadan,Nigeria",Trinich Suite,$26,Not Available,Not Available,https://www.booking.com/hotel/ng/Trinich-Suite
+,"Ibadan,Nigeria","Emmaag Hotel, Ibadan",$51,8.0,4,https://www.booking.com/hotel/ng/Emmaag-Hotel-Ibadan
+,"Detroit,United+States","The Godfrey Detroit, Curio Collection By Hilton",$158,8.6,47,https://www.booking.com/hotel/us/The-Godfrey-Detroit-Curio-Collection-By-Hilton
+,"Detroit,United+States",Sonder Gabriel Richard,$154,8.7,"1,021",https://www.booking.com/hotel/us/Sonder-Gabriel-Richard
+,"Detroit,United+States",Hollywood Casino at Greektown,$160,8.2,989,https://www.booking.com/hotel/us/Hollywood-Casino-at-Greektown
+,"Detroit,United+States",Sonder The Randolph,$138,8.5,365,https://www.booking.com/hotel/us/Sonder-The-Randolph
+,"Detroit,United+States",Trumbull and Porter - Detroit Downtown,$173,7.2,903,https://www.booking.com/hotel/us/Trumbull-and-Porter-Detroit-Downtown
+,"Krus+na+Ligas,Philippines",Verjandel Residences,$49,7.9,9,https://www.booking.com/hotel/ph/Verjandel-Residences
+,"Krus+na+Ligas,Philippines",1 bedroom whole apartment 50 sq m in Quezon City,$55,10,2,https://www.booking.com/hotel/ph/1-bedroom-whole-apartment-50-sq-m-in-Quezon-City
+,"Krus+na+Ligas,Philippines","Fersal Hotel Kalayaan, Quezon City",$24,8.0,187,https://www.booking.com/hotel/ph/Fersal-Hotel-Kalayaan-Quezon-City
+,"Krus+na+Ligas,Philippines",Residenciale Boutique Apartments,$41,8.3,277,https://www.booking.com/hotel/ph/Residenciale-Boutique-Apartments
+,"Krus+na+Ligas,Philippines",The Oracle Hotel and Residences Quezon City,$44,7.0,5,https://www.booking.com/hotel/ph/The-Oracle-Hotel-and-Residences-Quezon-City
+,"San+Baudilio+de+Llobregat,Spain",Hostal Porta de Ferro,$59,6.2,46,https://www.booking.com/hotel/es/Hostal-Porta-de-Ferro
+,"San+Baudilio+de+Llobregat,Spain",Hotel El Castell,$60,7.1,"1,730",https://www.booking.com/hotel/es/Hotel-El-Castell
+,"San+Baudilio+de+Llobregat,Spain",Alexandre Hotel Frontair Congress,$74,7.7,"3,687",https://www.booking.com/hotel/es/Alexandre-Hotel-Frontair-Congress
+,"San+Baudilio+de+Llobregat,Spain",Sercotel Sant Boi,$88,8.3,"4,688",https://www.booking.com/hotel/es/Sercotel-Sant-Boi
+,"San+Baudilio+de+Llobregat,Spain",Hotel Exe Barcelona Gate,$91,8.5,"2,018",https://www.booking.com/hotel/es/Hotel-Exe-Barcelona-Gate
+,"Rio+Branco,Brazil",ibis Rio Branco,$44,8.7,"1,210",https://www.booking.com/hotel/br/ibis-Rio-Branco
+,"Rio+Branco,Brazil",Diff Hotel,$62,8.9,361,https://www.booking.com/hotel/br/Diff-Hotel
+,"Rio+Branco,Brazil",Nobile Suites Gran Lumni,$58,8.7,520,https://www.booking.com/hotel/br/Nobile-Suites-Gran-Lumni
+,"Rio+Branco,Brazil",Hostel Acre,$22,Not Available,Not Available,https://www.booking.com/hotel/br/Hostel-Acre
+,"Rio+Branco,Brazil",Inácio Palace Hotel,$52,8.1,"1,025",https://www.booking.com/hotel/br/Inácio-Palace-Hotel
+,"Montréal,Canada",Hyatt Place Montreal - Downtown,$147,8.3,"1,508",https://www.booking.com/hotel/ca/Hyatt-Place-Montreal-Downtown
+,"Montréal,Canada",Homewood Suites By Hilton Montreal Midtown,$157,8.4,724,https://www.booking.com/hotel/ca/Homewood-Suites-By-Hilton-Montreal-Midtown
+,"Montréal,Canada",Manoir Sherbrooke,$93,8.9,"3,153",https://www.booking.com/hotel/ca/Manoir-Sherbrooke
+,"Montréal,Canada",Le Westin Montreal,$137,8.2,645,https://www.booking.com/hotel/ca/Le-Westin-Montreal
+,"Montréal,Canada",Novotel Montreal Center,$94,8.3,"1,460",https://www.booking.com/hotel/ca/Novotel-Montreal-Center
+,"La+Serena,Chile",Hotel Club La Serena,$119,8.1,"3,262",https://www.booking.com/hotel/cl/Hotel-Club-La-Serena
+,"La+Serena,Chile",Hotel Boutique Suri,$62,8.0,"1,306",https://www.booking.com/hotel/cl/Hotel-Boutique-Suri
+,"La+Serena,Chile",Hotel Diego de Almagro La Serena,$141,7.9,"2,854",https://www.booking.com/hotel/cl/Hotel-Diego-de-Almagro-La-Serena
+,"La+Serena,Chile",Hotel Boutique Terra Diaguita & Spa,$77,8.9,708,https://www.booking.com/hotel/cl/Hotel-Boutique-Terra-Diaguita-Spa
+,"La+Serena,Chile",Departamento cercano a la playa,$70,Not Available,Not Available,https://www.booking.com/hotel/cl/Departamento-cercano-a-la-playa
+,"Citrus+Heights,United+States",Captivating 3 Bedroom Home W Hot Tub,$391,Not Available,Not Available,https://www.booking.com/hotel/us/Captivating-3-Bedroom-Home-W-Hot-Tub
+,"Citrus+Heights,United+States",Best Western Plus Orchid Hotel & Suites,$131,7.4,826,https://www.booking.com/hotel/us/Best-Western-Plus-Orchid-Hotel-Suites
+,"Citrus+Heights,United+States",Best Western Roseville Inn,$107,6.6,701,https://www.booking.com/hotel/us/Best-Western-Roseville-Inn
+,"Citrus+Heights,United+States",Heritage Inn Express Roseville,$80,5.4,928,https://www.booking.com/hotel/us/Heritage-Inn-Express-Roseville
+,"Citrus+Heights,United+States",Mid Century Modern dream in Sunny California!,$183,10,1,https://www.booking.com/hotel/us/Mid-Century-Modern-dream-in-Sunny-California
+,"Oakland+Park,United+States",Hilton Garden Inn Lafayette/Cajundome,$101,8.2,331,https://www.booking.com/hotel/us/Hilton-Garden-Inn-LafayetteCajundome
+,"Oakland+Park,United+States",Cajun Stays - Cajun Hostel II - The Brown Room,$23,6.3,11,https://www.booking.com/hotel/us/Cajun-Stays-Cajun-Hostel-II-The-Brown-Room
+,"Oakland+Park,United+States",Cajun Stays - Cajun Hostel II - The White Room,$28,6.5,2,https://www.booking.com/hotel/us/Cajun-Stays-Cajun-Hostel-II-The-White-Room
+,"Oakland+Park,United+States",Cajun Stays-Cajun Home II- Entire House,$124,Not Available,Not Available,https://www.booking.com/hotel/us/Cajun-StaysCajun-Home-II-Entire-House
+,"Oakland+Park,United+States",Cajun Stays - Cajun Hostel II - The Black Room,$26,5.3,6,https://www.booking.com/hotel/us/Cajun-Stays-Cajun-Hostel-II-The-Black-Room
+,"Busan,South+Korea",Hotel tt Gupo,$44,8.9,467,https://www.booking.com/hotel/kr/Hotel-tt-Gupo
+,"Busan,South+Korea",Mipo Oceanside Hotel,$45,9.0,"1,637",https://www.booking.com/hotel/kr/Mipo-Oceanside-Hotel
+,"Busan,South+Korea",Acro Osiria Residence,$107,9.5,77,https://www.booking.com/hotel/kr/Acro-Osiria-Residence
+,"Busan,South+Korea",Shilla Stay Haeundae,$99,8.1,"1,629",https://www.booking.com/hotel/kr/Shilla-Stay-Haeundae
+,"Busan,South+Korea",Lotte Hotel Busan,$189,8.6,"1,304",https://www.booking.com/hotel/kr/Lotte-Hotel-Busan
+,"Delhi+Cantonment,India",Collection O RD HOTEL,$14,5.3,6,https://www.booking.com/hotel/in/Collection-O-RD-HOTEL
+,"Delhi+Cantonment,India","Hotel Orchid Inn at Tilak Nagar "" Couple Friendly """,$36,6.7,40,https://www.booking.com/hotel/in/Hotel-Orchid-Inn-at-Tilak-Nagar-Couple-Friendly-
+,"Delhi+Cantonment,India",OYO Flagship The Royal Residency Inn,$15,10,4,https://www.booking.com/hotel/in/OYO-Flagship-The-Royal-Residency-Inn
+,"Delhi+Cantonment,India",Hyatt Centric Janakpuri New Delhi,$303,6.5,757,https://www.booking.com/hotel/in/Hyatt-Centric-Janakpuri-New-Delhi
+,"Delhi+Cantonment,India","Sarovar Portico Naraina, Hotel",$69,6.7,105,https://www.booking.com/hotel/in/Sarovar-Portico-Naraina-Hotel
+,"Ārba+Minch’,Ethiopia",Haile Resort Arbaminch,$131,8.5,77,https://www.booking.com/hotel/et/Haile-Resort-Arbaminch
+,"Ārba+Minch’,Ethiopia",Mora Heights Hotel,$73,8.0,22,https://www.booking.com/hotel/et/Mora-Heights-Hotel
+,"Ārba+Minch’,Ethiopia","WUBETEHOTEL,ARBAMINCH",$86,3.3,4,https://www.booking.com/hotel/et/WUBETEHOTELARBAMINCH
+,"Wilkes-Barre,United+States",The Woodlands Inn,$88,7.9,"1,012",https://www.booking.com/hotel/us/The-Woodlands-Inn
+,"Wilkes-Barre,United+States",Fairfield by Marriott Wilkes-Barre,$110,7.7,147,https://www.booking.com/hotel/us/Fairfield-by-Marriott-WilkesBarre
+,"Wilkes-Barre,United+States","Holiday Inn Wilkes Barre - East Mountain, an IHG Hotel",$125,8.1,"1,459",https://www.booking.com/hotel/us/Holiday-Inn-Wilkes-Barre-East-Mountain-an-IHG-Hotel
+,"Wilkes-Barre,United+States",Home2 Suites By Hilton Wilkes-Barre,$125,9.2,118,https://www.booking.com/hotel/us/Home2-Suites-By-Hilton-WilkesBarre
+,"Wilkes-Barre,United+States",Comfort Inn & Suites Wilkes Barre - Arena,$101,8.1,528,https://www.booking.com/hotel/us/Comfort-Inn-Suites-Wilkes-Barre-Arena
+,"Hohhot,China",Wanda Vista Hohhot,$103,8.7,11,https://www.booking.com/hotel/cn/Wanda-Vista-Hohhot
+,"Hohhot,China",Crowne Plaza Hohhot City Center,$91,7.1,10,https://www.booking.com/hotel/cn/Crowne-Plaza-Hohhot-City-Center
+,"Hohhot,China",Shangri-La Huhhot,$74,8.5,20,https://www.booking.com/hotel/cn/ShangriLa-Huhhot
+,"Hohhot,China",Sheraton Hohhot Hotel,$77,7.6,27,https://www.booking.com/hotel/cn/Sheraton-Hohhot-Hotel
+,"Hohhot,China",Jinjiang Inn Hohhot South Tongdao Road,$21,7.7,23,https://www.booking.com/hotel/cn/Jinjiang-Inn-Hohhot-South-Tongdao-Road
+,"Desamparados,Costa+Rica",Unique peaceful cabin in the sky,$77,Not Available,Not Available,https://www.booking.com/hotel/cr/Unique-peaceful-cabin-in-the-sky
+,"Desamparados,Costa+Rica",CANTOS DEL VIENTO,$63,5.0,1,https://www.booking.com/hotel/cr/CANTOS-DEL-VIENTO
+,"Desamparados,Costa+Rica",Colibrí,$112,Not Available,Not Available,https://www.booking.com/hotel/cr/Colibrí
+,"Desamparados,Costa+Rica",Gran Hotel Desamparados,$55,Not Available,Not Available,https://www.booking.com/hotel/cr/Gran-Hotel-Desamparados
+,"Desamparados,Costa+Rica",Hotel Casa 69,$59,8.9,"1,324",https://www.booking.com/hotel/cr/Hotel-Casa-69
+,"Athurugiriya,Sri+Lanka",Aspire Residencies RUBY-B3,$23,8.0,3,https://www.booking.com/hotel/lk/Aspire-Residencies-RUBYB3
+,"Athurugiriya,Sri+Lanka",Peaceful Holiday Home,$26,9.6,7,https://www.booking.com/hotel/lk/Peaceful-Holiday-Home
+,"Athurugiriya,Sri+Lanka",2 Storey House in Athurugiriya,$26,Not Available,Not Available,https://www.booking.com/hotel/lk/2-Storey-House-in-Athurugiriya
+,"Athurugiriya,Sri+Lanka",New Sanmi Resort,$11,6.9,171,https://www.booking.com/hotel/lk/New-Sanmi-Resort
+,"Athurugiriya,Sri+Lanka",Yamu Lanka Inn,$18,9.5,32,https://www.booking.com/hotel/lk/Yamu-Lanka-Inn
+,"Edgware,United+Kingdom",Marble House,$124,5.9,30,https://www.booking.com/hotel/gb/Marble-House
+,"Edgware,United+Kingdom",Comfortable Stone Bay window Private bathroom Ensuite Double Bedroom,$191,6.9,12,https://www.booking.com/hotel/gb/Comfortable-Stone-Bay-window-Private-bathroom-Ensuite-Double-Bedroom
+,"Edgware,United+Kingdom",Heaven Queen Bedroom,$90,5.5,21,https://www.booking.com/hotel/gb/Heaven-Queen-Bedroom
+,"Edgware,United+Kingdom",Grey Double bedroom,$87,6.4,33,https://www.booking.com/hotel/gb/Grey-Double-bedroom
+,"Edgware,United+Kingdom",ELaparty,$199,1.0,2,https://www.booking.com/hotel/gb/ELaparty
+,"Overland+Park,United+States",Fairfield Inn & Suites Kansas City Overland Park,$98,8.8,281,https://www.booking.com/hotel/us/Fairfield-Inn-Suites-Kansas-City-Overland-Park
+,"Overland+Park,United+States",DoubleTree by Hilton Kansas City - Overland Park,$135,7.7,131,https://www.booking.com/hotel/us/DoubleTree-by-Hilton-Kansas-City-Overland-Park
+,"Overland+Park,United+States",Hyatt Place Kansas City/Overland Park/Convention Center,$116,8.7,385,https://www.booking.com/hotel/us/Hyatt-Place-Kansas-CityOverland-ParkConvention-Center
+,"Overland+Park,United+States",Sheraton Overland Park Hotel at the Convention Center,$169,8.5,124,https://www.booking.com/hotel/us/Sheraton-Overland-Park-Hotel-at-the-Convention-Center
+,"Overland+Park,United+States","Holiday Inn Hotel & Suites Overland Park-West, an IHG Hotel",$112,7.3,165,https://www.booking.com/hotel/us/Holiday-Inn-Hotel-Suites-Overland-ParkWest-an-IHG-Hotel
+,"Seattle,United+States",The Mediterranean Inn,$129,8.6,"2,959",https://www.booking.com/hotel/us/The-Mediterranean-Inn
+,"Seattle,United+States",Residence Inn by Marriott Seattle Downtown Convention Center,$169,8.5,978,https://www.booking.com/hotel/us/Residence-Inn-by-Marriott-Seattle-Downtown-Convention-Center
+,"Seattle,United+States",Belltown Inn,$109,8.3,"3,482",https://www.booking.com/hotel/us/Belltown-Inn
+,"Seattle,United+States",citizenM Seattle Pioneer Square,$129,8.7,"1,621",https://www.booking.com/hotel/us/citizenM-Seattle-Pioneer-Square
+,"Seattle,United+States","Crowne Plaza Seattle, an IHG Hotel with no Resort Fee",$140,8.1,"2,952",https://www.booking.com/hotel/us/Crowne-Plaza-Seattle-an-IHG-Hotel-with-no-Resort-Fee
+,"Sukuta,The+Gambia",The Rink Apartment's,Not Available,9.1,21,https://www.booking.com/hotel/gm/The-Rink-Apartments
+,"Sukuta,The+Gambia",Kololi Beach Resort,$96,8.1,278,https://www.booking.com/hotel/gm/Kololi-Beach-Resort
+,"Sukuta,The+Gambia",Metzy Residence Hotel,$63,7.4,320,https://www.booking.com/hotel/gm/Metzy-Residence-Hotel
+,"Sukuta,The+Gambia",Tropic Garden Hotel,$77,7.2,179,https://www.booking.com/hotel/gm/Tropic-Garden-Hotel
+,"Sukuta,The+Gambia",Sunset Beach Hotel,$162,7.9,412,https://www.booking.com/hotel/gm/Sunset-Beach-Hotel
+,"Burnley,United+Kingdom",Crow Wood Hotel & Spa Resort,$204,9.0,"1,385",https://www.booking.com/hotel/gb/Crow-Wood-Hotel-Spa-Resort
+,"Burnley,United+Kingdom","Holiday Inn Express Burnley M65 Jct 10, an IHG Hotel",$85,8.3,"1,515",https://www.booking.com/hotel/gb/Holiday-Inn-Express-Burnley-M65-Jct-10-an-IHG-Hotel
+,"Burnley,United+Kingdom",Fence Gate Lodge,$144,8.7,462,https://www.booking.com/hotel/gb/Fence-Gate-Lodge
+,"Burnley,United+Kingdom",Rosehill House Hotel,$120,8.4,"1,189",https://www.booking.com/hotel/gb/Rosehill-House-Hotel
+,"Burnley,United+Kingdom",Burnley North Oaks Hotel and Leisure Club,$78,6.8,"1,386",https://www.booking.com/hotel/gb/Burnley-North-Oaks-Hotel-and-Leisure-Club
+,"Kirkby,United+Kingdom",Red Dragon Inn,$109,9.1,"1,055",https://www.booking.com/hotel/gb/Red-Dragon-Inn
+,"Kirkby,United+Kingdom",Sun Inn,$152,8.9,759,https://www.booking.com/hotel/gb/Sun-Inn
+,"Kirkby,United+Kingdom",The Royal Hotel,$210,8.8,"1,230",https://www.booking.com/hotel/gb/The-Royal-Hotel
+,"Kirkby,United+Kingdom",Plato's,$140,8.8,832,https://www.booking.com/hotel/gb/Platos
+,"Kirkby,United+Kingdom",Snooty Fox,$97,7.9,950,https://www.booking.com/hotel/gb/Snooty-Fox
+,"Whittier,United+States",Doubletree by Hilton Whittier,$131,8.4,725,https://www.booking.com/hotel/us/Doubletree-by-Hilton-Whittier
+,"Whittier,United+States",Travelodge by Wyndham Whittier,$94,7.5,127,https://www.booking.com/hotel/us/Travelodge-by-Wyndham-Whittier
+,"Whittier,United+States",Lambert Inn,$77,6.2,649,https://www.booking.com/hotel/us/Lambert-Inn
+,"Whittier,United+States",Casa Blanca Inn & Suites Whittier,$100,6.8,494,https://www.booking.com/hotel/us/Casa-Blanca-Inn-Suites-Whittier
+,"Whittier,United+States",Whittier Travel Inn,$69,7.5,197,https://www.booking.com/hotel/us/Whittier-Travel-Inn
+,"Algiers,Algeria",Afric Hotel - Casbah,$52,7.9,580,https://www.booking.com/hotel/dz/Afric-Hotel-Casbah
+,"Algiers,Algeria",Mercure Alger Palais Des Congres,$160,9.0,8,https://www.booking.com/hotel/dz/Mercure-Alger-Palais-Des-Congres
+,"Algiers,Algeria",Sofitel Algiers Hamma Garden,$178,7.8,576,https://www.booking.com/hotel/dz/Sofitel-Algiers-Hamma-Garden
+,"Algiers,Algeria",Hôtel Sidi Yahia,$121,8.1,477,https://www.booking.com/hotel/dz/Hôtel-Sidi-Yahia
+,"Algiers,Algeria",ibis Alger Aéroport,$100,6.8,"1,112",https://www.booking.com/hotel/dz/ibis-Alger-Aéroport
+,"Augusta,United+States",Hampton Inn & Suites by Hilton Augusta-Washington Rd,$89,8.6,725,https://www.booking.com/hotel/us/Hampton-Inn-Suites-by-Hilton-AugustaWashington-Rd
+,"Augusta,United+States","Country Inn & Suites by Radisson, Augusta at I-20, GA",$74,7.6,"1,124",https://www.booking.com/hotel/us/Country-Inn-Suites-by-Radisson-Augusta-at-I20-GA
+,"Augusta,United+States","Holiday Inn Augusta West I-20, an IHG Hotel",$104,8.3,812,https://www.booking.com/hotel/us/Holiday-Inn-Augusta-West-I20-an-IHG-Hotel
+,"Augusta,United+States",Home2Suites by Hilton Augusta,$111,8.8,216,https://www.booking.com/hotel/us/Home2Suites-by-Hilton-Augusta
+,"Augusta,United+States",Econolodge Augusta,$95,7.2,245,https://www.booking.com/hotel/us/Econolodge-Augusta
+,"Campbell,United+States",Courtyard by Marriott San Jose Campbell,$135,8.6,242,https://www.booking.com/hotel/us/Courtyard-by-Marriott-San-Jose-Campbell
+,"Campbell,United+States",Larkspur Landing Campbell-An All-Suite Hotel,$108,7.3,525,https://www.booking.com/hotel/us/Larkspur-Landing-CampbellAn-AllSuite-Hotel
+,"Campbell,United+States",Residence Inn San Jose Campbell,$114,8.2,85,https://www.booking.com/hotel/us/Residence-Inn-San-Jose-Campbell
+,"Campbell,United+States",DoubleTree by Hilton Campbell - Pruneyard Plaza,$221,8.4,233,https://www.booking.com/hotel/us/DoubleTree-by-Hilton-Campbell-Pruneyard-Plaza
+,"Campbell,United+States",Carlyle Hotel,$105,8.2,106,https://www.booking.com/hotel/us/Carlyle-Hotel
+,"Playa+Vicente,Mexico",Hotel San Vicente,Not Available,7.1,345,https://www.booking.com/hotel/mx/Hotel-San-Vicente
+,"Playa+Vicente,Mexico",Playa Palms Beach Hotel,$132,8.1,"1,048",https://www.booking.com/hotel/mx/Playa-Palms-Beach-Hotel
+,"Playa+Vicente,Mexico",Meliora by Bunik,$83,9.0,"2,316",https://www.booking.com/hotel/mx/Meliora-by-Bunik
+,"Playa+Vicente,Mexico",Hotel Xcaret Mexico All Parks All Fun Inclusive,$889,9.2,"1,758",https://www.booking.com/hotel/mx/Hotel-Xcaret-Mexico-All-Parks-All-Fun-Inclusive
+,"Playa+Vicente,Mexico",Hotel 52 Playa del Carmen,$78,8.1,"3,061",https://www.booking.com/hotel/mx/Hotel-52-Playa-del-Carmen
+,"Anseong,South+Korea",Anseong City Hotel,$55,7.2,37,https://www.booking.com/hotel/kr/Anseong-City-Hotel
+,"Anseong,South+Korea",Anseong Nomad Hotel,$87,3.0,3,https://www.booking.com/hotel/kr/Anseong-Nomad-Hotel
+,"Anseong,South+Korea",Grandmother's Vegetable garden,$126,Not Available,Not Available,https://www.booking.com/hotel/kr/Grandmothers-Vegetable-garden
+,"Anseong,South+Korea",Mirinae House,$105,Not Available,Not Available,https://www.booking.com/hotel/kr/Mirinae-House
+,"Anseong,South+Korea",Condominium,$48,1.0,1,https://www.booking.com/hotel/kr/Condominium
+,"Tangshan,China","Holiday Inn Express Tangshan Downtown, an IHG Hotel",$44,8.2,13,https://www.booking.com/hotel/cn/Holiday-Inn-Express-Tangshan-Downtown-an-IHG-Hotel
+,"Tangshan,China",Shangri-La Tangshan,$84,7.9,10,https://www.booking.com/hotel/cn/ShangriLa-Tangshan
+,"Tangshan,China","InterContinental Tangshan, an IHG Hotel",$75,7.9,9,https://www.booking.com/hotel/cn/InterContinental-Tangshan-an-IHG-Hotel
+,"Tangshan,China",Lavande Hotel Tangshan Convention and Exhibition Yuanyang City,$38,Not Available,Not Available,https://www.booking.com/hotel/cn/Lavande-Hotel-Tangshan-Convention-and-Exhibition-Yuanyang-City
+,"Tangshan,China",Pullman Tangshan,$57,6.6,5,https://www.booking.com/hotel/cn/Pullman-Tangshan
+,"Matale,Sri+Lanka",CRYSTAL RIVERSTON DECK,$45,8.4,16,https://www.booking.com/hotel/lk/CRYSTAL-RIVERSTON-DECK
+,"Matale,Sri+Lanka",Strathisla Tea Estate Bungalow,$125,9.5,19,https://www.booking.com/hotel/lk/Strathisla-Tea-Estate-Bungalow
+,"Matale,Sri+Lanka",Pearl's Homestay Matale,$20,9.6,48,https://www.booking.com/hotel/lk/Pearls-Homestay-Matale
+,"Matale,Sri+Lanka",Nelinsa Resort and Spa,$39,9.8,13,https://www.booking.com/hotel/lk/Nelinsa-Resort-and-Spa
+,"Matale,Sri+Lanka",Ama Residence,$27,9.1,54,https://www.booking.com/hotel/lk/Ama-Residence
+,"Hanzhong,China",Kyriad Hanzhong Railway Station,$33,Not Available,Not Available,https://www.booking.com/hotel/cn/Kyriad-Hanzhong-Railway-Station
+,"Hanzhong,China",7Days Inn Hanzhong Yang County Heping Road Branch,$22,Not Available,Not Available,https://www.booking.com/hotel/cn/7Days-Inn-Hanzhong-Yang-County-Heping-Road-Branch
+,"Hanzhong,China",7Days Inn Hanzhong Tianhan Avenue South Station,$19,Not Available,Not Available,https://www.booking.com/hotel/cn/7Days-Inn-Hanzhong-Tianhan-Avenue-South-Station
+,"Hanzhong,China",Atour Hotel (Hanzhong High speed rail station),$52,Not Available,Not Available,https://www.booking.com/hotel/cn/Atour-Hotel-Hanzhong-High-speed-rail-station
+,"Richmond+Hill,Canada",Best Western Parkway Hotel Toronto North,$100,7.7,"1,088",https://www.booking.com/hotel/ca/Best-Western-Parkway-Hotel-Toronto-North
+,"Richmond+Hill,Canada","Holiday Inn Express Hotel & Suites Toronto - Markham, an IHG Hotel",$120,7.9,315,https://www.booking.com/hotel/ca/Holiday-Inn-Express-Hotel-Suites-Toronto-Markham-an-IHG-Hotel
+,"Richmond+Hill,Canada",Sheraton Parkway Toronto North Hotel & Suites,$150,7.9,508,https://www.booking.com/hotel/ca/Sheraton-Parkway-Toronto-North-Hotel-Suites
+,"Richmond+Hill,Canada",Travelodge by Wyndham Richmond Hill,$80,7.2,648,https://www.booking.com/hotel/ca/Travelodge-by-Wyndham-Richmond-Hill
+,"Richmond+Hill,Canada",Canadas Best Value Inn-Richmond Hill,$88,7.5,891,https://www.booking.com/hotel/ca/Canadas-Best-Value-InnRichmond-Hill
+,"Mpanda,Tanzania",Home ground Hotel Katavi,$50,Not Available,Not Available,https://www.booking.com/hotel/tz/Home-ground-Hotel-Katavi
+,"Mpanda,Tanzania",LILISHA EXECUTIVE LODGE,$60,Not Available,Not Available,https://www.booking.com/hotel/tz/LILISHA-EXECUTIVE-LODGE
+,"Ezpeleta,Argentina",TERRAZAS DEL SUR,$70,9.6,7,https://www.booking.com/hotel/ar/TERRAZAS-DEL-SUR
+,"Ezpeleta,Argentina",Loft privado Berazategui,$59,9.3,46,https://www.booking.com/hotel/ar/Loft-privado-Berazategui
+,"Ezpeleta,Argentina",El Mirador de Hudson,$396,Not Available,Not Available,https://www.booking.com/hotel/ar/El-Mirador-de-Hudson
+,"Ezpeleta,Argentina",Susana,$80,7.3,7,https://www.booking.com/hotel/ar/Susana
+,"Ezpeleta,Argentina",DeptoLowCostWilde,$30,6.4,19,https://www.booking.com/hotel/ar/DeptoLowCostWilde
+,"Le+Kremlin-Bicêtre,France",ibis budget Paris Porte d'Italie Ouest,$65,7.7,"4,529",https://www.booking.com/hotel/fr/ibis-budget-Paris-Porte-dItalie-Ouest
+,"Le+Kremlin-Bicêtre,France",Novotel Paris 13 Porte d'Italie,$113,7.0,946,https://www.booking.com/hotel/fr/Novotel-Paris-13-Porte-dItalie
+,"Le+Kremlin-Bicêtre,France",Auberge de jeunesse Hosho Paris Sud - Porte d'Italie,$151,8.0,"2,966",https://www.booking.com/hotel/fr/Auberge-de-jeunesse-Hosho-Paris-Sud-Porte-dItalie
+,"Le+Kremlin-Bicêtre,France",ibis budget Paris Porte d'Italie Est,$68,7.3,"4,106",https://www.booking.com/hotel/fr/ibis-budget-Paris-Porte-dItalie-Est
+,"Le+Kremlin-Bicêtre,France",KREMLIN ELEGANCE,$53,8.0,29,https://www.booking.com/hotel/fr/KREMLIN-ELEGANCE
+,"Shiyan,China",GreenTree Inn HuBei ShiYan Shanghai Road Business Hotel,$35,Not Available,Not Available,https://www.booking.com/hotel/cn/GreenTree-Inn-HuBei-ShiYan-Shanghai-Road-Business-Hotel
+,"Shiyan,China",Hilton Garden Inn Shiyan,$45,7.0,6,https://www.booking.com/hotel/cn/Hilton-Garden-Inn-Shiyan
+,"Shiyan,China",DoubleTree by Hilton Hotel Shiyan,$57,7.7,9,https://www.booking.com/hotel/cn/DoubleTree-by-Hilton-Hotel-Shiyan
+,"Shiyan,China",Wudang International Hotel,$71,9.0,2,https://www.booking.com/hotel/cn/Wudang-International-Hotel
+,"Shiyan,China",7Days Premium Shiyan Renmin Road Sanyan Coach Station Branch,$25,Not Available,Not Available,https://www.booking.com/hotel/cn/7Days-Premium-Shiyan-Renmin-Road-Sanyan-Coach-Station-Branch
+,"Lucknow,India",Fortune Park BBD - Member ITC Hotel Group,$126,8.3,191,https://www.booking.com/hotel/in/Fortune-Park-BBD-Member-ITC-Hotel-Group
+,"Lucknow,India",Renaissance Lucknow Hotel,$225,8.0,449,https://www.booking.com/hotel/in/Renaissance-Lucknow-Hotel
+,"Lucknow,India","Holiday Inn Lucknow Airport, an IHG Hotel",$162,7.9,163,https://www.booking.com/hotel/in/Holiday-Inn-Lucknow-Airport-an-IHG-Hotel
+,"Lucknow,India",The Piccadily,$114,8.3,238,https://www.booking.com/hotel/in/The-Piccadily
+,"Lucknow,India",Hyatt Regency Lucknow Gomti Nagar,$156,7.8,"1,182",https://www.booking.com/hotel/in/Hyatt-Regency-Lucknow-Gomti-Nagar
+,"Larnaca,Cyprus",La Veranda Hotel,$74,8.9,"3,035",https://www.booking.com/hotel/cy/La-Veranda-Hotel
+,"Larnaca,Cyprus",Mercure Larnaca Beach Resort,$122,9.3,485,https://www.booking.com/hotel/cy/Mercure-Larnaca-Beach-Resort
+,"Larnaca,Cyprus","Radisson Blu Hotel, Larnaca",$228,9.0,864,https://www.booking.com/hotel/cy/Radisson-Blu-Hotel-Larnaca
+,"Larnaca,Cyprus",Sun Hall Hotel,$114,8.8,"3,209",https://www.booking.com/hotel/cy/Sun-Hall-Hotel
+,"Larnaca,Cyprus",LIV Mackenzie Beach Suites Larnaca ADULTS ONLY,$162,9.5,144,https://www.booking.com/hotel/cy/LIV-Mackenzie-Beach-Suites-Larnaca-ADULTS-ONLY
+,"Kumi,South+Korea",Wolyeongchae,$92,8.9,97,https://www.booking.com/hotel/kr/Wolyeongchae
+,"Kumi,South+Korea",Wolyeong emotion,$203,Not Available,Not Available,https://www.booking.com/hotel/kr/Wolyeong-emotion
+,"Kumi,South+Korea",Goryeo Hotel,$44,7.7,472,https://www.booking.com/hotel/kr/Goryeo-Hotel
+,"Kumi,South+Korea",Goodstay Andong Park Hotel,$51,7.5,454,https://www.booking.com/hotel/kr/Goodstay-Andong-Park-Hotel
+,"Kumi,South+Korea",Andong Poong-gyung HOSTEL n LIBRARY,$34,8.7,282,https://www.booking.com/hotel/kr/Andong-Poonggyung-HOSTEL-n-LIBRARY
+,"Stockton,United+States","Studio 6 Suites Stockton, CA Waterfront",$109,8.2,"1,482",https://www.booking.com/hotel/us/Studio-6-Suites-Stockton-CA-Waterfront
+,"Stockton,United+States","Holiday Inn Express Stockton Southeast, an IHG Hotel",$118,8.4,191,https://www.booking.com/hotel/us/Holiday-Inn-Express-Stockton-Southeast-an-IHG-Hotel
+,"Stockton,United+States",Hilton Stockton,$144,8.1,292,https://www.booking.com/hotel/us/Hilton-Stockton
+,"Stockton,United+States",Courtyard by Marriott Stockton,$135,8.0,112,https://www.booking.com/hotel/us/Courtyard-by-Marriott-Stockton
+,"Stockton,United+States",University Plaza Waterfront Hotel,$139,7.8,641,https://www.booking.com/hotel/us/University-Plaza-Waterfront-Hotel
+,"Narsingdi,Bangladesh",Hotel X Narsingdi,Not Available,6.5,4,https://www.booking.com/hotel/bd/Hotel-X-Narsingdi
+,"Narsingdi,Bangladesh",CCULB Resort & Convention Hall,$50,8.3,6,https://www.booking.com/hotel/bd/CCULB-Resort-Convention-Hall
+,"Narsingdi,Bangladesh",Nelly's Cottage,$42,8.0,1,https://www.booking.com/hotel/bd/Nellys-Cottage
+,"Narsingdi,Bangladesh",Shaira Garden Hotel & Resorts,$40,Not Available,Not Available,https://www.booking.com/hotel/bd/Shaira-Garden-Hotel-Resorts
+,"Narsingdi,Bangladesh",Green Peace,$50,Not Available,Not Available,https://www.booking.com/hotel/bd/Green-Peace
+,"Or+Yehuda,Israel",Milan suit,$153,Not Available,Not Available,https://www.booking.com/hotel/il/Milan-suit
+,"Or+Yehuda,Israel",Star Guest- House,$107,6.3,267,https://www.booking.com/hotel/il/Star-Guest-House
+,"Or+Yehuda,Israel",Luxury Penthouse 5 Rooms,$363,Not Available,Not Available,https://www.booking.com/hotel/il/Luxury-Penthouse-5-Rooms
+,"Or+Yehuda,Israel",Villa Ono - at Bar Ilan University and Sheba Hospital,$90,9.0,123,https://www.booking.com/hotel/il/Villa-Ono-at-Bar-Ilan-University-and-Sheba-Hospital
+,"Or+Yehuda,Israel",Sarin room,$113,8.7,11,https://www.booking.com/hotel/il/Sarin-room
+,"Gorontalo,Indonesia",Harry & Mimin Homestay,$14,9.0,129,https://www.booking.com/hotel/id/Harry-Mimin-Homestay
+,"Gorontalo,Indonesia",ASTON Gorontalo Hotel & Villas,$53,8.3,35,https://www.booking.com/hotel/id/ASTON-Gorontalo-Hotel-Villas
+,"Gorontalo,Indonesia",Amaris Hotel Gorontalo,$28,7.6,31,https://www.booking.com/hotel/id/Amaris-Hotel-Gorontalo
+,"Gorontalo,Indonesia",Sunset Homestay by Harry & Mimin,$18,8.6,38,https://www.booking.com/hotel/id/Sunset-Homestay-by-Harry-Mimin
+,"Gorontalo,Indonesia",Hotel Grand Q Gorontalo,$64,8.3,19,https://www.booking.com/hotel/id/Hotel-Grand-Q-Gorontalo
+,"San+Bruno,United+States","Hotel Aluxor SFO, Sapphire Boutique Collection",$81,8.2,625,https://www.booking.com/hotel/us/Hotel-Aluxor-SFO-Sapphire-Boutique-Collection
+,"San+Bruno,United+States",Sonesta ES Suites San Francisco Airport San Bruno,$169,8.4,509,https://www.booking.com/hotel/us/Sonesta-ES-Suites-San-Francisco-Airport-San-Bruno
+,"San+Bruno,United+States",Hotel 1550 - SFO Airport West,$138,8.2,"3,032",https://www.booking.com/hotel/us/Hotel-1550-SFO-Airport-West
+,"San+Bruno,United+States",Hotel Aura SFO Airport,$119,8.3,"1,092",https://www.booking.com/hotel/us/Hotel-Aura-SFO-Airport
+,"San+Bruno,United+States",Regency Inn at San Francisco Airport,$101,8.3,732,https://www.booking.com/hotel/us/Regency-Inn-at-San-Francisco-Airport
+,"Bridgwater,United+Kingdom",Mercure Bridgwater,$96,8.3,"1,228",https://www.booking.com/hotel/gb/Mercure-Bridgwater
+,"Bridgwater,United+Kingdom","ibis Bridgwater, M5 Jct23",$65,7.9,"3,046",https://www.booking.com/hotel/gb/ibis-Bridgwater-M5-Jct23
+,"Bridgwater,United+Kingdom","Admiral's Table, Bridgwater by Marston's Inns",$63,8.2,731,https://www.booking.com/hotel/gb/Admirals-Table-Bridgwater-by-Marstons-Inns
+,"Bridgwater,United+Kingdom",The Bower Inn,$104,9.0,"1,131",https://www.booking.com/hotel/gb/The-Bower-Inn
+,"Bridgwater,United+Kingdom",The Walnut Tree Hotel,$114,8.1,"1,027",https://www.booking.com/hotel/gb/The-Walnut-Tree-Hotel
+,"Vila+Velha,Brazil",Quality Suites Vila Velha,$96,8.2,"1,151",https://www.booking.com/hotel/br/Quality-Suites-Vila-Velha
+,"Vila+Velha,Brazil",Hotel Olympia,$70,8.8,"1,494",https://www.booking.com/hotel/br/Hotel-Olympia
+,"Vila+Velha,Brazil",Hotel Santorini,$91,8.8,"1,561",https://www.booking.com/hotel/br/Hotel-Santorini
+,"Vila+Velha,Brazil",Cantina Nona Menininha,$36,Not Available,Not Available,https://www.booking.com/hotel/br/Cantina-Nona-Menininha
+,"Vila+Velha,Brazil",Condomínio Vitória,$38,9.3,29,https://www.booking.com/hotel/br/Condomínio-Vitória
+,"Mazār-e+Sharīf,Afghanistan",The Burj Ghazanfar in Mazar-e Sharif,Not Available,Not Available,Not Available,https://www.booking.com/hotel/af/The-Burj-Ghazanfar-in-Mazare-Sharif
+,"San+Leandro,United+States",The Marina Inn on San Francisco Bay,$139,8.4,"1,260",https://www.booking.com/hotel/us/The-Marina-Inn-on-San-Francisco-Bay
+,"San+Leandro,United+States",Hilton Garden Inn Oakland/San Leandro,$125,7.9,242,https://www.booking.com/hotel/us/Hilton-Garden-Inn-OaklandSan-Leandro
+,"San+Leandro,United+States",Spanish Styled Hidden Gem-Couples Getaway!,$216,Not Available,Not Available,https://www.booking.com/hotel/us/Spanish-Styled-Hidden-GemCouples-Getaway
+,"San+Leandro,United+States",Hilton Oakland Airport,$104,7.4,314,https://www.booking.com/hotel/us/Hilton-Oakland-Airport
+,"San+Leandro,United+States",Radisson Hotel Oakland Airport,$117,7.4,705,https://www.booking.com/hotel/us/Radisson-Hotel-Oakland-Airport
+,"Worthing,United+Kingdom",The Chatsworth Hotel,$76,6.8,"4,453",https://www.booking.com/hotel/gb/The-Chatsworth-Hotel
+,"Worthing,United+Kingdom",Brewhouse and Kitchen,$93,8.3,"1,324",https://www.booking.com/hotel/gb/Brewhouse-and-Kitchen
+,"Worthing,United+Kingdom",Findon Manor Hotel,$121,8.1,636,https://www.booking.com/hotel/gb/Findon-Manor-Hotel
+,"Worthing,United+Kingdom",NEW The Railway Hotel Worthing now open,$108,8.8,177,https://www.booking.com/hotel/gb/NEW-The-Railway-Hotel-Worthing-now-open
+,"Worthing,United+Kingdom",The Highdown – Brunning and Price,$183,9.2,"1,321",https://www.booking.com/hotel/gb/The-Highdown-–-Brunning-and-Price
+,"Whitney,United+States",Lake Whitney Camping Resort Cabin 1,$156,10,1,https://www.booking.com/hotel/us/Lake-Whitney-Camping-Resort-Cabin-1
+,"Whitney,United+States",Lake Whitney Camping Resort Ramp Cabin 4,$156,5.5,2,https://www.booking.com/hotel/us/Lake-Whitney-Camping-Resort-Ramp-Cabin-4
+,"Whitney,United+States",The Blue House. Large Group Getaway on Lake Whitney,$299,Not Available,Not Available,https://www.booking.com/hotel/us/The-Blue-House-Large-Group-Getaway-on-Lake-Whitney
+,"Whitney,United+States","Holiday Inn Express Hillsboro I-35, an IHG Hotel",$98,8.8,133,https://www.booking.com/hotel/us/Holiday-Inn-Express-Hillsboro-I35-an-IHG-Hotel
+,"Whitney,United+States",La Quinta by Wyndham Hillsboro,$76,8.4,608,https://www.booking.com/hotel/us/La-Quinta-by-Wyndham-Hillsboro
+,"Mothīhāri,India",Collection O Siddhi Vinayak Hotel & Banquets,$12,3.8,5,https://www.booking.com/hotel/in/Collection-O-Siddhi-Vinayak-Hotel-Banquets
+,"Mothīhāri,India","RAM BHAWAN RAM YAMUNA PRASAD HOTEL & RESORT ,Motihari",$19,Not Available,Not Available,https://www.booking.com/hotel/in/RAM-BHAWAN-RAM-YAMUNA-PRASAD-HOTEL-RESORT-Motihari
+,"Mothīhāri,India",Siddhi Vinayak Hotel & Banquet 2,$12,Not Available,Not Available,https://www.booking.com/hotel/in/Siddhi-Vinayak-Hotel-Banquet-2
+,"Mothīhāri,India",HOTEL SS EXOTICA,$27,Not Available,Not Available,https://www.booking.com/hotel/in/HOTEL-SS-EXOTICA
+,"Mothīhāri,India",Siddhi Vinayak Hotel & Banquet,$12,1.0,1,https://www.booking.com/hotel/in/Siddhi-Vinayak-Hotel-Banquet
+,"Mandaluyong+City,Philippines",Buenbyahe Rooms Studio Type Mandaluyong Edsa Shaw MRT Studio at F Residences Under new management,$31,Not Available,Not Available,https://www.booking.com/hotel/ph/Buenbyahe-Rooms-Studio-Type-Mandaluyong-Edsa-Shaw-MRT-Studio-at-F-Residences-Under-new-management
+,"Mandaluyong+City,Philippines",Urban Deca Tower Graceysplace Unit unit 3113 Mandaluyong,$18,6.5,300,https://www.booking.com/hotel/ph/Urban-Deca-Tower-Graceysplace-Unit-unit-3113-Mandaluyong
+,"Mandaluyong+City,Philippines",Aveline Executive Suites City View@Acqua Residence,$51,9.5,2,https://www.booking.com/hotel/ph/Aveline-Executive-Suites-City-ViewAcqua-Residence
+,"Mandaluyong+City,Philippines",A2J 1BR Luxury River View Suite Near Rockwell Mall,$51,7.8,12,https://www.booking.com/hotel/ph/A2J-1BR-Luxury-River-View-Suite-Near-Rockwell-Mall
+,"Mandaluyong+City,Philippines",OYO 923 Cozy Crib By Shey,$56,7.6,9,https://www.booking.com/hotel/ph/OYO-923-Cozy-Crib-By-Shey
+,"Port+Loko,Sierra+Leone",Yogi Home Stay Near Freetown Airport,$40,8.7,34,https://www.booking.com/hotel/sl/Yogi-Home-Stay-Near-Freetown-Airport
+,"Port+Loko,Sierra+Leone",Airport Lodge Lungi,$73,8.1,59,https://www.booking.com/hotel/sl/Airport-Lodge-Lungi
+,"Port+Loko,Sierra+Leone",Tee's Apartment-02,$30,5.5,2,https://www.booking.com/hotel/sl/Tees-Apartment02
+,"Port+Loko,Sierra+Leone",Rooftop Villa,$255,Not Available,Not Available,https://www.booking.com/hotel/sl/Rooftop-Villa
+,"Port+Loko,Sierra+Leone",Milly's Nest,$90,Not Available,Not Available,https://www.booking.com/hotel/sl/Millys-Nest
+,"Grand+Bourg,Argentina",casa Salta,Not Available,9.7,12,https://www.booking.com/hotel/ar/casa-Salta
+,"Grand+Bourg,Argentina",Apart Hotel Marilian,$65,8.3,427,https://www.booking.com/hotel/ar/Apart-Hotel-Marilian
+,"Grand+Bourg,Argentina",Hotel Torrontes,$158,9.0,370,https://www.booking.com/hotel/ar/Hotel-Torrontes
+,"Grand+Bourg,Argentina",House of Jasmines Relais & Châteaux,$492,9.3,204,https://www.booking.com/hotel/ar/House-of-Jasmines-Relais-Châteaux
+,"Grand+Bourg,Argentina",Rincon del Cerro,$93,8.9,118,https://www.booking.com/hotel/ar/Rincon-del-Cerro
+,"Wan+Tau+Tong,Hong+Kong","Silka Tsuen Wan, Hong Kong",$65,7.2,274,https://www.booking.com/hotel/hk/Silka-Tsuen-Wan-Hong-Kong
+,"Wan+Tau+Tong,Hong+Kong","Hyatt Regency Hong Kong, Sha Tin",$134,8.1,"1,398",https://www.booking.com/hotel/hk/Hyatt-Regency-Hong-Kong-Sha-Tin
+,"Wan+Tau+Tong,Hong+Kong","Dorsett Tsuen Wan, Hong Kong",$63,7.4,589,https://www.booking.com/hotel/hk/Dorsett-Tsuen-Wan-Hong-Kong
+,"Wan+Tau+Tong,Hong+Kong",Courtyard by Marriott Hong Kong Sha Tin,$98,8.2,709,https://www.booking.com/hotel/hk/Courtyard-by-Marriott-Hong-Kong-Sha-Tin
+,"Wan+Tau+Tong,Hong+Kong",Royal Park Hotel,$117,7.9,"2,383",https://www.booking.com/hotel/hk/Royal-Park-Hotel
+,"Harrisburg,United+States",Comfort Suites Camp Hill-Harrisburg West,$101,9.0,743,https://www.booking.com/hotel/us/Comfort-Suites-Camp-HillHarrisburg-West
+,"Harrisburg,United+States",Sheraton Harrisburg Hershey Hotel,$144,6.8,157,https://www.booking.com/hotel/us/Sheraton-Harrisburg-Hershey-Hotel
+,"Harrisburg,United+States","Country Inn & Suites by Radisson, Harrisburg - Hershey-West, PA",$99,8.0,"1,697",https://www.booking.com/hotel/us/Country-Inn-Suites-by-Radisson-Harrisburg-HersheyWest-PA
+,"Harrisburg,United+States",Hilton Harrisburg near Hershey Park,$195,7.7,219,https://www.booking.com/hotel/us/Hilton-Harrisburg-near-Hershey-Park
+,"Harrisburg,United+States","Country Inn & Suites by Radisson, Harrisburg Northeast (Hershey), PA",$98,7.9,"1,389",https://www.booking.com/hotel/us/Country-Inn-Suites-by-Radisson-Harrisburg-Northeast-Hershey-PA
+,"Bellingham,United+States","Holiday Inn Express Bellingham, an IHG Hotel",$126,8.8,983,https://www.booking.com/hotel/us/Holiday-Inn-Express-Bellingham-an-IHG-Hotel
+,"Bellingham,United+States",Best Western Plus Bellingham,$122,8.7,408,https://www.booking.com/hotel/us/Best-Western-Plus-Bellingham
+,"Bellingham,United+States",Bay City Motor Inn,$75,7.9,760,https://www.booking.com/hotel/us/Bay-City-Motor-Inn
+,"Bellingham,United+States",Coachman Inn,$75,8.5,980,https://www.booking.com/hotel/us/Coachman-Inn
+,"Bellingham,United+States",La Quinta by Wyndham Bellingham,$117,8.5,842,https://www.booking.com/hotel/us/La-Quinta-by-Wyndham-Bellingham
+,"Mīt+Ghamr,Egypt",Lovely 1-bedroom condo with free parking,$10,7.0,1,https://www.booking.com/hotel/eg/Lovely-1bedroom-condo-with-free-parking
+,"Mīt+Ghamr,Egypt",Ma,$0,8.8,5,https://www.booking.com/hotel/eg/Ma
+,"Mīt+Ghamr,Egypt",Grand M,$2,7.5,43,https://www.booking.com/hotel/eg/Grand-M
+,"Mīt+Ghamr,Egypt",Camp M & M,$3,8.0,41,https://www.booking.com/hotel/eg/Camp-M-M
+,"Mīt+Ghamr,Egypt",شاعر الغلامه,$28,Not Available,Not Available,https://www.booking.com/hotel/eg/شاعر-الغلامه
+,"Kalibo,Philippines",GQ Plaza - Multiple Use Hotel,$33,8.7,81,https://www.booking.com/hotel/ph/GQ-Plaza-Multiple-Use-Hotel
+,"Kalibo,Philippines",RedDoorz @ LQJ Hotel Old Buswang Kalibo,$20,Not Available,Not Available,https://www.booking.com/hotel/ph/RedDoorz-LQJ-Hotel-Old-Buswang-Kalibo
+,"Kalibo,Philippines",Hotel Simone Kalibo,$15,8.0,43,https://www.booking.com/hotel/ph/Hotel-Simone-Kalibo
+,"Kalibo,Philippines",Asia Novo Boutique Hotel - Kalibo,$18,7.4,21,https://www.booking.com/hotel/ph/Asia-Novo-Boutique-Hotel-Kalibo
+,"Kalibo,Philippines",RB Bed and Breakfast,$10,6.6,20,https://www.booking.com/hotel/ph/RB-Bed-and-Breakfast
+,"Solwezi,Zambia",Axe Apartments,$65,8.3,7,https://www.booking.com/hotel/zm/Axe-Apartments
+,"Solwezi,Zambia",AASO HOTEL,$29,Not Available,Not Available,https://www.booking.com/hotel/zm/AASO-HOTEL
+,"Solwezi,Zambia",The Elysee' Apartments Solwezi,$115,Not Available,Not Available,https://www.booking.com/hotel/zm/The-Elysee-Apartments-Solwezi
+,"Solwezi,Zambia",Sandie's Recreational Lodge,$20,Not Available,Not Available,https://www.booking.com/hotel/zm/Sandies-Recreational-Lodge
+,"Solwezi,Zambia",Awesome Executive Lodge,$16,Not Available,Not Available,https://www.booking.com/hotel/zm/Awesome-Executive-Lodge
+,"Yuba+City,United+States",Quality Inn Yuba City-Marysville,$109,7.0,357,https://www.booking.com/hotel/us/Quality-Inn-Yuba-CityMarysville
+,"Yuba+City,United+States",Best Western Yuba City Inn,$132,7.8,221,https://www.booking.com/hotel/us/Best-Western-Yuba-City-Inn
+,"Yuba+City,United+States",Bonanza Inn and Suites,$108,6.5,256,https://www.booking.com/hotel/us/Bonanza-Inn-and-Suites
+,"Yuba+City,United+States",Sutter Inn,$85,4.8,369,https://www.booking.com/hotel/us/Sutter-Inn
+,"Yuba+City,United+States",Hampton Inn & Suites Yuba City,$220,8.5,206,https://www.booking.com/hotel/us/Hampton-Inn-Suites-Yuba-City
+,"Qiryat+Bialik,Israel",דירת3חדרים,$106,9.2,13,https://www.booking.com/hotel/il/דירת3חדרים
+,"Qiryat+Bialik,Israel",Lenny villa,$322,Not Available,Not Available,https://www.booking.com/hotel/il/Lenny-villa
+,"Qiryat+Bialik,Israel",T'eo 25 suite,$105,9.3,34,https://www.booking.com/hotel/il/Teo-25-suite
+,"Qiryat+Bialik,Israel",בית חוף מושלם עם גקוזי ומרפסת - Beachside Bliss W jacuzzi,$191,9.8,6,https://www.booking.com/hotel/il/בית-חוף-מושלם-עם-גקוזי-ומרפסת-Beachside-Bliss-W-jacuzzi
+,"Qiryat+Bialik,Israel",Уютная квартира в Кирьят-ям,$104,10,1,https://www.booking.com/hotel/il/Уютная-квартира-в-Кирьятям
+,"San+Antonio,Philippines",Youhan Beach Resort,$49,8.0,44,https://www.booking.com/hotel/ph/Youhan-Beach-Resort
+,"San+Antonio,Philippines",Playa Alba Beach Front and Resort,$51,Not Available,Not Available,https://www.booking.com/hotel/ph/Playa-Alba-Beach-Front-and-Resort
+,"San+Antonio,Philippines",Monty's Riverside View Resort,$63,8.6,9,https://www.booking.com/hotel/ph/Montys-Riverside-View-Resort
+,"San+Antonio,Philippines",Seaesta Beach House,$55,Not Available,Not Available,https://www.booking.com/hotel/ph/Seaesta-Beach-House
+,"San+Antonio,Philippines",RedDoorz Hostel @Megans Paradisio Beach Resort,$25,6.9,9,https://www.booking.com/hotel/ph/RedDoorz-Hostel-Megans-Paradisio-Beach-Resort
+,"Angeles+City,Philippines",Park Inn By Radisson Clark,$99,8.5,848,https://www.booking.com/hotel/ph/Park-Inn-By-Radisson-Clark
+,"Angeles+City,Philippines",Kandi Palace,$54,8.3,311,https://www.booking.com/hotel/ph/Kandi-Palace
+,"Angeles+City,Philippines",ABC Hotel,$145,9.0,369,https://www.booking.com/hotel/ph/ABC-Hotel
+,"Angeles+City,Philippines",RedDoorz at Diamond Spring Hotel Angeles City,$28,Not Available,Not Available,https://www.booking.com/hotel/ph/RedDoorz-at-Diamond-Spring-Hotel-Angeles-City
+,"Angeles+City,Philippines",ROVIMAR,$39,Not Available,Not Available,https://www.booking.com/hotel/ph/ROVIMAR
+,"Villa+Alemana,Chile",Sunset house Villa alemana BH7,$47,Not Available,Not Available,https://www.booking.com/hotel/cl/Sunset-house-Villa-alemana-BH7
+,"Villa+Alemana,Chile",Residencial La Nona - Villa Alemana,$37,5.5,2,https://www.booking.com/hotel/cl/Residencial-La-Nona-Villa-Alemana
+,"Villa+Alemana,Chile","Canela Fen, Tranquilidad y Naturaleza",$80,Not Available,Not Available,https://www.booking.com/hotel/cl/Canela-Fen-Tranquilidad-y-Naturaleza
+,"Villa+Alemana,Chile",Apart hotel BH7 Tiny House con opción a Jacuzzi,$78,9.4,7,https://www.booking.com/hotel/cl/Apart-hotel-BH7-Tiny-House-con-opción-a-Jacuzzi
+,"Villa+Alemana,Chile",Central y Tranquilo alojamiento,$41,9.3,44,https://www.booking.com/hotel/cl/Central-y-Tranquilo-alojamiento
+,"Ama,Japan",Entô,$353,9.2,15,https://www.booking.com/hotel/jp/Entô
+,"Ama,Japan",Hotel Uneri,$120,7.6,5,https://www.booking.com/hotel/jp/Hotel-Uneri
+,"São+José+do+Rio+Prêto,Brazil",Hyatt Place Sao Jose do Rio Preto,$66,9.1,"1,943",https://www.booking.com/hotel/br/Hyatt-Place-Sao-Jose-do-Rio-Preto
+,"São+José+do+Rio+Prêto,Brazil",Hilton Garden Inn São José do Rio Preto,$77,9.3,415,https://www.booking.com/hotel/br/Hilton-Garden-Inn-São-José-do-Rio-Preto
+,"São+José+do+Rio+Prêto,Brazil",Dan Inn São José do Rio Preto,$41,8.1,"1,842",https://www.booking.com/hotel/br/Dan-Inn-São-José-do-Rio-Preto
+,"São+José+do+Rio+Prêto,Brazil",Cassino Tower Sao Jose do Rio Preto,$56,8.8,"2,661",https://www.booking.com/hotel/br/Cassino-Tower-Sao-Jose-do-Rio-Preto
+,"São+José+do+Rio+Prêto,Brazil",ibis budget Sao Jose do Rio Preto,$36,7.5,"3,255",https://www.booking.com/hotel/br/ibis-budget-Sao-Jose-do-Rio-Preto
+,"Abomey,Benin",Chez Sabine,$38,9.0,51,https://www.booking.com/hotel/bj/Chez-Sabine
+,"Abomey,Benin",Bois vert Hôtel,$39,7.2,5,https://www.booking.com/hotel/bj/Bois-vert-Hôtel
+,"Abomey,Benin",Abomey Events,$42,7.7,3,https://www.booking.com/hotel/bj/Abomey-Events
+,"Abomey,Benin",Bis Hotel,$69,6.6,8,https://www.booking.com/hotel/bj/Bis-Hotel
+,"North+Lauderdale,United+States",Beautiful cozy home near Fort Lauderdale airport,$215,8.0,1,https://www.booking.com/hotel/us/Beautiful-cozy-home-near-Fort-Lauderdale-airport
+,"North+Lauderdale,United+States",Courtyard by Marriott Fort Lauderdale Coral Springs,$229,7.7,323,https://www.booking.com/hotel/us/Courtyard-by-Marriott-Fort-Lauderdale-Coral-Springs
+,"North+Lauderdale,United+States",Kool Runnings BNB,$90,Not Available,Not Available,https://www.booking.com/hotel/us/Kool-Runnings-BNB
+,"North+Lauderdale,United+States",Hampton Inn Commercial Boulevard-Fort Lauderdale,$131,8.7,334,https://www.booking.com/hotel/us/Hampton-Inn-Commercial-BoulevardFort-Lauderdale
+,"North+Lauderdale,United+States",La Quinta Inn by Wyndham Ft. Lauderdale Tamarac East,$112,5.6,"1,772",https://www.booking.com/hotel/us/La-Quinta-Inn-by-Wyndham-Ft-Lauderdale-Tamarac-East
+,"Pasay+City,Philippines",Hotel 101 - Manila,$44,8.8,"9,050",https://www.booking.com/hotel/ph/Hotel-101-Manila
+,"Pasay+City,Philippines",Kabayan Hotel Pasay,$24,7.0,"3,484",https://www.booking.com/hotel/ph/Kabayan-Hotel-Pasay
+,"Pasay+City,Philippines","Holiday Inn Express Manila Newport City, an IHG Hotel",$60,7.6,"2,315",https://www.booking.com/hotel/ph/Holiday-Inn-Express-Manila-Newport-City-an-IHG-Hotel
+,"Pasay+City,Philippines",Alicia Apartment,$29,7.4,"1,535",https://www.booking.com/hotel/ph/Alicia-Apartment
+,"Pasay+City,Philippines",Condo Unit walking distance to Manila Airport (NAIA Terminal 3),$28,8.1,753,https://www.booking.com/hotel/ph/Condo-Unit-walking-distance-to-Manila-Airport-NAIA-Terminal-3
+,"Ciénaga,Colombia",Cienaguas Hotel,$37,8.7,154,https://www.booking.com/hotel/co/Cienaguas-Hotel
+,"Ciénaga,Colombia",Casa D´Remedios La Bella Hotel Boutique,$69,9.5,66,https://www.booking.com/hotel/co/Casa-D´Remedios-La-Bella-Hotel-Boutique
+,"Ciénaga,Colombia",Hotel Diamante Real Cienaga,$37,8.4,80,https://www.booking.com/hotel/co/Hotel-Diamante-Real-Cienaga
+,"Ciénaga,Colombia",Ocean front house at charming Ciénaga!,$94,10,1,https://www.booking.com/hotel/co/Ocean-front-house-at-charming-Ciénaga
+,"Ciénaga,Colombia",cabaña villa Oti 1,$43,Not Available,Not Available,https://www.booking.com/hotel/co/cabaña-villa-Oti-1
+,"Táriba,Venezuela",El Sol Posada,$30,9.5,60,https://www.booking.com/hotel/ve/El-Sol-Posada
+,"Táriba,Venezuela",Lidotel San Cristóbal,$240,8.0,144,https://www.booking.com/hotel/ve/Lidotel-San-Cristóbal
+,"Táriba,Venezuela",Posada El Remanso de Pueblo Nuevo,$70,8.8,9,https://www.booking.com/hotel/ve/Posada-El-Remanso-de-Pueblo-Nuevo
+,"Táriba,Venezuela",HOTEL CASA COLONIAL,$17,8.3,311,https://www.booking.com/hotel/ve/HOTEL-CASA-COLONIAL
+,"Umm+al+Qaywayn,United+Arab+Emirates",Barracuda Resort,$83,7.8,858,https://www.booking.com/hotel/ae/Barracuda-Resort
+,"Umm+al+Qaywayn,United+Arab+Emirates",Bedouin Oasis Desert Camp- Ras Al Khaimah,$177,7.9,410,https://www.booking.com/hotel/ae/Bedouin-Oasis-Desert-Camp-Ras-Al-Khaimah
+,"Umm+al+Qaywayn,United+Arab+Emirates",AL JUNAIDI FARM BY BRIDGE RETREATS,"$2,082",Not Available,Not Available,https://www.booking.com/hotel/ae/AL-JUNAIDI-FARM-BY-BRIDGE-RETREATS
+,"Umm+al+Qaywayn,United+Arab+Emirates",Desert Inn Resort and Camp,$204,8.0,179,https://www.booking.com/hotel/ae/Desert-Inn-Resort-and-Camp
+,"Umm+al+Qaywayn,United+Arab+Emirates","The Ritz-Carlton Ras Al Khaimah, Al Wadi Desert",$593,8.9,"1,679",https://www.booking.com/hotel/ae/The-RitzCarlton-Ras-Al-Khaimah-Al-Wadi-Desert
+,"Zhunan,Taiwan",Golden Tulip - Aesthetics,$115,7.8,"1,286",https://www.booking.com/hotel/tw/Golden-Tulip-Aesthetics
+,"Zhunan,Taiwan",竹南橘子民宿,$53,9.2,259,https://www.booking.com/hotel/tw/竹南橘子民宿
+,"Zhunan,Taiwan",櫻花樹夏民宿,$85,9.5,43,https://www.booking.com/hotel/tw/櫻花樹夏民宿
+,"Zhunan,Taiwan",Emerald diamond Building 2,$64,7.8,134,https://www.booking.com/hotel/tw/Emerald-diamond-Building-2
+,"Zhunan,Taiwan",Emerald diamond Building 1,$64,8.0,72,https://www.booking.com/hotel/tw/Emerald-diamond-Building-1
+,"Salt+Lake+City,India",FabExpress Astoria House,$18,7.8,66,https://www.booking.com/hotel/in/FabExpress-Astoria-House
+,"Salt+Lake+City,India",Hotel Ullash Residency Salt Lake Kolkata,$19,5.5,2,https://www.booking.com/hotel/in/Hotel-Ullash-Residency-Salt-Lake-Kolkata
+,"Salt+Lake+City,India",Collection O 794 Hotel Radha Kanhaiya,$16,4.6,48,https://www.booking.com/hotel/in/Collection-O-794-Hotel-Radha-Kanhaiya
+,"Salt+Lake+City,India",FabExpress Saltlake Elite Stay,$17,6.8,62,https://www.booking.com/hotel/in/FabExpress-Saltlake-Elite-Stay
+,"Salt+Lake+City,India",OYO Smriti Villa Residency,$21,5.2,11,https://www.booking.com/hotel/in/OYO-Smriti-Villa-Residency
+,"Glyfáda,Greece",Sea View Hotel,$103,8.5,"1,434",https://www.booking.com/hotel/gr/Sea-View-Hotel
+,"Glyfáda,Greece",Glyfada South42,$192,9.1,479,https://www.booking.com/hotel/gr/Glyfada-South42
+,"Glyfáda,Greece",Hotel London,$65,7.9,"2,005",https://www.booking.com/hotel/gr/Hotel-London
+,"Glyfáda,Greece",Palmyra Beach Hotel,$86,8.6,"1,859",https://www.booking.com/hotel/gr/Palmyra-Beach-Hotel
+,"Glyfáda,Greece",Cama Luxury Suites,$102,9.1,290,https://www.booking.com/hotel/gr/Cama-Luxury-Suites
+,"Salem,United+States","Hampton Inn Salem, Ma",$119,8.9,"1,449",https://www.booking.com/hotel/us/Hampton-Inn-Salem-Ma
+,"Salem,United+States",Salem Waterfront Hotel & Suites,$149,8.4,"1,164",https://www.booking.com/hotel/us/Salem-Waterfront-Hotel-Suites
+,"Salem,United+States",Hawthorne Hotel,$181,8.8,655,https://www.booking.com/hotel/us/Hawthorne-Hotel
+,"Salem,United+States",The Cove At Salem,$167,8.8,42,https://www.booking.com/hotel/us/The-Cove-At-Salem
+,"Salem,United+States",The Hotel Salem,$162,8.2,570,https://www.booking.com/hotel/us/The-Hotel-Salem
+,"Ágioi+Anárgyroi,Greece",Aithoni (Nightingale) Agioi Anargyroi Beach,Not Available,9.8,17,https://www.booking.com/hotel/gr/Aithoni-Nightingale-Agioi-Anargyroi-Beach
+,"Ágioi+Anárgyroi,Greece",Ippokampos Town Apartments,$65,8.6,140,https://www.booking.com/hotel/gr/Ippokampos-Town-Apartments
+,"Ágioi+Anárgyroi,Greece",Hotel Grotta,$85,9.8,"1,380",https://www.booking.com/hotel/gr/Hotel-Grotta
+,"Ágioi+Anárgyroi,Greece",Irini Rooms,$59,9.4,400,https://www.booking.com/hotel/gr/Irini-Rooms
+,"Ágioi+Anárgyroi,Greece",Hotel Oasis,$69,8.5,597,https://www.booking.com/hotel/gr/Hotel-Oasis
+,"Kitanagoya,Japan",HOTEL Birthday 楠店,$61,8.2,340,https://www.booking.com/hotel/jp/HOTEL-Birthday-楠店
+,"Kitanagoya,Japan",ホテルバースデーきよす店 HOTEL Birthday kiyosu,$54,8.3,381,https://www.booking.com/hotel/jp/ホテルバースデーきよす店-HOTEL-Birthday-kiyosu
+,"Kitanagoya,Japan",Select Inn Nagoya Iwakura Eki-mae,$48,6.1,298,https://www.booking.com/hotel/jp/Select-Inn-Nagoya-Iwakura-Ekimae
+,"Kitanagoya,Japan",Hotel Zen Ichinomiya (Adult Only),$136,8.3,38,https://www.booking.com/hotel/jp/Hotel-Zen-Ichinomiya-Adult-Only
+,"Kitanagoya,Japan",Route Inn Grantia Komaki,$70,7.3,298,https://www.booking.com/hotel/jp/Route-Inn-Grantia-Komaki
+,"Port+St.+Lucie,United+States",Tru By Hilton Port St Lucie Tradition,$346,8.9,366,https://www.booking.com/hotel/us/Tru-By-Hilton-Port-St-Lucie-Tradition
+,"Port+St.+Lucie,United+States",Homewood Suites Port Saint Lucie-Tradition,$181,8.5,271,https://www.booking.com/hotel/us/Homewood-Suites-Port-Saint-LucieTradition
+,"Port+St.+Lucie,United+States","Holiday Inn Express Hotel & Suites Port St. Lucie West, an IHG Hotel",$295,8.0,375,https://www.booking.com/hotel/us/Holiday-Inn-Express-Hotel-Suites-Port-St-Lucie-West-an-IHG-Hotel
+,"Port+St.+Lucie,United+States",Hilton Garden Inn at PGA Village/Port St. Lucie,$327,8.5,367,https://www.booking.com/hotel/us/Hilton-Garden-Inn-at-PGA-VillagePort-St-Lucie
+,"Port+St.+Lucie,United+States",Sheraton PGA Vacation Resort Port St Lucie,$280,9.0,141,https://www.booking.com/hotel/us/Sheraton-PGA-Vacation-Resort-Port-St-Lucie
+,"Laindon,United+Kingdom",Adoniapro Basildon Lodge,$181,1.0,1,https://www.booking.com/hotel/gb/Adoniapro-Basildon-Lodge
+,"Laindon,United+Kingdom",Basildon Holiday Home in Essex UK,$187,6.8,6,https://www.booking.com/hotel/gb/Basildon-Holiday-Home-in-Essex-UK
+,"Laindon,United+Kingdom","Holiday Inn Basildon, an IHG Hotel",$80,7.7,"2,133",https://www.booking.com/hotel/gb/Holiday-Inn-Basildon-an-IHG-Hotel
+,"Laindon,United+Kingdom",Campanile Hotel - Basildon - East of London,$49,5.9,"1,927",https://www.booking.com/hotel/gb/Campanile-Hotel-Basildon-East-of-London
+,"Laindon,United+Kingdom",WindyS Basildon Smart Home,$98,9.1,125,https://www.booking.com/hotel/gb/WindyS-Basildon-Smart-Home
+,"Västerås,Sweden",Best Western Plus Hotel Plaza,$147,7.9,"4,220",https://www.booking.com/hotel/se/Best-Western-Plus-Hotel-Plaza
+,"Västerås,Sweden",Elite Stadshotellet Västerås,$121,8.1,"2,141",https://www.booking.com/hotel/se/Elite-Stadshotellet-Västerås
+,"Västerås,Sweden",Hotell Arkad,$88,8.0,"2,779",https://www.booking.com/hotel/se/Hotell-Arkad
+,"Västerås,Sweden",Steam Hotel,$222,8.8,"1,064",https://www.booking.com/hotel/se/Steam-Hotel
+,"Västerås,Sweden",Best Western Ta Inn Hotel,$124,7.2,"1,393",https://www.booking.com/hotel/se/Best-Western-Ta-Inn-Hotel
+,"Rohnert+Park,United+States",Oxford Suites Sonoma - Rohnert Park,$139,9.1,594,https://www.booking.com/hotel/us/Oxford-Suites-Sonoma-Rohnert-Park
+,"Rohnert+Park,United+States",Hampton Inn & Suites Rohnert Park - Sonoma County,$135,8.9,160,https://www.booking.com/hotel/us/Hampton-Inn-Suites-Rohnert-Park-Sonoma-County
+,"Rohnert+Park,United+States",Cambria Hotel Sonoma Wine Country,$127,8.9,599,https://www.booking.com/hotel/us/Cambria-Hotel-Sonoma-Wine-Country
+,"Rohnert+Park,United+States",DoubleTree by Hilton Sonoma Wine Country,$135,7.5,319,https://www.booking.com/hotel/us/DoubleTree-by-Hilton-Sonoma-Wine-Country
+,"Rohnert+Park,United+States",Fairfield Inn & Suites by Marriott Santa Rosa Rohnert Park,$124,9.0,198,https://www.booking.com/hotel/us/Fairfield-Inn-Suites-by-Marriott-Santa-Rosa-Rohnert-Park
+,"Würzburg,Germany",Hotel Würzburger Hof ****,$135,8.2,"2,175",https://www.booking.com/hotel/de/Hotel-Würzburger-Hof-
+,"Würzburg,Germany",Maritim Hotel Würzburg,$113,7.5,"2,893",https://www.booking.com/hotel/de/Maritim-Hotel-Würzburg
+,"Würzburg,Germany",City Partner Hotel Strauss,$107,7.8,"4,057",https://www.booking.com/hotel/de/City-Partner-Hotel-Strauss
+,"Würzburg,Germany",Moxy Wuerzburg,$94,8.2,"1,799",https://www.booking.com/hotel/de/Moxy-Wuerzburg
+,"Würzburg,Germany",AC Hotel by Marriott Wuerzburg,$95,8.4,"2,945",https://www.booking.com/hotel/de/AC-Hotel-by-Marriott-Wuerzburg
+,"Remedios+de+Escalada,Argentina",Luminoso Depto 40 metros NUEVO. Excelente Ubicacion Zona Sur.,$100,8.5,15,https://www.booking.com/hotel/ar/Luminoso-Depto-40-metros-NUEVO-Excelente-Ubicacion-Zona-Sur
+,"Remedios+de+Escalada,Argentina",LA MAGA,$14,7.3,10,https://www.booking.com/hotel/ar/LA-MAGA
+,"Remedios+de+Escalada,Argentina",Amplio Departamento en Zona Gastronómica a 3 cuadras de estación Central,$108,9.3,7,https://www.booking.com/hotel/ar/Amplio-Departamento-en-Zona-Gastronómica-a-3-cuadras-de-estación-Central
+,"Remedios+de+Escalada,Argentina",Departamento a 20 min de Capital Federal,$73,Not Available,Not Available,https://www.booking.com/hotel/ar/Departamento-a-20-min-de-Capital-Federal
+,"Remedios+de+Escalada,Argentina",New House Lanus O.,$36,10,1,https://www.booking.com/hotel/ar/New-House-Lanus-O
+,"Kibaha,Tanzania",Mapeni Lodge,$84,8.0,7,https://www.booking.com/hotel/tz/Mapeni-Lodge
+,"Kibaha,Tanzania",KCC Hotel,$46,5.0,1,https://www.booking.com/hotel/tz/KCC-Hotel
+,"Kibaha,Tanzania",Christina Residence,$324,Not Available,Not Available,https://www.booking.com/hotel/tz/Christina-Residence
+,"Kibaha,Tanzania",MAC AND JAK GETAWAY,$104,Not Available,Not Available,https://www.booking.com/hotel/tz/MAC-AND-JAK-GETAWAY
+,"Kibaha,Tanzania",Moments Park Motel,$20,8.0,1,https://www.booking.com/hotel/tz/Moments-Park-Motel
+,"Babahoyo,Ecuador",Departamento completo Babahoyo,Not Available,Not Available,Not Available,https://www.booking.com/hotel/ec/Departamento-completo-Babahoyo
+,"Freeport,United+States",Hilton Garden Inn Freeport Downtown,$118,8.6,464,https://www.booking.com/hotel/us/Hilton-Garden-Inn-Freeport-Downtown
+,"Freeport,United+States",The Harraseeket Inn & Suites,$189,8.9,"1,322",https://www.booking.com/hotel/us/The-Harraseeket-Inn-Suites
+,"Freeport,United+States",Hampton Inn Freeport/Brunswick,$120,8.6,330,https://www.booking.com/hotel/us/Hampton-Inn-FreeportBrunswick
+,"Freeport,United+States",Best Western - Freeport Inn,$76,7.2,509,https://www.booking.com/hotel/us/Best-Western-Freeport-Inn
+,"Freeport,United+States","The Freeport Hotel, Ascend Hotel Collection",$86,7.7,511,https://www.booking.com/hotel/us/The-Freeport-Hotel-Ascend-Hotel-Collection
+,"Buraydah,Saudi+Arabia",Mövenpick Hotel Qassim,$195,8.9,"1,244",https://www.booking.com/hotel/sa/Mövenpick-Hotel-Qassim
+,"Buraydah,Saudi+Arabia",Sharz Hotel,$76,8.2,707,https://www.booking.com/hotel/sa/Sharz-Hotel
+,"Buraydah,Saudi+Arabia",Golden Tulip Buraidah Al Qassim,$103,7.4,"1,275",https://www.booking.com/hotel/sa/Golden-Tulip-Buraidah-Al-Qassim
+,"Buraydah,Saudi+Arabia","Radisson Blu Hotel, Buraidah",$132,8.4,"1,986",https://www.booking.com/hotel/sa/Radisson-Blu-Hotel-Buraidah
+,"Buraydah,Saudi+Arabia",شاليه الرتاج الفندقي,$158,10,1,https://www.booking.com/hotel/sa/شاليه-الرتاج-الفندقي
+,"Paracho+de+Verduzco,Mexico","Holiday Inn Uruapan, an IHG Hotel",$78,9.0,595,https://www.booking.com/hotel/mx/Holiday-Inn-Uruapan-an-IHG-Hotel
+,"Paracho+de+Verduzco,Mexico",Hotel Pie de la Sierra,$34,8.4,466,https://www.booking.com/hotel/mx/Hotel-Pie-de-la-Sierra
+,"Paracho+de+Verduzco,Mexico",PASEO REAL HOTEL BOUTIQUE,$95,Not Available,Not Available,https://www.booking.com/hotel/mx/PASEO-REAL-HOTEL-BOUTIQUE
+,"Paracho+de+Verduzco,Mexico",Loft atardecer,$45,10,1,https://www.booking.com/hotel/mx/Loft-atardecer
+,"Caerphilly,United+Kingdom",Y Fan,$151,9.7,160,https://www.booking.com/hotel/gb/Y-Fan
+,"Caerphilly,United+Kingdom",Entire 3 bedroom house near Caerphilly station,$186,9.1,18,https://www.booking.com/hotel/gb/Entire-3-bedroom-house-near-Caerphilly-station
+,"Caerphilly,United+Kingdom",New House Country Hotel,$408,8.5,"1,001",https://www.booking.com/hotel/gb/New-House-Country-Hotel
+,"Caerphilly,United+Kingdom",Wingfield Hotel,$91,8.3,26,https://www.booking.com/hotel/gb/Wingfield-Hotel
+,"Caerphilly,United+Kingdom",Manor Parc Hotel,$195,8.8,810,https://www.booking.com/hotel/gb/Manor-Parc-Hotel
+,"Alwāl,India",OYO Alwal Residency,Not Available,7.5,67,https://www.booking.com/hotel/in/OYO-Alwal-Residency
+,"Alwāl,India",Hotel Asrani International,$54,9.0,"1,084",https://www.booking.com/hotel/in/Hotel-Asrani-International
+,"Alwāl,India",Super OYO Oyo Townhouse 252 Rcc Prime,$30,7.8,232,https://www.booking.com/hotel/in/Super-OYO-Oyo-Townhouse-252-Rcc-Prime
+,"Alwāl,India",Super OYO Townhouse 265 RCC Elite,$33,8.4,435,https://www.booking.com/hotel/in/Super-OYO-Townhouse-265-RCC-Elite
+,"Alwāl,India",FabHotel Corner Courtyard,$18,8.2,538,https://www.booking.com/hotel/in/FabHotel-Corner-Courtyard
+,"Tân+Uyên,Vietnam",Tân Uyên Paradise,Not Available,Not Available,Not Available,https://www.booking.com/hotel/vn/Tân-Uyên-Paradise
+,"Tân+Uyên,Vietnam",Hmong Wooden Home,$19,9.7,42,https://www.booking.com/hotel/vn/Hmong-Wooden-Home
+,"Tân+Uyên,Vietnam",Silk Path Grand Resort & Spa Sapa,$79,9.1,577,https://www.booking.com/hotel/vn/Silk-Path-Grand-Resort-Spa-Sapa
+,"Tân+Uyên,Vietnam",Eden Boutique Hotel & Spa,$44,8.8,"1,102",https://www.booking.com/hotel/vn/Eden-Boutique-Hotel-Spa
+,"Tân+Uyên,Vietnam",Laxsik Ecolodge,$116,9.2,828,https://www.booking.com/hotel/vn/Laxsik-Ecolodge
+,"Llanelli,United+Kingdom","Sessile Oak, Llanelli by Marston's Inns",$63,8.0,"1,344",https://www.booking.com/hotel/gb/Sessile-Oak-Llanelli-by-Marstons-Inns
+,"Llanelli,United+Kingdom",Thomas Arms Hotel,$63,7.5,770,https://www.booking.com/hotel/gb/Thomas-Arms-Hotel
+,"Llanelli,United+Kingdom",The Diplomat Hotel Restaurant & Spa,$221,8.0,"1,064",https://www.booking.com/hotel/gb/The-Diplomat-Hotel-Restaurant-Spa
+,"Llanelli,United+Kingdom",LLwyn Country House,$139,8.8,287,https://www.booking.com/hotel/gb/LLwyn-Country-House
+,"Llanelli,United+Kingdom",The Angharad Hotel and Restaurant,$110,7.8,346,https://www.booking.com/hotel/gb/The-Angharad-Hotel-and-Restaurant
+,"Long+Beach,United+States",The Queen Mary,$157,7.9,397,https://www.booking.com/hotel/us/The-Queen-Mary
+,"Long+Beach,United+States","Hampton Inn Long Beach Airport, Ca",$248,8.8,651,https://www.booking.com/hotel/us/Hampton-Inn-Long-Beach-Airport-Ca
+,"Long+Beach,United+States",Quality Inn Long Beach - Signal Hill,$128,7.5,936,https://www.booking.com/hotel/us/Quality-Inn-Long-Beach-Signal-Hill
+,"Long+Beach,United+States",Hyatt Regency Long Beach,$439,8.7,"1,560",https://www.booking.com/hotel/us/Hyatt-Regency-Long-Beach
+,"Long+Beach,United+States","Staybridge Suites - Long Beach Airport, an IHG Hotel",$197,8.2,592,https://www.booking.com/hotel/us/Staybridge-Suites-Long-Beach-Airport-an-IHG-Hotel
+,"Zhezqazghan,Kazakhstan",Мангилик ел 19,$22,Not Available,Not Available,https://www.booking.com/hotel/kz/Мангилик-ел-19
+,"Zhezqazghan,Kazakhstan",Абая 70 Квартира 7 (Ердена 199),$29,Not Available,Not Available,https://www.booking.com/hotel/kz/Абая-70-Квартира-7-Ердена-199
+,"Dobrich,Bulgaria",Park Hotel Izida,$58,9.1,415,https://www.booking.com/hotel/bg/Park-Hotel-Izida
+,"Dobrich,Bulgaria",Hotel Dobrudja,$52,8.3,429,https://www.booking.com/hotel/bg/Hotel-Dobrudja
+,"Dobrich,Bulgaria",Hotel Rivera,$41,9.3,126,https://www.booking.com/hotel/bg/Hotel-Rivera
+,"Dobrich,Bulgaria",Flowers Apartment,$52,9.8,61,https://www.booking.com/hotel/bg/Flowers-Apartment
+,"Dobrich,Bulgaria",Tiara Hotel,$39,7.0,119,https://www.booking.com/hotel/bg/Tiara-Hotel
+,"Trujillo+Alto,Puerto+Rico",The Village Inn,$137,8.0,309,https://www.booking.com/hotel/pr/The-Village-Inn
+,"Trujillo+Alto,Puerto+Rico",San Juan Home,$51,9.2,191,https://www.booking.com/hotel/pr/San-Juan-Home
+,"Trujillo+Alto,Puerto+Rico",Home San Juan,$51,9.2,146,https://www.booking.com/hotel/pr/Home-San-Juan
+,"Trujillo+Alto,Puerto+Rico",Kasa Metrópolis,$162,10,1,https://www.booking.com/hotel/pr/Kasa-Metrópolis
+,"Trujillo+Alto,Puerto+Rico",Metro Luxuty studio,$235,Not Available,Not Available,https://www.booking.com/hotel/pr/Metro-Luxuty-studio
+,"Jangipur,India",SPOT ON Jangipur Lodge,$39,Not Available,Not Available,https://www.booking.com/hotel/in/SPOT-ON-Jangipur-Lodge
+,"Jangipur,India",Collection O Hotel Sahana,$22,Not Available,Not Available,https://www.booking.com/hotel/in/Collection-O-Hotel-Sahana
+,"Jangipur,India",OYO Subham Lodge,$40,Not Available,Not Available,https://www.booking.com/hotel/in/OYO-Subham-Lodge
+,"Jangipur,India",OYO HOTEL FLOWRA,$16,Not Available,Not Available,https://www.booking.com/hotel/in/OYO-HOTEL-FLOWRA
+,"Jangipur,India",OYO Mohona Residency & Restaurant,$16,7.0,1,https://www.booking.com/hotel/in/OYO-Mohona-Residency-Restaurant
+,"Xicotepec+de+Juárez,Mexico",Hotel Casablanca Xicotepec,$57,8.8,183,https://www.booking.com/hotel/mx/Hotel-Casablanca-Xicotepec
+,"Xicotepec+de+Juárez,Mexico",Cabañas y Camping Aroma,$137,9.2,22,https://www.booking.com/hotel/mx/Cabañas-y-Camping-Aroma
+,"Xicotepec+de+Juárez,Mexico",Hotel Plaza San Carlos,$54,8.5,76,https://www.booking.com/hotel/mx/Hotel-Plaza-San-Carlos
+,"Xicotepec+de+Juárez,Mexico",Casa Machtiani,$86,8.6,8,https://www.booking.com/hotel/mx/Casa-Machtiani
+,"Xicotepec+de+Juárez,Mexico",Cabañas San Miguel Tenango,$137,9.3,29,https://www.booking.com/hotel/mx/Cabañas-San-Miguel-Tenango
+,"Santo+Tomas,Philippines",THE LONDON TRANSIENT HOUSE,$58,Not Available,Not Available,https://www.booking.com/hotel/ph/THE-LONDON-TRANSIENT-HOUSE
+,"Santo+Tomas,Philippines",The London Transient House,$44,Not Available,Not Available,https://www.booking.com/hotel/ph/The-London-Transient-House
+,"Santo+Tomas,Philippines",Lorenzo's Farm and Leisure,$130,7.0,2,https://www.booking.com/hotel/ph/Lorenzos-Farm-and-Leisure
+,"Santo+Tomas,Philippines",Fleetwood Suites,$26,5.6,12,https://www.booking.com/hotel/ph/Fleetwood-Suites
+,"Santo+Tomas,Philippines",Italy Condotel Darasa,$90,9.5,109,https://www.booking.com/hotel/ph/Italy-Condotel-Darasa
+,"Reno,United+States",Silver Legacy Reno Resort Casino at THE ROW,$53,8.0,"4,975",https://www.booking.com/hotel/us/Silver-Legacy-Reno-Resort-Casino-at-THE-ROW
+,"Reno,United+States","Staybridge Suites Reno Nevada, an IHG Hotel",$157,8.1,190,https://www.booking.com/hotel/us/Staybridge-Suites-Reno-Nevada-an-IHG-Hotel
+,"Reno,United+States",Circus Circus Reno Hotel Casino at THE ROW,$35,7.2,"6,804",https://www.booking.com/hotel/us/Circus-Circus-Reno-Hotel-Casino-at-THE-ROW
+,"Reno,United+States",Renaissance Reno Downtown Hotel & Spa,$287,8.1,110,https://www.booking.com/hotel/us/Renaissance-Reno-Downtown-Hotel-Spa
+,"Reno,United+States",Best Western Plus Sparks-Reno Hotel,$138,8.6,"1,227",https://www.booking.com/hotel/us/Best-Western-Plus-SparksReno-Hotel
+,"Ingeniero+Pablo+Nogués,Argentina",Pileta quincho parque 8 personas grand bourg comfirmar reserva x telefono,$225,Not Available,Not Available,https://www.booking.com/hotel/ar/Pileta-quincho-parque-8-personas-grand-bourg-comfirmar-reserva-x-telefono
+,"Ingeniero+Pablo+Nogués,Argentina",Lindo y cómodo dpto,$38,8.3,3,https://www.booking.com/hotel/ar/Lindo-y-cómodo-dpto
+,"Ingeniero+Pablo+Nogués,Argentina",Tu lugar Departamento 2 ambientes Hindu Club Don Torcuato,$100,8.2,12,https://www.booking.com/hotel/ar/Tu-lugar-Departamento-2-ambientes-Hindu-Club-Don-Torcuato
+,"Ingeniero+Pablo+Nogués,Argentina",DEPARTAMENTO EN TIGRE CONDOMINIO HINDU CLUB,$46,Not Available,Not Available,https://www.booking.com/hotel/ar/DEPARTAMENTO-EN-TIGRE-CONDOMINIO-HINDU-CLUB
+,"Ingeniero+Pablo+Nogués,Argentina",Cabañas Hindu,$59,9.1,184,https://www.booking.com/hotel/ar/Cabañas-Hindu
+,"Nueva+Rosita,Mexico",Hotel Posada Santa Fe,$37,8.4,149,https://www.booking.com/hotel/mx/Hotel-Posada-Santa-Fe
+,"Nueva+Rosita,Mexico",Hotel El Dorado,$43,7.9,22,https://www.booking.com/hotel/mx/Hotel-El-Dorado
+,"Higashiyamato,Japan",ホテルウォーターゲート所沢,$82,6.8,10,https://www.booking.com/hotel/jp/ホテルウォーターゲート所沢
+,"Higashiyamato,Japan",Restay Tokorozawa (Adult Only),$49,7.8,119,https://www.booking.com/hotel/jp/Restay-Tokorozawa-Adult-Only
+,"Higashiyamato,Japan",ビジネスホテルマーキュリー（ロイヤルイングループ）,$73,6.8,56,https://www.booking.com/hotel/jp/ビジネスホテルマーキュリー（ロイヤルイングループ）
+,"Higashiyamato,Japan","Wild Cherry Blossom-HOSTEL,TOKYO KOGANEI-",$97,8.3,"1,313",https://www.booking.com/hotel/jp/Wild-Cherry-BlossomHOSTELTOKYO-KOGANEI
+,"Higashiyamato,Japan",Forest Inn Showakan (Okura Hotels & Resorts),$129,8.3,452,https://www.booking.com/hotel/jp/Forest-Inn-Showakan-Okura-Hotels-Resorts
+,"Madison,United+States",Hampton Inn & Suites Madison Downtown,$143,8.9,591,https://www.booking.com/hotel/us/Hampton-Inn-Suites-Madison-Downtown
+,"Madison,United+States",DoubleTree by Hilton Madison Downtown,$135,9.0,203,https://www.booking.com/hotel/us/DoubleTree-by-Hilton-Madison-Downtown
+,"Madison,United+States",Baymont by Wyndham Madison,$79,7.5,"1,436",https://www.booking.com/hotel/us/Baymont-by-Wyndham-Madison
+,"Madison,United+States",The Madison Concourse Hotel,$142,8.7,807,https://www.booking.com/hotel/us/The-Madison-Concourse-Hotel
+,"Madison,United+States","Hotel Indigo - Madison Downtown, an IHG Hotel",$153,9.3,707,https://www.booking.com/hotel/us/Hotel-Indigo-Madison-Downtown-an-IHG-Hotel
+,"Opole,Poland",Hotel Szara Willa,$78,9.0,"2,683",https://www.booking.com/hotel/pl/Hotel-Szara-Willa
+,"Opole,Poland",Hotel DeSilva Premium Opole,$85,8.7,"1,452",https://www.booking.com/hotel/pl/Hotel-DeSilva-Premium-Opole
+,"Opole,Poland",Hotel Starka,$102,9.1,945,https://www.booking.com/hotel/pl/Hotel-Starka
+,"Opole,Poland",Hotel Weneda,$58,8.4,"2,784",https://www.booking.com/hotel/pl/Hotel-Weneda
+,"Opole,Poland",Night o'clock Business and Spa Aparts,$40,8.9,"1,182",https://www.booking.com/hotel/pl/Night-oclock-Business-and-Spa-Aparts
+,"Kowloon+City,Hong+Kong","Kerry Hotel, Hong Kong",$235,8.8,524,https://www.booking.com/hotel/hk/Kerry-Hotel-Hong-Kong
+,"Kowloon+City,Hong+Kong",Harbour Plaza Metropolis,$105,7.7,"1,291",https://www.booking.com/hotel/hk/Harbour-Plaza-Metropolis
+,"Kowloon+City,Hong+Kong",iclub To Kwa Wan Hotel,$69,7.1,129,https://www.booking.com/hotel/hk/iclub-To-Kwa-Wan-Hotel
+,"Kowloon+City,Hong+Kong",Summit View Kowloon,$89,7.8,350,https://www.booking.com/hotel/hk/Summit-View-Kowloon
+,"Kowloon+City,Hong+Kong",Regal Oriental Hotel,$76,6.9,547,https://www.booking.com/hotel/hk/Regal-Oriental-Hotel
+,"Catanzaro,Italy",Hotel Guglielmo,$87,8.5,451,https://www.booking.com/hotel/it/Hotel-Guglielmo
+,"Catanzaro,Italy",Hotel Altavilla Catanzaro,$113,8.9,199,https://www.booking.com/hotel/it/Hotel-Altavilla-Catanzaro
+,"Catanzaro,Italy",B&BIO SPA,$91,9.2,59,https://www.booking.com/hotel/it/BBIO-SPA
+,"Catanzaro,Italy",San Michele Apartments&Rooms,$73,8.7,482,https://www.booking.com/hotel/it/San-Michele-ApartmentsRooms
+,"Catanzaro,Italy",BBuSS Country Club,$82,9.3,88,https://www.booking.com/hotel/it/BBuSS-Country-Club
+,"Krus+na+Ligas,Philippines",Verjandel Residences,$49,7.9,9,https://www.booking.com/hotel/ph/Verjandel-Residences
+,"Krus+na+Ligas,Philippines",1 bedroom whole apartment 50 sq m in Quezon City,$55,10,2,https://www.booking.com/hotel/ph/1-bedroom-whole-apartment-50-sq-m-in-Quezon-City
+,"Krus+na+Ligas,Philippines","Fersal Hotel Kalayaan, Quezon City",$24,8.0,187,https://www.booking.com/hotel/ph/Fersal-Hotel-Kalayaan-Quezon-City
+,"Krus+na+Ligas,Philippines",Residenciale Boutique Apartments,$41,8.3,277,https://www.booking.com/hotel/ph/Residenciale-Boutique-Apartments
+,"Krus+na+Ligas,Philippines",The Oracle Hotel and Residences Quezon City,$44,7.0,5,https://www.booking.com/hotel/ph/The-Oracle-Hotel-and-Residences-Quezon-City
+,"Araras,Brazil",Hotel Marques,$41,8.4,633,https://www.booking.com/hotel/br/Hotel-Marques
+,"Araras,Brazil",Lagoa Serena Flat Hotel,$73,8.4,245,https://www.booking.com/hotel/br/Lagoa-Serena-Flat-Hotel
+,"Araras,Brazil",Hotel Belvedere Araras - By UP Hotel - Fácil Acesso Hospital São Leopoldo e Faculdades,$38,7.5,530,https://www.booking.com/hotel/br/Hotel-Belvedere-Araras-By-UP-Hotel-Fácil-Acesso-Hospital-São-Leopoldo-e-Faculdades
+,"Araras,Brazil",HOTEL LAGO ARARAS,$40,7.6,414,https://www.booking.com/hotel/br/HOTEL-LAGO-ARARAS
+,"Araras,Brazil",Diplomata Hotel,$32,8.0,209,https://www.booking.com/hotel/br/Diplomata-Hotel
+,"Marikina+City,Philippines",Dsouza Resorts & Events,$36,6.0,3,https://www.booking.com/hotel/ph/Dsouza-Resorts-Events
+,"Marikina+City,Philippines",La Trinidad Pension House,$19,5.8,17,https://www.booking.com/hotel/ph/La-Trinidad-Pension-House
+,"Marikina+City,Philippines",Transient Washington Capsule Air BnB,$16,Not Available,Not Available,https://www.booking.com/hotel/ph/Transient-Washington-Capsule-Air-BnB
+,"Marikina+City,Philippines",MARIKINA 32 sqm Studio for Transients w WiFi 40 inch TV Parking,$27,Not Available,Not Available,https://www.booking.com/hotel/ph/MARIKINA-32-sqm-Studio-for-Transients-w-WiFi-40-inch-TV-Parking
+,"Marikina+City,Philippines",Onsen by BoyNita,$394,Not Available,Not Available,https://www.booking.com/hotel/ph/Onsen-by-BoyNita
+,"East+Ham,United+Kingdom",208 Clements road,$267,7.3,15,https://www.booking.com/hotel/gb/208-Clements-road
+,"East+Ham,United+Kingdom",RAHAL OUTRAM,$72,6.7,44,https://www.booking.com/hotel/gb/RAHAL-OUTRAM
+,"East+Ham,United+Kingdom",Fenia stay,$203,7.8,209,https://www.booking.com/hotel/gb/Fenia-stay
+,"East+Ham,United+Kingdom",RAHAL EASTHAM,$68,6.6,60,https://www.booking.com/hotel/gb/RAHAL-EASTHAM
+,"East+Ham,United+Kingdom",Spacious Private Room in Manor Park,$87,6.9,35,https://www.booking.com/hotel/gb/Spacious-Private-Room-in-Manor-Park
+,"Pyeongtaek,South+Korea",Pyeongtaek Stay Tourist Hotel,$62,7.4,225,https://www.booking.com/hotel/kr/Pyeongtaek-Stay-Tourist-Hotel
+,"Pyeongtaek,South+Korea",Hotel Joy,$153,8.8,183,https://www.booking.com/hotel/kr/Hotel-Joy
+,"Pyeongtaek,South+Korea",Browndot hotel songtan,$49,8.4,340,https://www.booking.com/hotel/kr/Browndot-hotel-songtan
+,"Pyeongtaek,South+Korea",Pacific7 Hotel,$55,8.9,53,https://www.booking.com/hotel/kr/Pacific7-Hotel
+,"Pyeongtaek,South+Korea",EKklim Classic Hotel,$76,8.8,24,https://www.booking.com/hotel/kr/EKklim-Classic-Hotel
+,"Kennedy+Town,Hong+Kong",Jen Hong Kong by Shangri-La,$118,8.4,560,https://www.booking.com/hotel/hk/Jen-Hong-Kong-by-ShangriLa
+,"Kennedy+Town,Hong+Kong",One-Eight-One Hotel & Serviced Residences,$192,9.0,324,https://www.booking.com/hotel/hk/OneEightOne-Hotel-Serviced-Residences
+,"Kennedy+Town,Hong+Kong",Mia Casa Hotel,$92,7.9,108,https://www.booking.com/hotel/hk/Mia-Casa-Hotel
+,"Kennedy+Town,Hong+Kong","Holiday Inn Express Hong Kong Mongkok, an IHG Hotel",$132,7.7,586,https://www.booking.com/hotel/hk/Holiday-Inn-Express-Hong-Kong-Mongkok-an-IHG-Hotel
+,"Kennedy+Town,Hong+Kong",Butterfly on LKF Boutique Hotel Central,$122,8.2,802,https://www.booking.com/hotel/hk/Butterfly-on-LKF-Boutique-Hotel-Central
+,"Khanna,India",SPOT ON Hotel Golden Crown,$10,4.1,20,https://www.booking.com/hotel/in/SPOT-ON-Hotel-Golden-Crown
+,"Hoshangābād,India",Hotel New agrawal pudi bhandar,$19,Not Available,Not Available,https://www.booking.com/hotel/in/Hotel-New-agrawal-pudi-bhandar
+,"Hoshangābād,India",Narmade river view resort & restaurant,$48,Not Available,Not Available,https://www.booking.com/hotel/in/Narmade-river-view-resort-restaurant
+,"Hoshangābād,India","HOTEL ROYAL VATIKA, Narmadapuram",$23,1.0,1,https://www.booking.com/hotel/in/HOTEL-ROYAL-VATIKA-Narmadapuram
+,"Hoshangābād,India","Hotel Vallabh Vilas, Narmadapuram, Madhya Pradesh",$29,Not Available,Not Available,https://www.booking.com/hotel/in/Hotel-Vallabh-Vilas-Narmadapuram-Madhya-Pradesh
+,"Hoshangābād,India",Vamoose Balaji Inn,$21,Not Available,Not Available,https://www.booking.com/hotel/in/Vamoose-Balaji-Inn
+,"Oakland+Park,United+States",Hilton Garden Inn Lafayette/Cajundome,$101,8.2,331,https://www.booking.com/hotel/us/Hilton-Garden-Inn-LafayetteCajundome
+,"Oakland+Park,United+States",Cajun Stays - Cajun Hostel II - The Brown Room,$23,6.3,11,https://www.booking.com/hotel/us/Cajun-Stays-Cajun-Hostel-II-The-Brown-Room
+,"Oakland+Park,United+States",Cajun Stays - Cajun Hostel II - The White Room,$28,6.5,2,https://www.booking.com/hotel/us/Cajun-Stays-Cajun-Hostel-II-The-White-Room
+,"Oakland+Park,United+States",Cajun Stays-Cajun Home II- Entire House,$124,Not Available,Not Available,https://www.booking.com/hotel/us/Cajun-StaysCajun-Home-II-Entire-House
+,"Oakland+Park,United+States",Cajun Stays - Cajun Hostel II - The Black Room,$26,5.3,6,https://www.booking.com/hotel/us/Cajun-Stays-Cajun-Hostel-II-The-Black-Room
+,"Little+Rock,United+States",Wingate by Wyndham Little Rock,$93,8.6,"2,051",https://www.booking.com/hotel/us/Wingate-by-Wyndham-Little-Rock
+,"Little+Rock,United+States",AC Hotel by Marriott Little Rock Downtown,$139,8.5,282,https://www.booking.com/hotel/us/AC-Hotel-by-Marriott-Little-Rock-Downtown
+,"Little+Rock,United+States",Comfort Inn & Suites Little Rock Airport,$101,8.0,469,https://www.booking.com/hotel/us/Comfort-Inn-Suites-Little-Rock-Airport
+,"Little+Rock,United+States",Residence Inn by Marriott Little Rock Downtown,$125,8.5,118,https://www.booking.com/hotel/us/Residence-Inn-by-Marriott-Little-Rock-Downtown
+,"Little+Rock,United+States",DoubleTree by Hilton Little Rock,$118,7.7,490,https://www.booking.com/hotel/us/DoubleTree-by-Hilton-Little-Rock
+,"Puno,Peru",Titicaca Habitación panorámica vista al amanecer,$36,9.0,42,https://www.booking.com/hotel/pe/Titicaca-Habitación-panorámica-vista-al-amanecer
+,"Puno,Peru",Hotel Hacienda Puno Centro Histórico,$44,8.6,"1,258",https://www.booking.com/hotel/pe/Hotel-Hacienda-Puno-Centro-Histórico
+,"Puno,Peru",Casona Plaza Balsa Inn,$36,8.7,177,https://www.booking.com/hotel/pe/Casona-Plaza-Balsa-Inn
+,"Puno,Peru",GHL Hotel Lago Titicaca,$103,8.9,682,https://www.booking.com/hotel/pe/GHL-Hotel-Lago-Titicaca
+,"Puno,Peru",Amalia Titicaca Lodge,$200,10,131,https://www.booking.com/hotel/pe/Amalia-Titicaca-Lodge
+,"Wilkes-Barre,United+States",The Woodlands Inn,$88,7.9,"1,012",https://www.booking.com/hotel/us/The-Woodlands-Inn
+,"Wilkes-Barre,United+States",Fairfield by Marriott Wilkes-Barre,$110,7.7,147,https://www.booking.com/hotel/us/Fairfield-by-Marriott-WilkesBarre
+,"Wilkes-Barre,United+States","Holiday Inn Wilkes Barre - East Mountain, an IHG Hotel",$125,8.1,"1,459",https://www.booking.com/hotel/us/Holiday-Inn-Wilkes-Barre-East-Mountain-an-IHG-Hotel
+,"Wilkes-Barre,United+States",Home2 Suites By Hilton Wilkes-Barre,$125,9.2,118,https://www.booking.com/hotel/us/Home2-Suites-By-Hilton-WilkesBarre
+,"Wilkes-Barre,United+States",Comfort Inn & Suites Wilkes Barre - Arena,$101,8.1,528,https://www.booking.com/hotel/us/Comfort-Inn-Suites-Wilkes-Barre-Arena
+,"Desamparados,Costa+Rica",Unique peaceful cabin in the sky,$77,Not Available,Not Available,https://www.booking.com/hotel/cr/Unique-peaceful-cabin-in-the-sky
+,"Desamparados,Costa+Rica",CANTOS DEL VIENTO,$63,5.0,1,https://www.booking.com/hotel/cr/CANTOS-DEL-VIENTO
+,"Desamparados,Costa+Rica",Colibrí,$112,Not Available,Not Available,https://www.booking.com/hotel/cr/Colibrí
+,"Desamparados,Costa+Rica",Gran Hotel Desamparados,$55,Not Available,Not Available,https://www.booking.com/hotel/cr/Gran-Hotel-Desamparados
+,"Desamparados,Costa+Rica",Hotel Ave del Paraíso,$81,8.5,251,https://www.booking.com/hotel/cr/Hotel-Ave-del-Paraíso
+,"Wakiso,Uganda",Mabamba Lodge,$113,9.5,16,https://www.booking.com/hotel/ug/Mabamba-Lodge
+,"Wakiso,Uganda",FREEDOM Guest House,$14,5.0,2,https://www.booking.com/hotel/ug/FREEDOM-Guest-House
+,"Wakiso,Uganda",Sky Beach Hotel,$55,Not Available,Not Available,https://www.booking.com/hotel/ug/Sky-Beach-Hotel
+,"Wakiso,Uganda",Karay Apartments,$36,10,1,https://www.booking.com/hotel/ug/Karay-Apartments
+,"Wakiso,Uganda",Kakiri Gardens and Hotel,$65,Not Available,Not Available,https://www.booking.com/hotel/ug/Kakiri-Gardens-and-Hotel
+,"General+Trias,Philippines",RedDoorz at David's Travellers Inn Cavite,$12,7.0,1,https://www.booking.com/hotel/ph/RedDoorz-at-Davids-Travellers-Inn-Cavite
+,"General+Trias,Philippines",Villa Elsie Resort and Hotel,$22,9.0,1,https://www.booking.com/hotel/ph/Villa-Elsie-Resort-and-Hotel
+,"General+Trias,Philippines",Vacation home in Lancaster new city Cavite Philippines,$29,Not Available,Not Available,https://www.booking.com/hotel/ph/Vacation-home-in-Lancaster-new-city-Cavite-Philippines
+,"General+Trias,Philippines",Jb's Transient House,$140,Not Available,Not Available,https://www.booking.com/hotel/ph/Jbs-Transient-House
+,"General+Trias,Philippines",GCASH - Taal cozy private homestay with PRIVATE attached bathroom in General Trias - Pink Room,$17,10,2,https://www.booking.com/hotel/ph/GCASH-Taal-cozy-private-homestay-with-PRIVATE-attached-bathroom-in-General-Trias-Pink-Room
+,"Sukuta,The+Gambia",The Rink Apartment's,Not Available,9.1,21,https://www.booking.com/hotel/gm/The-Rink-Apartments
+,"Sukuta,The+Gambia",Kololi Beach Resort,$96,8.1,278,https://www.booking.com/hotel/gm/Kololi-Beach-Resort
+,"Sukuta,The+Gambia",Metzy Residence Hotel,$63,7.4,320,https://www.booking.com/hotel/gm/Metzy-Residence-Hotel
+,"Sukuta,The+Gambia",Tropic Garden Hotel,$77,7.2,179,https://www.booking.com/hotel/gm/Tropic-Garden-Hotel
+,"Sukuta,The+Gambia",Jungle Beach Resort,$38,7.6,66,https://www.booking.com/hotel/gm/Jungle-Beach-Resort
+,"Valjevo,Serbia",Villa BonnaDea,$59,9.9,231,https://www.booking.com/hotel/rs/Villa-BonnaDea
+,"Valjevo,Serbia",Luxury Suite Veselić,$76,Not Available,Not Available,https://www.booking.com/hotel/rs/Luxury-Suite-Veselić
+,"Valjevo,Serbia",Ušće,$64,10,13,https://www.booking.com/hotel/rs/Ušće
+,"Valjevo,Serbia",Zam Residence,$52,9.1,109,https://www.booking.com/hotel/rs/Zam-Residence
+,"Valjevo,Serbia",Nana / Sobe & Apartmani,$59,9.8,159,https://www.booking.com/hotel/rs/Nana-Sobe-Apartmani
+,"Ahmadpur+East,Pakistan",Niagara Falls Bahawalpur,$22,9.0,10,https://www.booking.com/hotel/pk/Niagara-Falls-Bahawalpur
+,"Bromley,United+Kingdom",Bromley Court Hotel London,$104,8.1,"3,681",https://www.booking.com/hotel/gb/Bromley-Court-Hotel-London
+,"Bromley,United+Kingdom",Brama,$139,9.5,112,https://www.booking.com/hotel/gb/Brama
+,"Bromley,United+Kingdom",ibis budget London Bromley Town Centre,$52,7.0,"1,132",https://www.booking.com/hotel/gb/ibis-budget-London-Bromley-Town-Centre
+,"Bromley,United+Kingdom",The Bulls Head Hotel,$137,8.6,287,https://www.booking.com/hotel/gb/The-Bulls-Head-Hotel
+,"Bromley,United+Kingdom",The Crown Inn,$189,8.7,609,https://www.booking.com/hotel/gb/The-Crown-Inn
+,"Kirkby,United+Kingdom",Red Dragon Inn,$109,9.1,"1,055",https://www.booking.com/hotel/gb/Red-Dragon-Inn
+,"Kirkby,United+Kingdom",The Royal Hotel,$210,8.8,"1,230",https://www.booking.com/hotel/gb/The-Royal-Hotel
+,"Kirkby,United+Kingdom",Sun Inn,$152,8.9,759,https://www.booking.com/hotel/gb/Sun-Inn
+,"Kirkby,United+Kingdom",Plato's,$140,8.8,832,https://www.booking.com/hotel/gb/Platos
+,"Kirkby,United+Kingdom",Snooty Fox,$97,7.9,950,https://www.booking.com/hotel/gb/Snooty-Fox
+,"Kota+Kinabalu,Malaysia",Hyatt Regency Kinabalu,$94,8.3,"1,146",https://www.booking.com/hotel/my/Hyatt-Regency-Kinabalu
+,"Kota+Kinabalu,Malaysia","Shangri-La Rasa Ria, Kota Kinabalu",$154,8.9,"1,584",https://www.booking.com/hotel/my/ShangriLa-Rasa-Ria-Kota-Kinabalu
+,"Kota+Kinabalu,Malaysia",Horizon Hotel,$54,8.3,"1,914",https://www.booking.com/hotel/my/Horizon-Hotel
+,"Kota+Kinabalu,Malaysia",Hilton Kota Kinabalu,$91,8.8,"1,286",https://www.booking.com/hotel/my/Hilton-Kota-Kinabalu
+,"Kota+Kinabalu,Malaysia",Maison life 小居屋 The Loft Imago,$89,8.8,892,https://www.booking.com/hotel/my/Maison-life-小居屋-The-Loft-Imago
+,"Koforidua,Ghana",AIDEN HOMES AND APARTMENTS,$49,8.3,41,https://www.booking.com/hotel/gh/AIDEN-HOMES-AND-APARTMENTS
+,"Koforidua,Ghana",Dexxy's Palace Hotel,$22,9.0,2,https://www.booking.com/hotel/gh/Dexxys-Palace-Hotel
+,"Koforidua,Ghana",Nana Adu Guest House,$38,9.5,20,https://www.booking.com/hotel/gh/Nana-Adu-Guest-House
+,"Koforidua,Ghana",Capital viewers hotel,$89,Not Available,Not Available,https://www.booking.com/hotel/gh/Capital-viewers-hotel
+,"Koforidua,Ghana",Bastion Home,$42,10,1,https://www.booking.com/hotel/gh/Bastion-Home
+,"Campbell,United+States",Courtyard by Marriott San Jose Campbell,$135,8.6,242,https://www.booking.com/hotel/us/Courtyard-by-Marriott-San-Jose-Campbell
+,"Campbell,United+States",Larkspur Landing Campbell-An All-Suite Hotel,$118,7.3,525,https://www.booking.com/hotel/us/Larkspur-Landing-CampbellAn-AllSuite-Hotel
+,"Campbell,United+States",Residence Inn San Jose Campbell,$114,8.2,85,https://www.booking.com/hotel/us/Residence-Inn-San-Jose-Campbell
+,"Campbell,United+States",DoubleTree by Hilton Campbell - Pruneyard Plaza,$221,8.4,233,https://www.booking.com/hotel/us/DoubleTree-by-Hilton-Campbell-Pruneyard-Plaza
+,"Campbell,United+States",The Bristol Hotel Campbell San Jose,$170,9.0,603,https://www.booking.com/hotel/us/The-Bristol-Hotel-Campbell-San-Jose
+,"Salto,Uruguay",Arapey Oasis Termal Hotel,$94,8.9,"1,243",https://www.booking.com/hotel/uy/Arapey-Oasis-Termal-Hotel
+,"Salto,Uruguay",Arapey Thermal All Inclusive Resort & Spa,$335,9.0,997,https://www.booking.com/hotel/uy/Arapey-Thermal-All-Inclusive-Resort-Spa
+,"Salto,Uruguay",Hotel La Posta del Dayman,$100,8.4,"1,031",https://www.booking.com/hotel/uy/Hotel-La-Posta-del-Dayman
+,"Salto,Uruguay",Apart Hotel Géminis,$54,8.3,733,https://www.booking.com/hotel/uy/Apart-Hotel-Géminis
+,"Salto,Uruguay",Salto Hotel y Casino,$84,8.3,693,https://www.booking.com/hotel/uy/Salto-Hotel-y-Casino
+,"Germantown,United+States",Homewood Suites Memphis Germantown,$127,8.6,761,https://www.booking.com/hotel/us/Homewood-Suites-Memphis-Germantown
+,"Germantown,United+States",Fairfield Inn and Suites Memphis Germantown,$101,7.4,350,https://www.booking.com/hotel/us/Fairfield-Inn-and-Suites-Memphis-Germantown
+,"Germantown,United+States",Residence Inn Memphis Germantown,$127,7.1,59,https://www.booking.com/hotel/us/Residence-Inn-Memphis-Germantown
+,"Germantown,United+States",Hampton Inn Memphis-Southwind,$88,6.6,300,https://www.booking.com/hotel/us/Hampton-Inn-MemphisSouthwind
+,"Germantown,United+States",Hampton Inn & Suites Memphis Germantown,$135,8.9,243,https://www.booking.com/hotel/us/Hampton-Inn-Suites-Memphis-Germantown
+,"Playa+Vicente,Mexico",Hotel San Vicente,Not Available,7.1,345,https://www.booking.com/hotel/mx/Hotel-San-Vicente
+,"Playa+Vicente,Mexico",Playa Palms Beach Hotel,$132,8.1,"1,048",https://www.booking.com/hotel/mx/Playa-Palms-Beach-Hotel
+,"Playa+Vicente,Mexico",Meliora by Bunik,$83,9.0,"2,316",https://www.booking.com/hotel/mx/Meliora-by-Bunik
+,"Playa+Vicente,Mexico",Hotel Xcaret Arte - All Parks All Fun Inclusive - Adults Only,"$1,057",9.4,"1,500",https://www.booking.com/hotel/mx/Hotel-Xcaret-Arte-All-Parks-All-Fun-Inclusive-Adults-Only
+,"Playa+Vicente,Mexico",Hotel Xcaret Mexico All Parks All Fun Inclusive,$889,9.2,"1,758",https://www.booking.com/hotel/mx/Hotel-Xcaret-Mexico-All-Parks-All-Fun-Inclusive
+,"Avrankou,Benin",Résidences Ouadada,$40,8.8,74,https://www.booking.com/hotel/bj/Résidences-Ouadada
+,"Avrankou,Benin",ART Residence,$117,8.6,25,https://www.booking.com/hotel/bj/ART-Residence
+,"Avrankou,Benin",Chambres d'hôtes - Chez Mama Sêdjro,$21,8.8,22,https://www.booking.com/hotel/bj/Chambres-dhôtes-Chez-Mama-Sêdjro
+,"Avrankou,Benin",Luxury House,$35,Not Available,Not Available,https://www.booking.com/hotel/bj/Luxury-House
+,"Avrankou,Benin",Hôtel Residence Santa Claudia,$70,Not Available,Not Available,https://www.booking.com/hotel/bj/Hôtel-Residence-Santa-Claudia
+,"Jalal-Abad,Kyrgyzstan",KOK-ART Hotel Jalal-Abad,$50,8.5,61,https://www.booking.com/hotel/kg/KOKART-Hotel-JalalAbad
+,"Jalal-Abad,Kyrgyzstan",Dastan Grand Hotel,$62,9.9,10,https://www.booking.com/hotel/kg/Dastan-Grand-Hotel
+,"Jalal-Abad,Kyrgyzstan",Qaragat,$65,8.9,8,https://www.booking.com/hotel/kg/Qaragat
+,"Jalal-Abad,Kyrgyzstan",Отель Жылдыз,$30,8.6,67,https://www.booking.com/hotel/kg/Отель-Жылдыз
+,"Jalal-Abad,Kyrgyzstan",Hotel Good Night,$40,9.5,109,https://www.booking.com/hotel/kg/Hotel-Good-Night
+,"Hayes,United+Kingdom",Mercure London Heathrow Airport,$74,6.4,"2,370",https://www.booking.com/hotel/gb/Mercure-London-Heathrow-Airport
+,"Hayes,United+Kingdom",Heathrow Inn Hotel,$82,4.2,"1,235",https://www.booking.com/hotel/gb/Heathrow-Inn-Hotel
+,"Hayes,United+Kingdom",Dallas House - Easy links to LHR and London,$210,8.3,9,https://www.booking.com/hotel/gb/Dallas-House-Easy-links-to-LHR-and-London
+,"Hayes,United+Kingdom",Art deco lodging in London,$199,Not Available,Not Available,https://www.booking.com/hotel/gb/Art-deco-lodging-in-London
+,"Hayes,United+Kingdom",Eden house,$114,Not Available,Not Available,https://www.booking.com/hotel/gb/Eden-house
+,"Matale,Sri+Lanka",CRYSTAL RIVERSTON DECK,$45,8.4,16,https://www.booking.com/hotel/lk/CRYSTAL-RIVERSTON-DECK
+,"Matale,Sri+Lanka",Pearl's Homestay Matale,$20,9.7,49,https://www.booking.com/hotel/lk/Pearls-Homestay-Matale
+,"Matale,Sri+Lanka",Nelinsa Resort and Spa,$39,9.8,13,https://www.booking.com/hotel/lk/Nelinsa-Resort-and-Spa
+,"Matale,Sri+Lanka",Strathisla Tea Estate Bungalow,$125,9.5,19,https://www.booking.com/hotel/lk/Strathisla-Tea-Estate-Bungalow
+,"Matale,Sri+Lanka",Lakegala Resort,$75,9.3,20,https://www.booking.com/hotel/lk/Lakegala-Resort
+,"Mogi+das+Cruzes,Brazil",ibis Mogi das Cruzes Shopping,$58,8.1,"1,910",https://www.booking.com/hotel/br/ibis-Mogi-das-Cruzes-Shopping
+,"Mogi+das+Cruzes,Brazil",Marsala Apart Hotel,$73,8.2,692,https://www.booking.com/hotel/br/Marsala-Apart-Hotel
+,"Mogi+das+Cruzes,Brazil",My Flat,$57,8.6,433,https://www.booking.com/hotel/br/My-Flat
+,"Mogi+das+Cruzes,Brazil",Hotel Marbor,$59,8.1,"1,447",https://www.booking.com/hotel/br/Hotel-Marbor
+,"Mogi+das+Cruzes,Brazil",Hotel Binder Quality Inn,$59,7.4,"1,422",https://www.booking.com/hotel/br/Hotel-Binder-Quality-Inn
+,"Le+Kremlin-Bicêtre,France",T2 Paris 5 ' Tour Eiffel 15' Parking Wifi/Netflix,$224,9.2,17,https://www.booking.com/hotel/fr/T2-Paris-5-Tour-Eiffel-15-Parking-WifiNetflix
+,"Le+Kremlin-Bicêtre,France",ibis budget Paris Porte d'Italie Ouest,$65,7.7,"4,529",https://www.booking.com/hotel/fr/ibis-budget-Paris-Porte-dItalie-Ouest
+,"Le+Kremlin-Bicêtre,France","Porte de PARIS , Métro 10 minute à pied Parking gratuit wifi gratuit Netflix",$189,8.4,21,https://www.booking.com/hotel/fr/Porte-de-PARIS-Métro-10-minute-à-pied-Parking-gratuit-wifi-gratuit-Netflix
+,"Le+Kremlin-Bicêtre,France",Novotel Paris 13 Porte d'Italie,$113,7.0,946,https://www.booking.com/hotel/fr/Novotel-Paris-13-Porte-dItalie
+,"Le+Kremlin-Bicêtre,France",Auberge de jeunesse Hosho Paris Sud - Porte d'Italie,$151,8.0,"2,969",https://www.booking.com/hotel/fr/Auberge-de-jeunesse-Hosho-Paris-Sud-Porte-dItalie
+,"Mosquera,Colombia",Ayenda Alfay Mosquera,$25,6.3,13,https://www.booking.com/hotel/co/Ayenda-Alfay-Mosquera
+,"Mosquera,Colombia",Disfruta de una vista hermosa.,$24,Not Available,Not Available,https://www.booking.com/hotel/co/Disfruta-de-una-vista-hermosa
+,"Mosquera,Colombia",Apartamento en Mosquera,$31,9.0,34,https://www.booking.com/hotel/co/Apartamento-en-Mosquera
+,"Mosquera,Colombia",La Isabella Deluxe,$50,10,3,https://www.booking.com/hotel/co/La-Isabella-Deluxe
+,"Mosquera,Colombia",Los Pinos Polo Club,$318,Not Available,Not Available,https://www.booking.com/hotel/co/Los-Pinos-Polo-Club
+,"Or+Yehuda,Israel",Milan suit,$153,Not Available,Not Available,https://www.booking.com/hotel/il/Milan-suit
+,"Or+Yehuda,Israel",Star Guest- House,$107,6.3,267,https://www.booking.com/hotel/il/Star-Guest-House
+,"Or+Yehuda,Israel",Luxury Penthouse 5 Rooms,$363,Not Available,Not Available,https://www.booking.com/hotel/il/Luxury-Penthouse-5-Rooms
+,"Or+Yehuda,Israel",Villa Ono - at Bar Ilan University and Sheba Hospital,$90,9.0,123,https://www.booking.com/hotel/il/Villa-Ono-at-Bar-Ilan-University-and-Sheba-Hospital
+,"Or+Yehuda,Israel",Sarin room,$113,8.7,11,https://www.booking.com/hotel/il/Sarin-room
+,"Amherst,United+States",Hampton Inn Buffalo - Amherst,$105,9.0,696,https://www.booking.com/hotel/us/Hampton-Inn-Buffalo-Amherst
+,"Amherst,United+States","Hyatt Place Buffalo / Amherst, NY",$162,8.7,782,https://www.booking.com/hotel/us/Hyatt-Place-Buffalo-Amherst-NY
+,"Amherst,United+States",Courtyard by Marriott Buffalo Amherst/University,$112,7.6,123,https://www.booking.com/hotel/us/Courtyard-by-Marriott-Buffalo-AmherstUniversity
+,"Amherst,United+States",Sleep Inn Amherst,$80,8.0,470,https://www.booking.com/hotel/us/Sleep-Inn-Amherst
+,"Amherst,United+States",Homewood Suites by Hilton Buffalo-Amherst,$127,8.5,126,https://www.booking.com/hotel/us/Homewood-Suites-by-Hilton-BuffaloAmherst
+,"Yoro,Honduras",H4 LAS CABAÑAS,$48,6.6,7,https://www.booking.com/hotel/hn/H4-LAS-CABAÑAS
+,"Yoro,Honduras","WE Hotel, La Lima",$24,8.2,288,https://www.booking.com/hotel/hn/WE-Hotel-La-Lima
+,"Yoro,Honduras",CASA DE HUESPEDES CASA BONITA,$32,8.6,179,https://www.booking.com/hotel/hn/CASA-DE-HUESPEDES-CASA-BONITA
+,"Yoro,Honduras",Hotel Bethlehem,$34,8.3,142,https://www.booking.com/hotel/hn/Hotel-Bethlehem
+,"Yoro,Honduras",Casa Be_tel,$22,8.0,1,https://www.booking.com/hotel/hn/Casa-Betel
+,"San+Bruno,United+States","Hotel Aluxor SFO, Sapphire Boutique Collection",$81,8.2,625,https://www.booking.com/hotel/us/Hotel-Aluxor-SFO-Sapphire-Boutique-Collection
+,"San+Bruno,United+States",Sonesta ES Suites San Francisco Airport San Bruno,$169,8.4,509,https://www.booking.com/hotel/us/Sonesta-ES-Suites-San-Francisco-Airport-San-Bruno
+,"San+Bruno,United+States",Hotel 1550 - SFO Airport West,$138,8.2,"3,032",https://www.booking.com/hotel/us/Hotel-1550-SFO-Airport-West
+,"San+Bruno,United+States",Regency Inn at San Francisco Airport,$101,8.3,732,https://www.booking.com/hotel/us/Regency-Inn-at-San-Francisco-Airport
+,"San+Bruno,United+States",The Atrium Hotel,$111,8.0,957,https://www.booking.com/hotel/us/The-Atrium-Hotel
+,"San+Nicolás+de+los+Garza,Mexico",Wyndham Garden Monterrey Norte,$147,8.4,938,https://www.booking.com/hotel/mx/Wyndham-Garden-Monterrey-Norte
+,"San+Nicolás+de+los+Garza,Mexico",NH Monterrey La Fe,$84,8.6,692,https://www.booking.com/hotel/mx/NH-Monterrey-La-Fe
+,"San+Nicolás+de+los+Garza,Mexico",Sleep Inn Monterrey Norte,$80,7.5,724,https://www.booking.com/hotel/mx/Sleep-Inn-Monterrey-Norte
+,"San+Nicolás+de+los+Garza,Mexico","Holiday Inn Monterrey Norte, an IHG Hotel",$131,9.1,209,https://www.booking.com/hotel/mx/Holiday-Inn-Monterrey-Norte-an-IHG-Hotel
+,"San+Nicolás+de+los+Garza,Mexico",Fiesta Inn Monterrey la Fe,$67,8.5,851,https://www.booking.com/hotel/mx/Fiesta-Inn-Monterrey-la-Fe
+,"Tala,Mexico",Hermosa Casa de campo,$86,Not Available,Not Available,https://www.booking.com/hotel/mx/Hermosa-Casa-de-campo
+,"Tala,Mexico",Hacienda Labor de Rivera Hotel Boutique,$174,9.2,28,https://www.booking.com/hotel/mx/Hacienda-Labor-de-Rivera-Hotel-Boutique
+,"Tala,Mexico",Hotel Hacienda San Isidro,$72,9.1,56,https://www.booking.com/hotel/mx/Hotel-Hacienda-San-Isidro
+,"Tala,Mexico",Seis agaves,$123,Not Available,Not Available,https://www.booking.com/hotel/mx/Seis-agaves
+,"Tala,Mexico",Residencia y piscina climatizada,$287,Not Available,Not Available,https://www.booking.com/hotel/mx/Residencia-y-piscina-climatizada
+,"Örebro,Sweden",Clarion Collection Hotel Borgen,$116,8.4,"1,992",https://www.booking.com/hotel/se/Clarion-Collection-Hotel-Borgen
+,"Örebro,Sweden",Elite Stora Hotellet Örebro,$90,7.3,"2,443",https://www.booking.com/hotel/se/Elite-Stora-Hotellet-Örebro
+,"Örebro,Sweden",Scandic Örebro Central,$115,8.4,"1,349",https://www.booking.com/hotel/se/Scandic-Örebro-Central
+,"Örebro,Sweden",City Hotel Örebro,$92,7.4,"1,950",https://www.booking.com/hotel/se/City-Hotel-Örebro
+,"Örebro,Sweden",Hotell Hjalmar,$118,7.2,"3,552",https://www.booking.com/hotel/se/Hotell-Hjalmar
+,"Prešov,Slovakia",Boutique Hotel Carpe Diem,$73,8.7,"1,148",https://www.booking.com/hotel/sk/Boutique-Hotel-Carpe-Diem
+,"Prešov,Slovakia",Hotel Black Horse,$77,8.3,961,https://www.booking.com/hotel/sk/Hotel-Black-Horse
+,"Prešov,Slovakia",Villa Plaza Boutique Hotel & Spa,$129,9.3,258,https://www.booking.com/hotel/sk/Villa-Plaza-Boutique-Hotel-Spa
+,"Prešov,Slovakia",Hotel Polo,$90,8.4,624,https://www.booking.com/hotel/sk/Hotel-Polo
+,"Prešov,Slovakia",CenterCity Apartments,$61,8.0,511,https://www.booking.com/hotel/sk/CenterCity-Apartments
+,"Greenville,United+States",Best Western Plus Greenville I-385 Inn & Suites,$107,8.8,"1,917",https://www.booking.com/hotel/us/Best-Western-Plus-Greenville-I385-Inn-Suites
+,"Greenville,United+States",Courtyard Greenville Haywood Mall,$125,8.8,201,https://www.booking.com/hotel/us/Courtyard-Greenville-Haywood-Mall
+,"Greenville,United+States",Hyatt Place Greenville Downtown,$169,8.8,"1,613",https://www.booking.com/hotel/us/Hyatt-Place-Greenville-Downtown
+,"Greenville,United+States",Courtyard by Marriott Greenville Downtown,$143,9.0,271,https://www.booking.com/hotel/us/Courtyard-by-Marriott-Greenville-Downtown
+,"Greenville,United+States",Hyatt Regency - Greenville,$184,8.2,579,https://www.booking.com/hotel/us/Hyatt-Regency-Greenville
+,"Bismarck,United+States",Americas Best Value Inn and Suites Bismarck,$80,8.0,839,https://www.booking.com/hotel/us/Americas-Best-Value-Inn-and-Suites-Bismarck
+,"Bismarck,United+States",Quality Inn Bismarck,$75,7.5,501,https://www.booking.com/hotel/us/Quality-Inn-Bismarck
+,"Bismarck,United+States",Sleep Inn & Suites Bismarck I-94,$105,8.7,296,https://www.booking.com/hotel/us/Sleep-Inn-Suites-Bismarck-I94
+,"Bismarck,United+States",Expressway Suites of Bismarck,$130,8.6,594,https://www.booking.com/hotel/us/Expressway-Suites-of-Bismarck
+,"Bismarck,United+States","Holiday Inn Express Hotel & Suites Bismarck, an IHG Hotel",$139,9.2,129,https://www.booking.com/hotel/us/Holiday-Inn-Express-Hotel-Suites-Bismarck-an-IHG-Hotel
+,"Sham+Shui+Po,Hong+Kong",Lander Hotel Prince Edward,$69,6.0,41,https://www.booking.com/hotel/hk/Lander-Hotel-Prince-Edward
+,"Sham+Shui+Po,Hong+Kong","Cordis, Hong Kong",$205,8.5,"2,175",https://www.booking.com/hotel/hk/Cordis-Hong-Kong
+,"Sham+Shui+Po,Hong+Kong","Hotel 108, Hong Kong",$109,7.3,329,https://www.booking.com/hotel/hk/Hotel-108-Hong-Kong
+,"Sham+Shui+Po,Hong+Kong",Harbour Plaza Metropolis,$127,7.7,"1,291",https://www.booking.com/hotel/hk/Harbour-Plaza-Metropolis
+,"Sham+Shui+Po,Hong+Kong",Hotel Ease Access Tsuen Wan,$55,7.2,607,https://www.booking.com/hotel/hk/Hotel-Ease-Access-Tsuen-Wan
+,"Missérété,Benin",Appartement Behanzin 4 Pieces Vue Piscine,$93,Not Available,Not Available,https://www.booking.com/hotel/bj/Appartement-Behanzin-4-Pieces-Vue-Piscine
+,"Missérété,Benin",Apartment Kaba 4 Rooms Terrace Pool View,$123,Not Available,Not Available,https://www.booking.com/hotel/bj/Apartment-Kaba-4-Rooms-Terrace-Pool-View
+,"Missérété,Benin",Apartment Bioguera 3 Rooms Terrace Pool View,$82,Not Available,Not Available,https://www.booking.com/hotel/bj/Apartment-Bioguera-3-Rooms-Terrace-Pool-View
+,"Missérété,Benin",Apartment Guezo 3 Rooms Terrace Pool View,$63,Not Available,Not Available,https://www.booking.com/hotel/bj/Apartment-Guezo-3-Rooms-Terrace-Pool-View
+,"Missérété,Benin",Apartment Toffa 3 Rooms Terrace Pool View,$58,9.0,1,https://www.booking.com/hotel/bj/Apartment-Toffa-3-Rooms-Terrace-Pool-View
+,"Temperley,Argentina",Hermoso espacio en Temperley,$55,Not Available,Not Available,https://www.booking.com/hotel/ar/Hermoso-espacio-en-Temperley
+,"Temperley,Argentina",Casa D'Vilero en Temperley,$34,9.4,93,https://www.booking.com/hotel/ar/Casa-DVilero-en-Temperley
+,"Temperley,Argentina",Adrogue Apartment Ezeiza Airport Shuttle,$84,9.6,83,https://www.booking.com/hotel/ar/Adrogue-Apartment-Ezeiza-Airport-Shuttle
+,"Temperley,Argentina",Espacioso monoambiente en pleno centro,$99,9.5,39,https://www.booking.com/hotel/ar/Espacioso-monoambiente-en-pleno-centro
+,"Temperley,Argentina",HOTEL Boutique Casablanca Adrogué,$168,9.1,43,https://www.booking.com/hotel/ar/HOTEL-Boutique-Casablanca-Adrogué
+,"Concord,United+States",Wingate by Wyndham Charlotte Concord Mills/Speedway,$118,8.3,"1,835",https://www.booking.com/hotel/us/Wingate-by-Wyndham-Charlotte-Concord-MillsSpeedway
+,"Concord,United+States",Hilton Garden Inn Charlotte/Concord,$123,8.6,538,https://www.booking.com/hotel/us/Hilton-Garden-Inn-CharlotteConcord
+,"Concord,United+States",Sleep Inn & Suites at Concord Mills,$102,7.2,480,https://www.booking.com/hotel/us/Sleep-Inn-Suites-at-Concord-Mills
+,"Concord,United+States",Courtyard Charlotte Concord,$209,8.3,381,https://www.booking.com/hotel/us/Courtyard-Charlotte-Concord
+,"Concord,United+States","Country Inn & Suites by Radisson, Concord (Kannapolis), NC",$99,7.6,"1,059",https://www.booking.com/hotel/us/Country-Inn-Suites-by-Radisson-Concord-Kannapolis-NC
+,"Denton,United+States",Embassy Suites By Hilton Denton Convention Center,$152,9.0,280,https://www.booking.com/hotel/us/Embassy-Suites-By-Hilton-Denton-Convention-Center
+,"Denton,United+States",Hilton Garden Inn Denton,$114,8.3,158,https://www.booking.com/hotel/us/Hilton-Garden-Inn-Denton
+,"Denton,United+States",La Quinta by Wyndham Denton - University Drive,$94,7.7,582,https://www.booking.com/hotel/us/La-Quinta-by-Wyndham-Denton-University-Drive
+,"Denton,United+States","Holiday Inn Express & Suites - Denton South, an IHG Hotel",$103,8.7,433,https://www.booking.com/hotel/us/Holiday-Inn-Express-Suites-Denton-South-an-IHG-Hotel
+,"Denton,United+States",Fairfield Inn & Suites Denton,$76,8.9,208,https://www.booking.com/hotel/us/Fairfield-Inn-Suites-Denton
+,"Warabi,Japan",E Hotel Warabi,$58,6.9,324,https://www.booking.com/hotel/jp/E-Hotel-Warabi
+,"Warabi,Japan",Toyoko Inn Nishi-kawaguchi-eki,$68,7.2,46,https://www.booking.com/hotel/jp/Toyoko-Inn-Nishikawaguchieki
+,"Warabi,Japan","Warabi, Tsukakoshi-3F",$54,Not Available,Not Available,https://www.booking.com/hotel/jp/Warabi-Tsukakoshi3F
+,"Warabi,Japan",Toyoko Inn Kita-toda-eki Higashi-guchi,$64,8.3,525,https://www.booking.com/hotel/jp/Toyoko-Inn-Kitatodaeki-Higashiguchi
+,"Warabi,Japan",Toyoko Inn Kawaguchi Ekimae,$64,7.7,379,https://www.booking.com/hotel/jp/Toyoko-Inn-Kawaguchi-Ekimae
+,"Mińsk+Mazowiecki,Poland",Hotel Partner,$75,7.4,397,https://www.booking.com/hotel/pl/Hotel-Partner
+,"Mińsk+Mazowiecki,Poland",Apartamenty ELITMAT,$66,9.2,766,https://www.booking.com/hotel/pl/Apartamenty-ELITMAT
+,"Mińsk+Mazowiecki,Poland",Chillout-House,$70,9.6,54,https://www.booking.com/hotel/pl/ChilloutHouse
+,"Mińsk+Mazowiecki,Poland",Perła Apartament Mińsk,$90,9.3,59,https://www.booking.com/hotel/pl/Perła-Apartament-Mińsk
+,"Mińsk+Mazowiecki,Poland",Queen Apartament Centrum z garażem,$88,9.7,3,https://www.booking.com/hotel/pl/Queen-Apartament-Centrum-z-garażem
+,"Taoyuan+District,Taiwan",The Yorker Deluxe Motel,$65,7.7,595,https://www.booking.com/hotel/tw/The-Yorker-Deluxe-Motel
+,"Taoyuan+District,Taiwan",Metropolis Hotel,$57,8.3,169,https://www.booking.com/hotel/tw/Metropolis-Hotel
+,"Taoyuan+District,Taiwan",Chong Yu Hotel,$57,7.6,189,https://www.booking.com/hotel/tw/Chong-Yu-Hotel
+,"Taoyuan+District,Taiwan",Century Hotel Taoyuan,$69,8.2,240,https://www.booking.com/hotel/tw/Century-Hotel-Taoyuan
+,"Taoyuan+District,Taiwan",JIASHITE HOTEL,$63,7.5,294,https://www.booking.com/hotel/tw/JIASHITE-HOTEL
+,"Zoetermeer,Netherlands",NH Zoetermeer Hotel,$86,7.7,"1,101",https://www.booking.com/hotel/nl/NH-Zoetermeer-Hotel
+,"Zoetermeer,Netherlands",Golden Tulip Zoetermeer - Den Haag,$105,8.0,"1,233",https://www.booking.com/hotel/nl/Golden-Tulip-Zoetermeer-Den-Haag
+,"Zoetermeer,Netherlands",Bastion Hotel Zoetermeer,$85,7.2,"1,261",https://www.booking.com/hotel/nl/Bastion-Hotel-Zoetermeer
+,"Zoetermeer,Netherlands",Sweetlake,$96,8.3,238,https://www.booking.com/hotel/nl/Sweetlake
+,"Zoetermeer,Netherlands",Hoeve BuytenHout,$182,9.7,78,https://www.booking.com/hotel/nl/Hoeve-BuytenHout
+,"Tukuyu,Tanzania",Kalongo Farm Ecosystem Homes,$59,9.0,1,https://www.booking.com/hotel/tz/Kalongo-Farm-Ecosystem-Homes
+,"Tukuyu,Tanzania",Kalongo Farm Homes Kiwira,$60,Not Available,Not Available,https://www.booking.com/hotel/tz/Kalongo-Farm-Homes-Kiwira
+,"Baigou,China",GreenTree Inn Baoding Gaobeidian Baigou Express Hotel,Not Available,Not Available,Not Available,https://www.booking.com/hotel/cn/GreenTree-Inn-Baoding-Gaobeidian-Baigou-Express-Hotel
+,"Baigou,China",Sofitel Xiong An,$112,Not Available,Not Available,https://www.booking.com/hotel/cn/Sofitel-Xiong-An
+,"Baigou,China",voco Xiong'An,$68,9.0,2,https://www.booking.com/hotel/cn/voco-XiongAn
+,"Baigou,China",Jinjiang Inn Select Baoding Baiyangdian,$24,Not Available,Not Available,https://www.booking.com/hotel/cn/Jinjiang-Inn-Select-Baoding-Baiyangdian
+,"Baigou,China",Wyndham Xiong'an,$92,3.0,1,https://www.booking.com/hotel/cn/Wyndham-Xiongan
+,"Ipil,Philippines",Victoria king hotel,$28,Not Available,Not Available,https://www.booking.com/hotel/ph/Victoria-king-hotel
+,"Ipil,Philippines",Victoria King Hotel,$28,7.0,1,https://www.booking.com/hotel/ph/Victoria-King-Hotel
+,"Ipil,Philippines",GV Hotel - Ipil,$16,7.3,11,https://www.booking.com/hotel/ph/GV-Hotel-Ipil
+,"Ipil,Philippines",Westpine Hotel,$16,Not Available,Not Available,https://www.booking.com/hotel/ph/Westpine-Hotel
+,"Ipil,Philippines",RedDoorz @ Jackie’s Hotel & Restaurant,$20,5.0,1,https://www.booking.com/hotel/ph/RedDoorz-Jackie’s-Hotel-Restaurant
+,"Takasagochō-takasemachi,Japan",Hotel neobibi (Adult Only),$52,7.0,29,https://www.booking.com/hotel/jp/Hotel-neobibi-Adult-Only
+,"Takasagochō-takasemachi,Japan",ホテル ポルト 男塾ホテルグループ,$47,8.5,58,https://www.booking.com/hotel/jp/ホテル-ポルト-男塾ホテルグループ
+,"Takasagochō-takasemachi,Japan",ホテル継kei男塾ホテルグループ,$41,8.5,52,https://www.booking.com/hotel/jp/ホテル継kei男塾ホテルグループ
+,"Takasagochō-takasemachi,Japan",Hotel Rea Tiare - Adult Only-,$52,8.6,10,https://www.booking.com/hotel/jp/Hotel-Rea-Tiare-Adult-Only
+,"Takasagochō-takasemachi,Japan",ホテル カーシュ Cache 男塾ホテルグループ,$34,8.9,237,https://www.booking.com/hotel/jp/ホテル-カーシュ-Cache-男塾ホテルグループ
+,"Lai+Châu,Vietnam",Muong Thanh Lai Chau Hotel,$41,8.7,35,https://www.booking.com/hotel/vn/Muong-Thanh-Lai-Chau-Hotel
+,"Lai+Châu,Vietnam",HOTEL HOÀNG GIA,$14,8.3,3,https://www.booking.com/hotel/vn/HOTEL-HOÀNG-GIA
