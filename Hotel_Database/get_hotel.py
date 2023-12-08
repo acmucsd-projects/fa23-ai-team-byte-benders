@@ -97,9 +97,9 @@ async def main():
         print("\ninvalid range. Quiting.")
         return
     print(f"\n{end - start} cities will be scraped.\n")
-    print("\n==========================================================================")
+    print("\n=============================================================================")
     print(f"   Do not modify the auto-generated webpages or hotel{str(exe_range)}.csv file.   ")
-    print("==========================================================================\n")
+    print("=============================================================================\n")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
