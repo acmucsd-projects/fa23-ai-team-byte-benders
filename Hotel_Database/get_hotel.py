@@ -47,6 +47,9 @@ async def get_hotel(city, country_code, browser):
             return [{'city' : city, "hotel": "Error: Hotel Not Found"}]
         
         hotels = await page.locator('//div[@data-testid="property-card"]').all()
+        if (len(hotels) == 0):
+            await page.close()
+            return [{'city' : city, "hotel": "No Avaliable Hotel"}]
         for count, hotel in enumerate(hotels):
             if (count == hotels_per_city):
                 break
@@ -97,9 +100,9 @@ async def main():
         print("\ninvalid range. Quiting.")
         return
     print(f"\n{end - start} cities will be scraped.\n")
-    print("\n=============================================================================")
+    print("\n============================================================================")
     print(f"   Do not modify the auto-generated webpages or hotel{str(exe_range)}.csv file.   ")
-    print("=============================================================================\n")
+    print("============================================================================\n")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
