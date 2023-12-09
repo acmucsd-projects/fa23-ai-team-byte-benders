@@ -84,7 +84,7 @@ async def main():
     hotel_list = []
     city_counter = 0
     if os.path.exists(filename):
-        hotel_df = pd.read_csv(filename)
+        hotel_df = pd.read_csv(filename).drop_duplicates(subset='hotel')
         hotel_list = hotel_df.to_dict('records')
         temp = exe_list.copy()
         temp.loc[:, 'city_country'] = exe_list['city'] + ',' + (exe_list['country'].replace(" ", "+"))
@@ -120,7 +120,7 @@ async def main():
                     result = await future
                     hotel_list.extend(result)
                 await browser.close()
-    await pd.DataFrame(hotel_list).to_csv(filename)
+    pd.DataFrame(hotel_list).reset_index(drop=True).to_csv(filename, index=False)
     print("Done!")
 
 # Run the main function
