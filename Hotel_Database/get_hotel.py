@@ -75,8 +75,8 @@ async def get_hotel(city, country_code, browser):
                     hotel_dict['reviews count'] = (await hotel.locator('//div[@data-testid="review-score"]/div[2]/div[2]').inner_text()).split()[0]
                 except:
                     hotel_dict['reviews count'] = 'Not Available'
-            hotel_string = hotel_dict['hotel'].translate(str.maketrans("", "", string.punctuation)).replace("  "," ").replace(" ", "-")
-            hotel_dict['url'] = f'https://www.booking.com/hotel/{country_code}/{hotel_string}'
+            hotel_string = hotel_dict['hotel'].translate(str.maketrans(string.punctuation, ' '*len(string.punctuation))).replace("  "," ").replace("   "," ").replace(" ", "-").lower()
+            hotel_dict['url'] = f'https://www.booking.com/hotel/{country_code}/{hotel_string}.html'
             hotel_list.append(hotel_dict)
         await page.close()
         return hotel_list
