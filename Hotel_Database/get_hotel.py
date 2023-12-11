@@ -3,9 +3,10 @@ from playwright.async_api import async_playwright
 from tqdm.asyncio import tqdm
 import pandas as pd
 import datetime, string, os
+from unidecode import unidecode
 
 # import database(s)
-city_list_short = pd.read_csv("world_cities_major.csv", keep_default_na=False)[['city','country','iso2']]
+city_list_short = pd.read_csv("world_cities_major.csv", keep_default_na=False, encoding='utf_8')[['city','country','iso2']]
 
 # configuration / parameters
 exe_list = city_list_short
@@ -44,7 +45,7 @@ async def get_hotel(city, country_code, browser):
             print(f"\nFailed to get hotel page at {city} after {max_retries} retries.")
             await page.close()
             failed_cities.append((city, country_code)) # Add the failed city to the list
-            return [{'city' : city, "hotel": "Error: Hotel Not Found"}]
+            return [{'city' : city, "hotel": "Error: Page Not Found"}]
         
         hotels = await page.locator('//div[@data-testid="property-card"]').all()
         if (len(hotels) == 0):
@@ -75,7 +76,7 @@ async def get_hotel(city, country_code, browser):
                     hotel_dict['reviews count'] = (await hotel.locator('//div[@data-testid="review-score"]/div[2]/div[2]').inner_text()).split()[0]
                 except:
                     hotel_dict['reviews count'] = 'Not Available'
-            hotel_string = hotel_dict['hotel'].translate(str.maketrans(string.punctuation, ' '*len(string.punctuation))).replace("  "," ").replace("   "," ").replace(" ", "-").lower()
+            hotel_string = unidecode(hotel_dict['hotel'].translate(str.maketrans(string.punctuation, ' '*len(string.punctuation)))).replace("   "," ").replace("  "," ").replace(" ", "-").replace("--", "-").lower()
             hotel_dict['url'] = f'https://www.booking.com/hotel/{country_code}/{hotel_string}.html'
             hotel_list.append(hotel_dict)
         await page.close()
@@ -106,7 +107,7 @@ async def main():
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
-        tasks = [get_hotel((exe_list.iat[i, 0]+','+exe_list.iat[i, 1]).replace(" ","+"), exe_list.iat[i, 2].lower(), browser) for i in range(start,end)]
+        tasks = [get_hotel(unidecode(exe_list.iat[i, 0]+','+exe_list.iat[i, 1]).replace(" ","+"), exe_list.iat[i, 2].lower(), browser) for i in range(start,end)]
         for future in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc='Scraping hotels. Press Ctrl + C to quit'):
             result = await future
             hotel_list.extend(result)
