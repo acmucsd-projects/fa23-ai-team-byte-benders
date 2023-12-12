@@ -88,18 +88,19 @@ async def main():
     hotel_list = []
     city_counter = 0
     if os.path.exists(filename):
-        hotel_df = pd.read_csv(filename).drop_duplicates(subset='hotel')
+        hotel_df = pd.read_csv(filename).drop_duplicates(subset=['city','hotel'],keep='last',ignore_index=True)
         hotel_list = hotel_df.to_dict('records')
         temp = exe_list.copy()
-        temp.loc[:, 'city_country'] = exe_list['city'] + ',' + (exe_list['country'].replace(" ", "+"))
-        mask = temp['city_country'].isin(hotel_df['city'].unique())
+        temp.loc[:, 'city_country'] = (exe_list['city']) + ',' + (exe_list['country'])
+        mask = temp['city_country'].isin(hotel_df['city'].str.replace("+", " "))
         exe_list = exe_list[~mask]
         num_exed = len(hotel_df['city'].unique())
         end = end - num_exed
         print(f"\nResuming from saved state with {num_exed} cities already scraped.")
-    if (end <= 0 | end > exe_list.shape[0]):
+    if (end <= 0 or end > exe_list.shape[0]):
         print("\ninvalid range. Quiting.")
         return
+    
     print(f"\n{end - start} cities will be scraped.\n")
     print("\n============================================================================")
     print(f"   Do not modify the auto-generated webpages or hotel{str(exe_range)}.csv file.   ")
