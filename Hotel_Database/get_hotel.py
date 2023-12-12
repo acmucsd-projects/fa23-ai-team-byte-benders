@@ -1,5 +1,5 @@
 import asyncio
-from playwright.async_api import async_playwright
+from playwright.async_api import async_playwright, Browser
 from tqdm.asyncio import tqdm
 import pandas as pd
 import datetime, string, os
@@ -24,7 +24,7 @@ start = 0
 end = exe_range[1] - exe_range[0]
 exe_list = exe_list.iloc[exe_range[0]:exe_range[1]]
 
-async def get_hotel(city, country_code, browser):
+async def get_hotel(city: str, country_code: str, browser: Browser):
     async with sem:
 
         city_s = city.replace(" ", "+")
@@ -77,7 +77,7 @@ async def get_hotel(city, country_code, browser):
                 except:
                     hotel_dict['reviews count'] = 'Not Available'
             hotel_string = unidecode(hotel_dict['hotel'].translate(str.maketrans(string.punctuation, ' '*len(string.punctuation)))).replace("   "," ").replace("  "," ").replace(" ", "-").replace("--", "-").lower()
-            hotel_dict['url'] = f'https://www.booking.com/hotel/{country_code}/{hotel_string}.html'
+            hotel_dict['url'] = f'https://www.booking.com/hotel/{country_code.lower()}/{hotel_string}.html'
             hotel_list.append(hotel_dict)
         await page.close()
         return hotel_list
