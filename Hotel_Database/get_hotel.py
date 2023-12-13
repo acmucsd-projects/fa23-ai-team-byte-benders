@@ -4,7 +4,9 @@ from tqdm.asyncio import tqdm
 import pandas as pd
 import datetime, string, os
 from unidecode import unidecode
-
+'''
+THERE IS STILL BUG WITH THIS PIECE OF CODE. DUPLICATES OCCUR WHEN RESUME FROM SAVED STATE.
+'''
 # import database(s)
 city_list_short = pd.read_csv("world_cities_major.csv", keep_default_na=False, encoding='utf_8')[['city','country','iso2']]
 

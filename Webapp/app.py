@@ -3,11 +3,12 @@ import spacy
 from youtube_transcript_api import YouTubeTranscriptApi
 import geocoder
 import folium
-import requests
 import pandas as pd
-import sqlite3
+import time, re, sqlite3
 from collections import Counter
 from webscrape_hotel import search_hotel # Optional
+import deepl
+import country_converter as coco
 
 app = Flask(__name__)
 
@@ -15,6 +16,7 @@ nlp = spacy.load('en_core_web_sm')
 country_capital = "Datasets/country.txt"
 country_code = "Datasets/country-code.csv"
 hotel_database = 'Datasets/hotels.db'
+translator = deepl.Translator("3070a581-29ab-67ec-b594-e5a144f3aafb:fx")
 
 with open(country_capital, 'r') as file:
     countries = [line.replace('\n', "").lower() for line in file]
@@ -23,30 +25,11 @@ code_df = pd.read_csv(country_code, keep_default_na=False)
 two_code_list = code_df['Alpha-2 code'].str.lower().to_list()
 three_code_list = code_df['Alpha-3 code'].str.lower().to_list()
 
-def get_hotel(city: str, country: str):
-    city_country = (city+','+country).replace(' ','+')
-    db = getattr(g, '_database', None)
-    if db is None:
-        db = g._database = sqlite3.connect(hotel_database)
-    c = db.cursor() # Query the database
-    c.execute(f"SELECT * FROM hotels WHERE city = '{city_country}'")
-    hotels = c.fetchall()
-    if hotels:
-        html = [f"<html>\n<body>\n<h1>Hotels at {city}</h1>\n<table border='1'>\n<tr><th>Hotel</th><th>Price</th><th>Score</th><th>Review Count</th><th>URL</th></tr>\n"]
-        for hotel in hotels:
-            html.append(f"<tr><td>{hotel[1]}</td><td>{hotel[2]}</td><td>{hotel[3]}</td><td>{hotel[4]}</td><td><a href='{hotel[5]}' target='_blank'>Link</a></td></tr>\n")
-        html.append("</table>\n</body>\n</html>")
-    else:
-        pd.DataFrame(search_hotel(city_country, code_df[code_df['Name'].str.contains(country, case=False)].iloc[0, 1])).to_sql('hotels', db, if_exists='append', index=False) # Optional
-        html = [f"<html>\n<body>\n<table border='1'>\n<tr><th>Want to book a hotel at {city}?</th><th><a href='https://www.booking.com/searchresults.en-us.html?ss={city_country}' target='_blank'> Go to Booking.com to find a hotel! </a></th></tr>\n"]
-        html.append("</table>\n</body>\n</html>")
-    return ''.join(html)
-
 def GPE_extract(text):
     tokens = nlp(text)
     token_list = []
     for token in tokens.ents:
-        if token.label_ == "GPE":
+        if token.label_ == "GPE":                
             gpe = token.text.strip()
             gpe = gpe.replace("the", "").replace("'s", "").replace(".", "")
             gpe = gpe.strip().title()
@@ -54,29 +37,38 @@ def GPE_extract(text):
                 if (gpe.lower() not in countries) and (gpe.lower() not in three_code_list) and (gpe.lower() not in two_code_list):
                     token_list.append(gpe)
     return token_list
-
+    
 def get_coordinates(token_list):
+    coord_start = time.time()
     coord_list = []
     country_list = []
+    location_list = []
     for i in token_list:
         location = geocoder.osm(i)
         if location.ok:
-            country_list += [location.raw['address']['country']]
+            country = location.raw['address']['country']
+            if (bool(re.search("[^A-Za-z0-9&/\()-+'_., ]", country))):
+                country = translator.translate_text(country, target_lang='EN-US').text
+            location_list.append((i,location,country))
+            country_list += [country]
     counter = Counter(country_list)
     most_common_element = counter.most_common()
-    most_common_string = most_common_element[0][0]
-    for i in token_list:
-        location = geocoder.osm(i)
-        if location.ok:
-            if location.raw['addresstype'] != 'state':
-                if location.raw['address']['country'] == most_common_string:
-                    latitude, longitude = location.latlng
-                    coord_list += [(i, latitude, longitude,location.raw['address']['country'])]
-        else:
-            print("Error: " + i)
+    if len(counter) > 4:
+        other_common = counter.most_common(len(counter)//2-1)
+    else:
+        other_common = []
+    for loc in location_list:
+        location = loc[1]
+        if location.raw['addresstype'] != 'state':
+            if loc[2] == most_common_element[0][0] or loc[2] in [country for country, _ in other_common]:
+                latitude, longitude = location.latlng
+                coord_list += [(loc[0], latitude, longitude,loc[2])]
+
+    print(f"Coordinates took {round((time.time() - coord_start)*1000)} ms.")
     return coord_list
 
 def plot_points(coord_list):
+    pp_start = time.time()
     if (len(coord_list) == 0):
        map_center = [0,0]
     else:
@@ -88,7 +80,30 @@ def plot_points(coord_list):
         myframe = folium.IFrame(html=booking_html, width=600, height=150)
         popup = folium.Popup(myframe, min_width=500, min_height=100)
         folium.Marker([coord[1], coord[2]], popup=popup).add_to(mymap)
+    print(f"All hotel pins took {round((time.time() - pp_start)*1000)} ms.")
     return mymap
+    
+def get_hotel(city: str, country: str):
+    city_country = (city+','+country).replace(' ','+')
+    db = getattr(g, '_database', None)
+    if db is None:
+        db = g._database = sqlite3.connect(hotel_database)
+    c = db.cursor() # Query the database
+    c.execute(f"SELECT * FROM hotels WHERE city = '{city_country}'")
+    hotels = c.fetchall()
+    if not hotels: #Optional
+        hotel_list = search_hotel(city_country, coco.convert(names=country,to='ISO2',not_found=''))
+        pd.DataFrame(hotel_list).to_sql('hotels', db, if_exists='append', index=False)
+        hotels = [tuple(d.values()) for d in hotel_list]
+    if hotels[0][1] == 'No Avaliable Hotel' or not hotels:
+        html = [f"<html>\n<body>\n<table border='1'>\n<tr><th>Want to book a hotel at {city}?</th><th><a href='https://www.booking.com/searchresults.en-us.html?ss={city_country}' target='_blank'> Go to Booking.com to find a hotel! </a></th></tr>\n"]
+        html.append("</table>\n</body>\n</html>")
+    else:
+        html = [f"<html>\n<body>\n<h1>Hotels at {city}</h1>\n<table border='1'>\n<tr><th>Hotel</th><th>Price</th><th>Score</th><th>Review Count</th><th>URL</th></tr>\n"]
+        for hotel in hotels:
+            html.append(f"<tr><td>{hotel[1]}</td><td>{hotel[2]}</td><td>{hotel[3]}</td><td>{hotel[4]}</td><td><a href='{hotel[5]}' target='_blank'>Link</a></td></tr>\n")
+        html.append("</table>\n</body>\n</html>")
+    return ''.join(html)
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
@@ -96,16 +111,14 @@ def home():
 
 @app.route('/hotel', methods=['GET', 'POST'])
 def hotel():
+    request_start = time.time()
     if request.method == "POST":
         url = request.form.get('youtube_url')
         if ("youtube.com/watch" not in url and "youtu.be/" not in url):
             print("Invalid Link:" + url)
             return render_template('error.html')
-        if ("This video isn't available anymore" in requests.get(url).text):
-            print("Invalid Video:" + url)
-            return render_template('error.html')
 
-    #try:
+    try:
         if "youtu.be/" in url:
             youtube_id = url.split('tu.be/')[1].split("?")[0]
         else:
@@ -115,14 +128,18 @@ def hotel():
         transcript_text = ""
         for line in transcript:
             transcript_text += " " + line['text'].replace("\n"," ")
+        print(f"Transcropt took {round((time.time() - request_start)*1000)} ms.")
         location_list = GPE_extract(transcript_text)
         coord_list = (get_coordinates(location_list))
         map = plot_points(coord_list)
         map.save("templates/map.html")
-    #except:
-        #return render_template("error.html")
-
-    getattr(g, '_database', None).close()
+    except:
+        return render_template("error.html")
+    
+    df = getattr(g, '_database', None)
+    if df is not None:
+        df.close()
+    print(f"request took {round((time.time() - request_start), 3)} seconds.")
     return render_template("hotel.html")
 
 @app.route('/map',methods=['GET', 'POST'])

@@ -14,7 +14,12 @@ def load_city_names():
 
 def load_hotels(filename:str):
     print("Loading hotels...")
-    final = pd.read_csv(filename, keep_default_na=False, encoding='utf_8').drop('Unnamed: 0', axis=1).drop_duplicates(subset=['city','hotel'],keep='last',ignore_index=True)
+    final = pd.read_csv(filename, keep_default_na=False, encoding='utf_8').drop_duplicates(subset=['city','hotel'],keep='last',ignore_index=True)
+    try:
+        final.drop('Unnamed: 0', axis=1,inplace=True)
+        final.drop('Unnamed: 1', axis=1,inplace=True)
+    except:
+        pass
     cities_to_drop = final[final['hotel'].str.contains("\?", na=False)]['city'].unique()
     final = final[~final['city'].isin(cities_to_drop)]
     print("Hotels loaded.")
@@ -56,9 +61,9 @@ def generate_urls(final, city_df):
     print("URLs generated.")
     return final
 
-def save_to_csv(df):
+def save_to_csv(df,name):
     print("Saving to CSV...")
-    pd.DataFrame(df).to_csv("hotels_cleaned.csv",index=False)
+    pd.DataFrame(df).to_csv(name,index=False)
     print('number of cities: '+str(len(df['city'].unique())))
     print("Saved to CSV.")
 
@@ -67,14 +72,14 @@ def save_to_sql(df: pd.DataFrame, db_name: str, table_name: str):
     conn = sqlite3.connect(db_name)
     df.to_sql(table_name, conn, if_exists='replace', index=False)
     conn.close()
-    print("Saved to SQL.")
+    print("Saved to SQL. Remember to put it under the Webapp/Datasets folder!")
 
 def main():
     #city_df, city_country = load_city_names()
     final = load_hotels("hotels(0, 10000).csv")
     #final = correct_city_names(final, city_country)
     #final = generate_urls(final, city_df)
-    #save_to_csv(final)
+    save_to_csv(final,"hotels_cleaned.csv")
     save_to_sql(final,'hotels.db','hotels')
     print("Done!")
 
