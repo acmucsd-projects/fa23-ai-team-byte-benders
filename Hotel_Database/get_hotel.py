@@ -5,14 +5,14 @@ import pandas as pd
 import datetime, string, os
 from unidecode import unidecode
 '''
-THERE IS STILL BUG WITH THIS PIECE OF CODE. DUPLICATES OCCUR WHEN RESUME FROM SAVED STATE.
+There are unsolved small bugs. (Duplicates occur when resuming from saved state.)
 '''
 # import database(s)
 city_list_short = pd.read_csv("world_cities_major.csv", keep_default_na=False, encoding='utf_8')[['city','country','iso2']]
 
 # configuration / parameters
 exe_list = city_list_short
-exe_range = (0, 10000)
+exe_range = (14000, 16000)
 get_score_and_reviews = True
 hotels_per_city = 5
 max_retries = 5
@@ -26,7 +26,7 @@ start = 0
 end = exe_range[1] - exe_range[0]
 exe_list = exe_list.iloc[exe_range[0]:exe_range[1]]
 
-async def get_hotel(city: str, country_code: str, browser: Browser):
+async def get_hotel(city: str, browser: Browser):
     async with sem:
 
         city_s = city.replace(" ", "+")
@@ -46,7 +46,7 @@ async def get_hotel(city: str, country_code: str, browser: Browser):
         else:
             print(f"\nFailed to get hotel page at {city} after {max_retries} retries.")
             await page.close()
-            failed_cities.append((city, country_code)) # Add the failed city to the list
+            failed_cities.append((city)) # Add the failed city to the list
             return [{'city' : city, "hotel": "Error: Page Not Found"}]
         
         hotels = await page.locator('//div[@data-testid="property-card"]').all()
@@ -78,8 +78,11 @@ async def get_hotel(city: str, country_code: str, browser: Browser):
                     hotel_dict['reviews count'] = (await hotel.locator('//div[@data-testid="review-score"]/div[2]/div[2]').inner_text()).split()[0]
                 except:
                     hotel_dict['reviews count'] = 'Not Available'
-            hotel_string = unidecode(hotel_dict['hotel'].translate(str.maketrans(string.punctuation, ' '*len(string.punctuation)))).replace("   "," ").replace("  "," ").replace(" ", "-").replace("--", "-").lower()
-            hotel_dict['url'] = f'https://www.booking.com/hotel/{country_code.lower()}/{hotel_string}.html'
+            try:
+                hotel_dict['url'] = hotel.locator('//a[@data-testid="title-link"]').get_attribute('href').split('?')[0]
+            except:
+                hotel_dict['url'] = f'https://www.booking.com/searchresults.en-us.html?ss={hotel_dict["hotel"]}'
+
             hotel_list.append(hotel_dict)
         await page.close()
         return hotel_list
@@ -110,7 +113,7 @@ async def main():
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
-        tasks = [get_hotel(unidecode(exe_list.iat[i, 0]+','+exe_list.iat[i, 1]).replace(" ","+"), exe_list.iat[i, 2].lower(), browser) for i in range(start,end)]
+        tasks = [get_hotel(unidecode(exe_list.iat[i, 0]+','+exe_list.iat[i, 1]).replace(" ","+"), browser) for i in range(start,end)]
         for future in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc='Scraping hotels. Press Ctrl + C to quit'):
             result = await future
             hotel_list.extend(result)
@@ -121,8 +124,8 @@ async def main():
         if failed_cities:
             print(f"\nRerunning the scraping for {len(failed_cities)} failed cities...")
             async with async_playwright() as p:
-                browser = await p.chromium.launch(headless=True)
-                tasks = [get_hotel(city, country_code, browser) for city, country_code in failed_cities]
+                browser = await p.chromium.launch(headless=False)
+                tasks = [get_hotel(city, browser) for city in failed_cities]
                 for future in tqdm(asyncio.as_completed(tasks), total=len(tasks), desc='Scraping hotels'):
                     result = await future
                     hotel_list.extend(result)

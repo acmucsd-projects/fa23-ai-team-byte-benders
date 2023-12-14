@@ -58,7 +58,10 @@ def search_hotel(city:str, country_code:str):
                 except:
                     hotel_dict['reviews count'] = 'Not Available'
             hotel_string = unidecode(hotel_dict['hotel'].translate(str.maketrans(string.punctuation, ' '*len(string.punctuation)))).replace("   "," ").replace("  "," ").replace(" ", "-").replace("--", "-").lower()
-            hotel_dict['url'] = f'https://www.booking.com/hotel/{country_code.lower()}/{hotel_string}.html'
+            try:
+                hotel_dict['url'] = hotel.locator('//a[@data-testid="title-link"]').get_attribute('href').split('?')[0]
+            except:
+                hotel_dict['url'] = f'https://www.booking.com/searchresults.en-us.html?ss={hotel_dict["hotel"]}'
             hotel_list.append(hotel_dict)
         browser.close()
     return hotel_list
