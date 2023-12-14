@@ -7,7 +7,7 @@ hotels_per_city = 5
 max_retries = 5
 timeout = 120000 # determined by the internet connection you have. If you keep getting timeout error, try a higher number.
 
-def search_hotel(city:str, country_code:str):
+def search_hotel(city:str):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
         city_s = city.replace(" ", "+")
@@ -57,11 +57,10 @@ def search_hotel(city:str, country_code:str):
                     hotel_dict['reviews count'] = (hotel.locator('//div[@data-testid="review-score"]/div[2]/div[2]').inner_text()).split()[0]
                 except:
                     hotel_dict['reviews count'] = 'Not Available'
-            hotel_string = unidecode(hotel_dict['hotel'].translate(str.maketrans(string.punctuation, ' '*len(string.punctuation)))).replace("   "," ").replace("  "," ").replace(" ", "-").replace("--", "-").lower()
             try:
                 hotel_dict['url'] = hotel.locator('//a[@data-testid="title-link"]').get_attribute('href').split('?')[0]
             except:
-                hotel_dict['url'] = f'https://www.booking.com/searchresults.en-us.html?ss={hotel_dict["hotel"]}'
+                hotel_dict['url'] = f'https://www.booking.com/searchresults.en-us.html?ss={hotel_dict["hotel"]+"+"+city}'
             hotel_list.append(hotel_dict)
         browser.close()
     return hotel_list

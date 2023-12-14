@@ -8,7 +8,6 @@ import time, re, sqlite3
 from collections import Counter
 from webscrape_hotel import search_hotel # Optional
 import deepl
-import country_converter as coco
 
 app = Flask(__name__)
 
@@ -29,7 +28,7 @@ def GPE_extract(text):
     tokens = nlp(text)
     token_list = []
     for token in tokens.ents:
-        if token.label_ == "GPE":                
+        if token.label_ == "GPE": 
             gpe = token.text.strip()
             gpe = gpe.replace("the", "").replace("'s", "").replace(".", "")
             gpe = gpe.strip().title()
@@ -92,7 +91,7 @@ def get_hotel(city: str, country: str):
     c.execute(f"SELECT * FROM hotels WHERE city = '{city_country}'")
     hotels = c.fetchall()
     if not hotels: #Optional
-        hotel_list = search_hotel(city_country, coco.convert(names=country,to='ISO2',not_found=''))
+        hotel_list = search_hotel(city_country)
         pd.DataFrame(hotel_list).to_sql('hotels', db, if_exists='append', index=False)
         hotels = [tuple(d.values()) for d in hotel_list]
     if hotels[0][1] == 'No Avaliable Hotel' or not hotels:

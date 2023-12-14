@@ -1,9 +1,9 @@
 from fuzzywuzzy import process
 from tqdm import tqdm
 import pandas as pd
-import string
-from unidecode import unidecode
+import requests
 import sqlite3
+from playwright.sync_api import sync_playwright
 
 def load_city_names():
     print("Loading city names...")
@@ -14,16 +14,15 @@ def load_city_names():
 
 def load_hotels(filename:str):
     print("Loading hotels...")
-    final = pd.read_csv(filename, keep_default_na=False, encoding='utf_8').drop_duplicates(subset=['city','hotel'],keep='last',ignore_index=True)
+    df = pd.read_csv(filename, keep_default_na=False, encoding='utf_8').drop_duplicates(subset=['city','hotel'],keep='last',ignore_index=True)
     try:
-        final.drop('Unnamed: 0', axis=1,inplace=True)
-        final.drop('Unnamed: 1', axis=1,inplace=True)
+        df.drop('Unnamed: 0', axis=1,inplace=True)
     except:
         pass
-    cities_to_drop = final[final['hotel'].str.contains("\?", na=False)]['city'].unique()
-    final = final[~final['city'].isin(cities_to_drop)]
+    #cities_to_drop = df[df['hotel'].str.contains("\?", na=False)]['city'].unique()
+    #df = df[~df['city'].isin(cities_to_drop)]
     print("Hotels loaded.")
-    return final
+    return df
 
 def correct_city_name(city, city_country):
     if ',' in city:
@@ -37,29 +36,40 @@ def correct_city_name(city, city_country):
             return city
     return city
 
-def correct_city_names(final, city_country):
+def correct_city_names(df, city_country):
     print("Correcting city names...")
-    mask = final['city'].apply(lambda x: '?' in x or '�' in x)
-    final.loc[mask, 'city'] = final.loc[mask, 'city'].apply(lambda x: correct_city_name(x, city_country))
+    mask = df['city'].apply(lambda x: '?' in x or '�' in x)
+    df.loc[mask, 'city'] = df.loc[mask, 'city'].apply(lambda x: correct_city_name(x, city_country))
     print("City names corrected.")
-    return final
+    return df
 
-def generate_urls(final, city_df):
-    print("Generating URLs...")
-    for i in tqdm(final.index, desc="Generating URLs"):
-        hotel = final.loc[i, 'hotel']
-        if ('No Avaliable Hotel' not in hotel):
-            try:
-                hotel_string = unidecode(hotel.translate(str.maketrans(string.punctuation, ' '*len(string.punctuation)))).replace("  "," ").replace("   "," ").replace("    "," ").replace(" ", "-").replace("--", "-").replace("--", "-").lower()
-                cc = city_df.loc[city_df['country'] == final.loc[i, 'city'].split(',')[1].replace("+"," ")].iloc[:, 2].values[0].lower()
-            except:
-                print("Error occured with: " + final.loc[i, 'city'] + " and " + hotel_string)
-            url = f'https://www.booking.com/hotel/{cc}/{hotel_string}'
-            if not url.endswith('.html'):
-                   url += '.html'
-            final.loc[i, 'url'] = url
-    print("URLs generated.")
-    return final
+def generate_urls(df):
+    modified = 0
+    failed = 0
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        for i in tqdm(range(1400,10000), desc="Generating URLs"):
+            hotel = df.loc[i, 'hotel']
+            if ('No Avaliable Hotel' not in hotel):
+                s = hotel.replace(" ","+")+"+"+df.loc[i, "city"]
+                if('Page Not Found' in requests.get(df.loc[i, 'url']).text):
+                    
+                        page = browser.new_page()
+                        page.goto(f'https://www.booking.com/searchresults.en-us.html?ss={s}',timeout=120000)
+                        try:
+                            hotel = page.locator('//div[@data-testid="property-card"]').all()[0]
+                            url = hotel.locator('//a[@data-testid="title-link"]').get_attribute('href').split('?')[0]
+                            modified += 1
+                        except:
+                            url = f'https://www.booking.com/searchresults.en-us.html?ss={s}'
+                            failed += 1
+                        page.close()
+                        df.loc[i, 'url'] = url
+            if i % 100 == 1:
+                pd.DataFrame(df).to_csv('hotel_cleaning.csv',index=False)
+        browser.close()
+    print(f"{modified} URLs generated. {failed} URLs failed.")
+    return df
 
 def save_to_csv(df,name):
     print("Saving to CSV...")
@@ -76,9 +86,14 @@ def save_to_sql(df: pd.DataFrame, db_name: str, table_name: str):
 
 def main():
     #city_df, city_country = load_city_names()
-    final = load_hotels("hotels(0, 10000).csv")
+    #df1 = load_hotels("hotels(0, 10000).csv")
     #final = correct_city_names(final, city_country)
-    #final = generate_urls(final, city_df)
+    #df2 = load_hotels("hotels(12000, 14000).csv")
+    #final = pd.concat([pd.read_csv("hotels(0, 10000).csv", keep_default_na=False, encoding='utf_8'),pd.read_csv("hotels(12000, 14000).csv", keep_default_na=False, encoding='utf_8')],ignore_index=True)
+    
+    final = pd.read_csv("hotels_cleaned.csv", keep_default_na=False, encoding='utf_8').drop_duplicates(ignore_index=True)
+    final = generate_urls(final)
+
     save_to_csv(final,"hotels_cleaned.csv")
     save_to_sql(final,'hotels.db','hotels')
     print("Done!")
