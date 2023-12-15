@@ -48,12 +48,11 @@ def generate_urls(df):
     failed = 0
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
-        for i in tqdm(range(1400,10000), desc="Generating URLs"):
+        for i in tqdm(range(10000,40000), desc="Generating URLs"):
             hotel = df.loc[i, 'hotel']
             if ('No Avaliable Hotel' not in hotel):
-                s = hotel.replace(" ","+")+"+"+df.loc[i, "city"]
                 if('Page Not Found' in requests.get(df.loc[i, 'url']).text):
-                    
+                        s = hotel.replace(" ","+")+"+"+df.loc[i, "city"]
                         page = browser.new_page()
                         page.goto(f'https://www.booking.com/searchresults.en-us.html?ss={s}',timeout=120000)
                         try:
