@@ -6,7 +6,7 @@ import folium
 import pandas as pd
 import time, re, sqlite3
 from collections import Counter
-from webscrape_hotel import search_hotel # Optional
+from webscrape_hotel import search_hotel
 import deepl
 
 app = Flask(__name__)
@@ -23,6 +23,7 @@ with open(country_capital, 'r') as file:
 code_df = pd.read_csv(country_code, keep_default_na=False)
 two_code_list = code_df['Alpha-2 code'].str.lower().to_list()
 three_code_list = code_df['Alpha-3 code'].str.lower().to_list()
+non_alphanumeric = re.compile("[^A-Za-z0-9&/\()-+'_., ]")
 
 def GPE_extract(text):
     tokens = nlp(text)
@@ -42,12 +43,16 @@ def get_coordinates(token_list):
     coord_list = []
     country_list = []
     location_list = []
+    translated_dict = {}
+
     for i in token_list:
         location = geocoder.osm(i)
         if location.ok:
             country = location.raw['address']['country']
-            if (bool(re.search("[^A-Za-z0-9&/\()-+'_., ]", country))):
-                country = translator.translate_text(country, target_lang='EN-US').text
+            if (bool(re.search(non_alphanumeric, country))):
+                if country not in translated_dict:
+                    translated_dict[country] = translator.translate_text(country, target_lang='EN-US').text
+                country = translated_dict[country]
             location_list.append((i,location,country))
             country_list += [country]
     counter = Counter(country_list)
@@ -61,7 +66,7 @@ def get_coordinates(token_list):
         if location.raw['addresstype'] != 'state':
             if loc[2] == most_common_element[0][0] or loc[2] in [country for country, _ in other_common]:
                 latitude, longitude = location.latlng
-                coord_list += [(loc[0], latitude, longitude,loc[2])]
+                coord_list += [(loc[0], latitude, longitude, loc[2])]
 
     print(f"Coordinates took {round((time.time() - coord_start)*1000)} ms.")
     return coord_list
@@ -88,7 +93,7 @@ def get_hotel(city: str, country: str):
     if db is None:
         db = g._database = sqlite3.connect(hotel_database)
     c = db.cursor() # Query the database
-    c.execute(f"SELECT * FROM hotels WHERE city = '{city_country}'")
+    c.execute("SELECT * FROM hotels WHERE city = ?", (city_country,))
     hotels = c.fetchall()
     if not hotels: #Optional
         hotel_list = search_hotel(city_country)
@@ -135,9 +140,9 @@ def hotel():
     except:
         return render_template("error.html")
     
-    df = getattr(g, '_database', None)
-    if df is not None:
-        df.close()
+    db = getattr(g, '_database', None)
+    if db is not None:
+        db.close()
     print(f"request took {round((time.time() - request_start), 3)} seconds.")
     return render_template("hotel.html")
 

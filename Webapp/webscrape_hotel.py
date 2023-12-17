@@ -28,37 +28,36 @@ def search_hotel(city:str):
             page.close()
             return [{'city' : city, "hotel": "Error: Page Not Found"}]
         
-        hotels = page.locator('//div[@data-testid="property-card"]').all()
+        hotels = page.query_selector_all('div[data-testid="property-card"]')
         if (len(hotels) == 0):
-            page.close()
             return [{'city' : city, "hotel": "No Avaliable Hotel"}]
         for count, hotel in enumerate(hotels):
             if (count == hotels_per_city):
                 break
             hotel_dict = {'city': city}
             try:
-                hotel_dict['hotel'] = hotel.locator('//div[@data-testid="title"]').inner_text()
+                hotel_dict['hotel'] = hotel.query_selector('div[data-testid="title"]').inner_text()
             except:
                 print(f"\nGet hotel name failed at {city}.")
                 hotel_dict['hotel'] = 'Not Available'
             try:
-                hotel_dict['price'] = hotel.locator('//span[@data-testid="price-and-discounted-price"]').inner_text()
+                hotel_dict['price'] = hotel.query_selector('span[data-testid="price-and-discounted-price"]').inner_text()
             except:
                 hotel_dict['price'] = 'Not Available'
             if(get_score_and_reviews):
                 try:
-                    hotel_dict['score'] = hotel.locator('//div[@data-testid="review-score"]/div[1]').inner_text()
+                    hotel_dict['score'] = hotel.query_selector('div[data-testid="review-score"] div:first-child').inner_text()
                 except:
                     try:
-                        hotel_dict['score'] = hotel.locator('//div[@data-testid="review-score"]/div[2]/div[1]').inner_text()
+                        hotel_dict['score'] = hotel.query_selector('div[data-testid="review-score"] div:nth-child(2) div:first-child').inner_text()
                     except:
                         hotel_dict['score'] = 'Not Available'
                 try:
-                    hotel_dict['reviews count'] = (hotel.locator('//div[@data-testid="review-score"]/div[2]/div[2]').inner_text()).split()[0]
+                    hotel_dict['reviews count'] = hotel.query_selector('div[data-testid="review-score"] div:nth-child(2) div:nth-child(2)').inner_text().split()[0]
                 except:
                     hotel_dict['reviews count'] = 'Not Available'
             try:
-                hotel_dict['url'] = hotel.locator('//a[@data-testid="title-link"]').get_attribute('href').split('?')[0]
+                hotel_dict['url'] = hotel.query_selector('a[data-testid="title-link"]').get_attribute('href').split('?')[0]
             except:
                 hotel_dict['url'] = f'https://www.booking.com/searchresults.en-us.html?ss={hotel_dict["hotel"]+"+"+city}'
             hotel_list.append(hotel_dict)
