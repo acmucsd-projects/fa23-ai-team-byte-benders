@@ -2,7 +2,7 @@ import asyncio
 from playwright.async_api import async_playwright, Browser
 from tqdm.asyncio import tqdm
 import pandas as pd
-import datetime, string, os
+import datetime, os
 from unidecode import unidecode
 '''
 There are unsolved small bugs. (Duplicates occur when resuming from saved state.)
@@ -12,12 +12,12 @@ city_list_short = pd.read_csv("world_cities_major.csv", keep_default_na=False, e
 
 # configuration / parameters
 exe_list = city_list_short
-exe_range = (14000, 16000)
+exe_range = (10000, 12000)
 get_score_and_reviews = True
 hotels_per_city = 5
 max_retries = 5
 filename = f"hotels{str(exe_range)}.csv"
-check_point_interval = 10 # save file after this number of cities
+check_point_interval = 20 # save file after this number of cities
 timeout = 120000 # determined by the internet connection you have. If you keep getting timeout error, try a higher number.
 
 sem = asyncio.Semaphore(3) # number of threads. High chance of not working if higher than 3.
@@ -66,6 +66,11 @@ async def get_hotel(city: str, browser: Browser):
                 hotel_dict['price'] = await hotel.locator('//span[@data-testid="price-and-discounted-price"]').inner_text()
             except:
                 hotel_dict['price'] = 'Not Available'
+            try:
+                url = await hotel.locator('//a[@data-testid="title-link"]').get_attribute('href')
+                hotel_dict['url'] = url.split('?')[0]
+            except:
+                hotel_dict['url'] = f'https://www.booking.com/searchresults.en-us.html?ss={hotel_dict["hotel"]}'
             if(get_score_and_reviews):
                 try:
                     hotel_dict['score'] = await hotel.locator('//div[@data-testid="review-score"]/div[1]').inner_text()
@@ -78,10 +83,6 @@ async def get_hotel(city: str, browser: Browser):
                     hotel_dict['reviews count'] = (await hotel.locator('//div[@data-testid="review-score"]/div[2]/div[2]').inner_text()).split()[0]
                 except:
                     hotel_dict['reviews count'] = 'Not Available'
-            try:
-                hotel_dict['url'] = hotel.locator('//a[@data-testid="title-link"]').get_attribute('href').split('?')[0]
-            except:
-                hotel_dict['url'] = f'https://www.booking.com/searchresults.en-us.html?ss={hotel_dict["hotel"]}'
 
             hotel_list.append(hotel_dict)
         await page.close()
@@ -107,9 +108,9 @@ async def main():
         return
     
     print(f"\n{end - start} cities will be scraped.\n")
-    print("\n============================================================================")
+    print("\n===============================================================================")
     print(f"   Do not modify the auto-generated webpages or hotel{str(exe_range)}.csv file.   ")
-    print("============================================================================\n")
+    print("===============================================================================\n")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)

@@ -91,7 +91,7 @@ def main():
     #final = pd.concat([pd.read_csv("hotels(0, 10000).csv", keep_default_na=False, encoding='utf_8'),pd.read_csv("hotels(12000, 14000).csv", keep_default_na=False, encoding='utf_8')],ignore_index=True)
     
     final = pd.read_csv("hotels_cleaned.csv", keep_default_na=False, encoding='utf_8').drop_duplicates(ignore_index=True)
-    final = generate_urls(final)
+    #final = generate_urls(final)
 
     save_to_csv(final,"hotels_cleaned.csv")
     save_to_sql(final,'hotels.db','hotels')
