@@ -12,7 +12,7 @@ city_list_short = pd.read_csv("world_cities_major.csv", keep_default_na=False, e
 
 # configuration / parameters
 exe_list = city_list_short
-exe_range = (10000, 12000)
+exe_range = (20000, 24000)
 get_score_and_reviews = True
 hotels_per_city = 5
 max_retries = 5
@@ -66,11 +66,7 @@ async def get_hotel(city: str, browser: Browser):
                 hotel_dict['price'] = await hotel.locator('//span[@data-testid="price-and-discounted-price"]').inner_text()
             except:
                 hotel_dict['price'] = 'Not Available'
-            try:
-                url = await hotel.locator('//a[@data-testid="title-link"]').get_attribute('href')
-                hotel_dict['url'] = url.split('?')[0]
-            except:
-                hotel_dict['url'] = f'https://www.booking.com/searchresults.en-us.html?ss={hotel_dict["hotel"]}'
+
             if(get_score_and_reviews):
                 try:
                     hotel_dict['score'] = await hotel.locator('//div[@data-testid="review-score"]/div[1]').inner_text()
@@ -83,7 +79,11 @@ async def get_hotel(city: str, browser: Browser):
                     hotel_dict['reviews count'] = (await hotel.locator('//div[@data-testid="review-score"]/div[2]/div[2]').inner_text()).split()[0]
                 except:
                     hotel_dict['reviews count'] = 'Not Available'
-
+            try:
+                url = await hotel.locator('//a[@data-testid="title-link"]').get_attribute('href')
+                hotel_dict['url'] = url.split('?')[0]
+            except:
+                hotel_dict['url'] = f'https://www.booking.com/searchresults.en-us.html?ss={hotel_dict["hotel"].replace(" ","+")}'
             hotel_list.append(hotel_dict)
         await page.close()
         return hotel_list
