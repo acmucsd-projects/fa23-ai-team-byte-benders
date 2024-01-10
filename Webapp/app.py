@@ -7,7 +7,6 @@ import pandas as pd
 import time, re, sqlite3
 from collections import Counter
 from webscrape_hotel import search_hotel
-import deepl
 
 app = Flask(__name__)
 
@@ -15,7 +14,6 @@ nlp = spacy.load('en_core_web_sm')
 country_capital = "Datasets/country.txt"
 country_code = "Datasets/country-code.csv"
 hotel_database = 'Datasets/hotels.db'
-translator = deepl.Translator("3070a581-29ab-67ec-b594-e5a144f3aafb:fx")
 
 with open(country_capital, 'r') as file:
     countries = [line.replace('\n', "").lower() for line in file]
@@ -51,7 +49,7 @@ def get_coordinates(token_list):
             country = location.raw['address']['country']
             if (bool(re.search(non_alphanumeric, country))):
                 if country not in translated_dict:
-                    translated_dict[country] = translator.translate_text(country, target_lang='EN-US').text
+                    translated_dict[country] = country #translator deleted for running on local env
                 country = translated_dict[country]
             location_list.append((i,location,country))
             country_list += [country]
@@ -111,7 +109,7 @@ def get_hotel(city: str, country: str):
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
-    return render_template('home.html')
+    return render_template('index1.html')
 
 @app.route('/hotel', methods=['GET', 'POST'])
 def hotel():
@@ -151,4 +149,4 @@ def map():
     return render_template('map.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host='127.0.0.1',port=8080)
