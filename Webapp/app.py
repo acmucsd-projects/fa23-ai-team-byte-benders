@@ -56,7 +56,7 @@ def get_coordinates(token_list):
     counter = Counter(country_list)
     most_common_element = counter.most_common()
     if len(counter) > 4:
-        other_common = counter.most_common(len(counter)//2-1)
+        other_common = counter.most_common(len(counter) - 3)
     else:
         other_common = []
     for loc in location_list:
@@ -98,10 +98,29 @@ def get_hotel(city: str, country: str):
         pd.DataFrame(hotel_list).to_sql('hotels', db, if_exists='append', index=False)
         hotels = [tuple(d.values()) for d in hotel_list]
     if hotels[0][1] == 'No Avaliable Hotel' or not hotels:
-        html = [f"<html>\n<body>\n<table border='1'>\n<tr><th>Want to book a hotel at {city}?</th><th><a href='https://www.booking.com/searchresults.en-us.html?ss={city_country}' target='_blank'> Go to Booking.com to find a hotel! </a></th></tr>\n"]
+        html = [f"<html>\n<body>\n<table style='border-collapse: collapse; border: 2px solid purple;'>\n<tr><th>Want to book a hotel at {city}?</th><th><a href='https://www.booking.com/searchresults.en-us.html?ss={city_country}' target='_blank'> Go to Booking.com to find a hotel! </a></th></tr>\n"]
         html.append("</table>\n</body>\n</html>")
     else:
-        html = [f"<html>\n<body>\n<h1>Hotels at {city}</h1>\n<table border='1'>\n<tr><th>Hotel</th><th>Price</th><th>Score</th><th>Review Count</th><th>URL</th></tr>\n"]
+        style = '''
+<style>
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+</style>
+'''
+        html = [f"<html>\n<body>\n<h1>Hotels at {city}</h1>\n{style}<table>\n<tr><th>Hotel</th><th>Price</th><th>Score</th><th>Review Count</th><th>URL</th></tr>\n"]
         for hotel in hotels:
             html.append(f"<tr><td>{hotel[1]}</td><td>{hotel[2]}</td><td>{hotel[3]}</td><td>{hotel[4]}</td><td><a href='{hotel[5]}' target='_blank'>Link</a></td></tr>\n")
         html.append("</table>\n</body>\n</html>")
@@ -142,11 +161,19 @@ def hotel():
     if db is not None:
         db.close()
     print(f"request took {round((time.time() - request_start), 3)} seconds.")
-    return render_template("hotel.html")
+    return render_template("result.html")
 
 @app.route('/map',methods=['GET', 'POST'])
 def map():  
     return render_template('map.html')
 
+@app.route('/about')
+def about():  
+    return render_template('about.html')
+
+@app.route('/contacts')
+def contacts():  
+    return render_template('contacts.html')
+
 if __name__ == '__main__':
-    app.run(debug=True,host='127.0.0.1',port=8080)
+    app.run(debug=True)

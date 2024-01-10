@@ -1,0 +1,206 @@
+.frame-icon2,
+.frame-icon3 {
+  position: absolute;
+  top: -100px;
+  left: -87px;
+  width: 719px;
+  height: 1224px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frame-icon3 {
+  top: 45px;
+  left: 948px;
+  width: 506px;
+  height: 934px;
+}
+.travelplan5 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.travelplan4 {
+  background: linear-gradient(180deg, rgba(224, 185, 254, 0) 45.94%, #6e409c);
+  width: 172px;
+  height: 49px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.about3,
+.contacts3,
+.github2,
+.home2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-open-sans);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.about3,
+.contacts3,
+.github2 {
+  left: 77px;
+}
+.about3,
+.github2 {
+  left: 291px;
+}
+.about3 {
+  left: 205px;
+}
+.frame3 {
+  flex: 1;
+  position: relative;
+  height: 22px;
+  overflow: hidden;
+}
+.navbar2 {
+  margin: 0;
+  position: absolute;
+  top: 17px;
+  left: 58px;
+  width: 621px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-39xl);
+  mix-blend-mode: normal;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-dm-serif-display);
+}
+.our-github-repository {
+  display: block;
+}
+.our-github-repository-container {
+  margin: 0;
+  position: absolute;
+  top: 195px;
+  left: 58px;
+  display: inline-block;
+  width: 1143px;
+  height: 681px;
+}
+.contact-information {
+  margin: 0;
+  position: absolute;
+  top: 106px;
+  left: 59px;
+  font-size: var(--font-size-17xl);
+  font-weight: 400;
+  font-family: inherit;
+}
+.an2,
+.image-92 {
+  position: absolute;
+  top: 14px;
+  left: 91px;
+}
+.image-92 {
+  text-decoration: none;
+  top: 0;
+  left: 126px;
+  width: 50px;
+  height: 50px;
+  background-image: url(./public/image-9@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.ucsd-project5 {
+  margin-block-start: 0;
+  margin-block-end: 15px;
+}
+.ucsd-project4 {
+  text-decoration: none;
+  position: absolute;
+  top: 14px;
+  left: 191px;
+  color: inherit;
+  display: inline-block;
+  width: 117px;
+  height: 22px;
+  cursor: pointer;
+}
+.powered-by2 {
+  position: absolute;
+  top: 55px;
+  left: 42px;
+}
+.flask2 {
+  text-decoration: none;
+  left: 139px;
+  color: inherit;
+  cursor: pointer;
+}
+.and2,
+.chatgpt2,
+.flask2,
+.spacy2 {
+  position: absolute;
+  top: 55px;
+}
+.spacy2 {
+  text-decoration: none;
+  left: 191px;
+  color: inherit;
+  cursor: pointer;
+}
+.and2,
+.chatgpt2 {
+  left: 237px;
+}
+.chatgpt2 {
+  text-decoration: none;
+  left: 284px;
+  color: inherit;
+  cursor: pointer;
+}
+.bottom2 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 214px);
+  width: 427px;
+  height: 88px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+.contacts2 {
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #cbb5dc, #572f89);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--system-backgrounds-sb-l-primary);
+  font-family: var(--font-dm-serif-display);
+}
+@media screen and (max-width: 1200px) {
+  .contacts2 {
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .contacts2 {
+    width: 960px;
+  }
+}

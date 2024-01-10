@@ -1,0 +1,346 @@
+.an4,
+.image-94 {
+  position: absolute;
+  top: 14px;
+  left: 91px;
+}
+.image-94 {
+  text-decoration: none;
+  top: 0;
+  left: 126px;
+  width: 50px;
+  height: 50px;
+  background-image: url(./public/image-9@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.ucsd-project9 {
+  margin-block-start: 0;
+  margin-block-end: 15px;
+}
+.ucsd-project8 {
+  text-decoration: none;
+  position: absolute;
+  top: 14px;
+  left: 191px;
+  color: inherit;
+  display: inline-block;
+  width: 117px;
+  height: 22px;
+  cursor: pointer;
+}
+.powered-by4 {
+  position: absolute;
+  top: 55px;
+  left: 42px;
+}
+.flask4 {
+  text-decoration: none;
+  left: 139px;
+  color: inherit;
+  cursor: pointer;
+}
+.and4,
+.chatgpt4,
+.flask4,
+.spacy4 {
+  position: absolute;
+  top: 55px;
+}
+.spacy4 {
+  text-decoration: none;
+  left: 191px;
+  color: inherit;
+  cursor: pointer;
+}
+.and4,
+.chatgpt4 {
+  left: 237px;
+}
+.chatgpt4 {
+  text-decoration: none;
+  left: 284px;
+  color: inherit;
+  cursor: pointer;
+}
+.bottom4 {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 214px);
+  width: 427px;
+  height: 88px;
+  overflow: hidden;
+}
+.travelplan9 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.travelplan8 {
+  background: linear-gradient(180deg, rgba(224, 185, 254, 0) 45.94%, #6e409c);
+  width: 212.2px;
+  height: 49px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.about5,
+.contacts5,
+.github4,
+.home4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-open-sans);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.about5,
+.contacts5,
+.github4 {
+  left: 77px;
+}
+.about5,
+.github4 {
+  left: 291px;
+}
+.about5 {
+  left: 205px;
+}
+.frame7 {
+  position: relative;
+  width: 350px;
+  height: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame6,
+.navbar4 {
+  width: 634px;
+  display: flex;
+}
+.navbar4 {
+  margin: 0;
+  backdrop-filter: blur(4px);
+  height: 61px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 12px;
+  box-sizing: border-box;
+  gap: var(--gap-39xl);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-dm-serif-display);
+}
+.frame6 {
+  position: absolute;
+  top: 17px;
+  left: 58px;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.try-again1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: var(--font-open-sans);
+  color: var(--color-black);
+  text-align: center;
+}
+.try-again {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: 17px 108px;
+  background-color: transparent;
+  border-radius: var(--br-10xs);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frame8 {
+  position: absolute;
+  top: 21px;
+  right: 101px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.map,
+.your-travel-plan {
+  position: absolute;
+  left: 0;
+}
+.your-travel-plan {
+  margin: 0;
+  top: 0;
+}
+#map-container {
+  width: 100%;
+  margin: 160px;
+  height: 600px;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.your-route {
+  margin: 0;
+  position: absolute;
+  top: 876px;
+  left: 26px;
+}
+.your-travel-plan-parent {
+  position: relative;
+  width: 1282px;
+  height: 1761px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-icon6,
+.frame9 {
+  position: absolute;
+  overflow: hidden;
+}
+.frame9 {
+  top: 148px;
+  left: 58px;
+  width: 1324px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-dm-serif-display);
+}
+.frame-icon6 {
+  top: 1162px;
+  left: -124px;
+  width: 1688px;
+  height: 506px;
+  object-fit: cover;
+}
+.frame-child {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    #a53b81,
+    rgba(168, 75, 136, 0)
+  );
+  width: 719px;
+  height: 719px;
+}
+.frame-child,
+.frame10,
+.share {
+  position: absolute;
+}
+.share {
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  padding: 0;
+  background-color: transparent;
+  top: 360px;
+  left: calc(50% - 156px);
+  border-radius: var(--br-10xs);
+  box-sizing: border-box;
+  width: 311px;
+  height: 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frame10 {
+  top: 1415px;
+  left: -123px;
+  width: 1686px;
+  height: 719px;
+  overflow: hidden;
+}
+.result {
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #cbb5dc, #572f89);
+  width: 100%;
+  height: 2048px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1200px) {
+  .result {
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .result {
+    width: 960px;
+  }
+}
+.plan-shared {
+  position: relative;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.shared {
+  position: relative;
+  background-color: var(--system-backgrounds-sb-l-primary);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 460px;
+  box-sizing: border-box;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+.shared,
+.shared:hover {
+  width: 1064px;
+}
+@media screen and (max-width: 1200px) {
+  .shared {
+    width: 800px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .shared {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .shared {
+    width: 200px;
+  }
+}

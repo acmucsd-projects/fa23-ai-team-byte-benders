@@ -1,0 +1,41 @@
+.plan-shared {
+  position: relative;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.shared {
+  position: relative;
+  background-color: var(--system-backgrounds-sb-l-primary);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 460px;
+  box-sizing: border-box;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-open-sans);
+}
+.shared,
+.shared:hover {
+  width: 1064px;
+}
+@media screen and (max-width: 1200px) {
+  .shared {
+    width: 800px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .shared {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .shared {
+    width: 200px;
+  }
+}
