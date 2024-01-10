@@ -139,23 +139,23 @@ def hotel():
             print("Invalid Link:" + url)
             return render_template('error.html')
 
-    try:
-        if "youtu.be/" in url:
+    #try:
+    if "youtu.be/" in url:
             youtube_id = url.split('tu.be/')[1].split("?")[0]
-        else:
+    else:
             youtube_id = url.split("=")[1]
 
-        transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
-        transcript_text = ""
-        for line in transcript:
+    transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
+    transcript_text = ""
+    for line in transcript:
             transcript_text += " " + line['text'].replace("\n"," ")
-        print(f"Transcropt took {round((time.time() - request_start)*1000)} ms.")
-        location_list = GPE_extract(transcript_text)
-        coord_list = (get_coordinates(location_list))
-        map = plot_points(coord_list)
-        map.save("templates/map.html")
-    except:
-        return render_template("error.html")
+    print(f"Transcropt took {round((time.time() - request_start)*1000)} ms.")
+    location_list = GPE_extract(transcript_text)
+    coord_list = (get_coordinates(location_list))
+    map = plot_points(coord_list)
+    map.save("templates/map.html")
+    #except:
+        #return render_template("error.html")
     
     db = getattr(g, '_database', None)
     if db is not None:
@@ -176,4 +176,4 @@ def contacts():
     return render_template('contacts.html')
 
 if __name__ == '__main__':
-    app.run(port=8080)
+    app.run()
