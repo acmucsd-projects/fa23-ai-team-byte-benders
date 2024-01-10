@@ -79,8 +79,8 @@ def plot_points(coord_list):
     
     for coord in coord_list:
         booking_html = get_hotel(coord[0],coord[3])
-        myframe = folium.IFrame(html=booking_html, width=600, height=150)
-        popup = folium.Popup(myframe, min_width=500, min_height=100)
+        myframe = folium.IFrame(html=booking_html, width=600, height=300)
+        popup = folium.Popup(myframe, min_width=500, min_height=300)
         folium.Marker([coord[1], coord[2]], popup=popup).add_to(mymap)
     print(f"All hotel pins took {round((time.time() - pp_start)*1000)} ms.")
     return mymap
@@ -176,4 +176,4 @@ def contacts():
     return render_template('contacts.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=8080)
