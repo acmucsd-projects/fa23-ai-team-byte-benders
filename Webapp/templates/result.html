@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Travel Plan - Result</title>
+
+    <link rel="icon" href="/static/public/favicon.ico" />
+    <link rel="stylesheet" href="/static/global.css" />
+    <link rel="stylesheet" href="/static/result.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Serif Display:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <main class="result">
+      <div class="bottom4">
+        <div class="an4">An</div>
+        <a class="image-94" href="https://projects.acmucsd.com" id="image9">
+        </a>
+        <a
+          class="ucsd-project8"
+          href="https://projects.acmucsd.com"
+          target="_blank"
+          id="uCSDProject"
+        >
+          <p class="ucsd-project9">@ UCSD Project</p>
+        </a>
+        <div class="powered-by4">Powered by</div>
+        <a class="flask4" href="https://flask.palletsprojects.com" id="flask"
+          >Flask,
+        </a>
+        <a class="spacy4" href="https://spacy.io" target="_blank" id="spaCy"
+          >SpaCy</a
+        >
+        <div class="and4">, and</div>
+        <a
+          class="chatgpt4"
+          href="https://openai.com/chatgpt"
+          target="_blank"
+          id="chatGPT"
+          >ChatGPT</a
+        >
+      </div>
+      <div class="frame6">
+        <nav class="navbar4">
+          <div class="travelplan8" id="travelPlan">
+            <h1 class="travelplan9">TravelPlan</h1>
+          </div>
+          <div class="frame7">
+            <button class="home4" id="hOME">HOME</button>
+            <button class="contacts5" id="cONTACTS">CONTACTS</button>
+            <button class="github4" id="gITHUB">GITHUB</button>
+            <button class="about5" id="aBOUT">ABOUT</button>
+          </div>
+        </nav>
+      </div>
+      <div class="frame8">
+        <button class="try-again" id="tryAgain">
+          <div class="try-again1">TRY AGAIN</div>
+        </button>
+      </div>
+      <div class="frame9">
+        <h2 class="your-travel-plan">Your Travel Plan</h2>
+        <div class="your-travel-plan-parent">
+          <div id="map-container">
+            <iframe src="/map"></iframe>
+        </div>
+          <h2 class="your-route">Your Route</h2>
+        </div>
+      </div>
+      <img class="frame-icon6" alt="" src="/static/public/frame3@2x.png" />
+
+      <div class="frame10">
+        <div class="frame-child"></div>
+        <button class="share" id="share">
+          <div class="try-again1">SHARE</div>
+        </button>
+      </div>
+    </main>
+
+    <div id="sharedPopup" class="popup-overlay" style="display: none">
+      <div class="shared">
+        <div class="plan-shared">Plan Shared!</div>
+      </div>
+    </div>
+
+    <script>
+      var image9 = document.getElementById("image9");
+      if (image9) {
+        image9.addEventListener("click", function () {
+          window.open("https://projects.acmucsd.com");
+        });
+      }
+      
+      var uCSDProject = document.getElementById("uCSDProject");
+      if (uCSDProject) {
+        uCSDProject.addEventListener("click", function () {
+          window.open("https://projects.acmucsd.com");
+        });
+      }
+      
+      var flask = document.getElementById("flask");
+      if (flask) {
+        flask.addEventListener("click", function () {
+          window.open("https://flask.palletsprojects.com");
+        });
+      }
+      
+      var spaCy = document.getElementById("spaCy");
+      if (spaCy) {
+        spaCy.addEventListener("click", function () {
+          window.open("https://spacy.io");
+        });
+      }
+      
+      var chatGPT = document.getElementById("chatGPT");
+      if (chatGPT) {
+        chatGPT.addEventListener("click", function () {
+          window.open("https://openai.com/chatgpt");
+        });
+      }
+      
+      var travelPlan = document.getElementById("travelPlan");
+      if (travelPlan) {
+        travelPlan.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='travelPlan']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var hOME = document.getElementById("hOME");
+      if (hOME) {
+        hOME.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var cONTACTS = document.getElementById("cONTACTS");
+      if (cONTACTS) {
+        cONTACTS.addEventListener("click", function (e) {
+          window.location.href = "/contacts";
+        });
+      }
+      
+      var gITHUB = document.getElementById("gITHUB");
+      if (gITHUB) {
+        gITHUB.addEventListener("click", function () {
+          window.open(
+            "https://github.com/acmucsd-projects/fa23-ai-team-byte-benders"
+          );
+        });
+      }
+      
+      var aBOUT = document.getElementById("aBOUT");
+      if (aBOUT) {
+        aBOUT.addEventListener("click", function (e) {
+          window.location.href = "/about";
+        });
+      }
+      
+      var tryAgain = document.getElementById("tryAgain");
+      if (tryAgain) {
+        tryAgain.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var share = document.getElementById("share");
+      if (share) {
+        share.addEventListener("click", function () {
+          var popup = document.getElementById("sharedPopup");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      </script>
+  </body>
+</html>

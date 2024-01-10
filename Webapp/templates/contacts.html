@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>Travel Plan - Contacts</title>
+
+    <link rel="icon" href="/static/public/favicon.ico" />
+    <link rel="stylesheet" href="/static/global.css" />
+    <link rel="stylesheet" href="/static/contacts.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Serif Display:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <main class="contacts2">
+      <img class="frame-icon2" alt="" src="/static/public/frame@2x.png" />
+
+      <img class="frame-icon3" alt="" src="/static/public/frame2@2x.png" />
+
+      <nav class="navbar2">
+        <div class="travelplan4" id="travelPlan">
+          <h1 class="travelplan5">TravelPlan</h1>
+        </div>
+        <div class="frame3">
+          <button class="home2" id="hOME">HOME</button>
+          <button class="contacts3">CONTACTS</button>
+          <button class="github2" id="gITHUB">GITHUB</button>
+          <button class="about3" id="aBOUT">ABOUT</button>
+        </div>
+      </nav>
+      <p class="our-github-repository-container">
+        <span class="our-github-repository">Our Github Repository: https://github.com/acmucsd-projects/fa23-ai-team-byte-benders</span>
+        <span class="our-github-repository">&nbsp;</span>
+        <span class="our-github-repository">Our Discord channel: https://discord.gg/7m4ud5cHcJ</span>
+        <span class="our-github-repository">&nbsp;</span>
+      </p>
+      <h1 class="contact-information">Contact Information</h1>
+      <div class="bottom2">
+        <div class="an2">An</div>
+        <a class="image-92" href="https://projects.acmucsd.com" id="image9">
+        </a>
+        <a
+          class="ucsd-project4"
+          href="https://projects.acmucsd.com"
+          target="_blank"
+          id="uCSDProject"
+        >
+          <p class="ucsd-project5">@ UCSD Project</p>
+        </a>
+        <div class="powered-by2">Powered by</div>
+        <a class="flask2" href="https://flask.palletsprojects.com" id="flask"
+          >Flask,
+        </a>
+        <a class="spacy2" href="https://spacy.io" target="_blank" id="spaCy"
+          >SpaCy</a
+        >
+        <div class="and2">, and</div>
+        <a
+          class="chatgpt2"
+          href="https://openai.com/chatgpt"
+          target="_blank"
+          id="chatGPT"
+          >ChatGPT</a
+        >
+      </div>
+    </main>
+
+    <script>
+      var travelPlan = document.getElementById("travelPlan");
+      if (travelPlan) {
+        travelPlan.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var hOME = document.getElementById("hOME");
+      if (hOME) {
+        hOME.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var gITHUB = document.getElementById("gITHUB");
+      if (gITHUB) {
+        gITHUB.addEventListener("click", function () {
+          window.open(
+            "https://github.com/acmucsd-projects/fa23-ai-team-byte-benders"
+          );
+        });
+      }
+      
+      var aBOUT = document.getElementById("aBOUT");
+      if (aBOUT) {
+        aBOUT.addEventListener("click", function (e) {
+          window.location.href = "/about";
+        });
+      }
+      
+      var image9 = document.getElementById("image9");
+      if (image9) {
+        image9.addEventListener("click", function () {
+          window.open("https://projects.acmucsd.com");
+        });
+      }
+      
+      var uCSDProject = document.getElementById("uCSDProject");
+      if (uCSDProject) {
+        uCSDProject.addEventListener("click", function () {
+          window.open("https://projects.acmucsd.com");
+        });
+      }
+      
+      var flask = document.getElementById("flask");
+      if (flask) {
+        flask.addEventListener("click", function () {
+          window.open("https://flask.palletsprojects.com");
+        });
+      }
+      
+      var spaCy = document.getElementById("spaCy");
+      if (spaCy) {
+        spaCy.addEventListener("click", function () {
+          window.open("https://spacy.io");
+        });
+      }
+      
+      var chatGPT = document.getElementById("chatGPT");
+      if (chatGPT) {
+        chatGPT.addEventListener("click", function () {
+          window.open("https://openai.com/chatgpt");
+        });
+      }
+      </script>
+  </body>
+</html>

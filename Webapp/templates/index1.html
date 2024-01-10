@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="icon" href="/static/public/favicon.ico" />
+    <link rel="stylesheet" href="/static/global.css" />
+    <link rel="stylesheet" href="/static/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Serif Display:wght@400&display=swap"
+    />
+    <title>Travel Plan</title>
+  </head>
+  <body>
+    <main class="index1">
+      <div class="index-child"></div>
+      <div class="index-item"></div>
+      <div class="background">
+        <img class="image-5-icon" alt="" src="/static/public/image-5@2x.png" />
+
+        <img class="image-4-icon" alt="" src="/static/public/image-4@2x.png" />
+
+        <img class="image-4-icon" alt="" src="/static/public/image-3@2x.png" />
+
+        <img class="image-4-icon" alt="" src="/static/public/image-2@2x.png" />
+
+        <img class="image-4-icon" alt="" src="/static/public/image-1@2x.png" />
+      </div>
+      <div class="bottom">
+        <div class="an">An</div>
+        <a class="image-9" href="https://projects.acmucsd.com" id="image9"> </a>
+        <a
+          class="ucsd-project"
+          href="https://projects.acmucsd.com"
+          target="_blank"
+          id="uCSDProject"
+        >
+          <p class="ucsd-project1">@ UCSD Project</p>
+        </a>
+        <div class="powered-by">Powered by</div>
+        <a class="flask" href="https://flask.palletsprojects.com" id="flask"
+          >Flask,
+        </a>
+        <a class="spacy" href="https://spacy.io" target="_blank" id="spaCy"
+          >SpaCy</a
+        >
+        <div class="and">, and</div>
+        <a
+          class="chatgpt"
+          href="https://openai.com/chatgpt"
+          target="_blank"
+          id="chatGPT"
+          >ChatGPT</a
+        >
+      </div>
+      <div class="search">
+        <form class="searchbar" method="post" action="/hotel">
+          <img class="image-10-icon" alt="" src="/static/public/image-10@2x.png" />
+
+          <input type="submit" value="Submit" class="start" id="start">
+        </input>
+          <input
+            id="youtube_url" name="youtube_url"
+            class="placeholder-label"
+            placeholder="YouTube / Notion / Any Travel Guide Web Page"
+            type="search"
+            oninvalid="setCustomValidity('')" oninput="setCustomValidity('')"
+          />
+          <span class="error-message" id="error-message">Please fill out this field.</span>
+        </form>
+      </div>
+      <p class="enter-link-of-container" data-scroll-to="enterLinkOf">
+        <span class="blank-line">&nbsp;</span>
+        <span class="blank-line">&nbsp;</span>
+        <span class="blank-line">Enter link of your travel guide.</span>
+      </p>
+      <div class="ways">
+        <div class="vid" id="vid">
+          <img class="image-6-icon" alt="" src="/static/public/image-6@2x.png" />
+
+          <span class="videos">VIDEOS</span>
+        </div>
+        <div class="notion" id="notion">
+          <img class="image-8-icon" alt="" src="/static/public/image-8@2x.png" />
+
+          <span class="notes">NOTES</span>
+        </div>
+        <div class="articles" id="articles">
+          <img class="image-7-icon" alt="" src="/static/public/image-7@2x.png" />
+
+          <span class="article-link">ARTICLE LINK</span>
+        </div>
+      </div>
+      <div class="hero" data-scroll-to="hero">
+        <h1 class="explore-the-world">Explore the World.</h1>
+        <p class="use-ai-to-container">
+          <span>use </span>
+          <span class="ai">AI</span>
+          <span> to generate your travel plan.</span>
+        </p>
+        <button class="start-now" id="sTARTNOW">
+          <div class="start-now1">start now</div>
+        </button>
+      </div>
+      <button class="get-started" id="getStarted">
+        <div class="get-started1">GET STARTED</div>
+      </button>
+      <nav class="navbar">
+        <div class="frame">
+          <div class="travelplan" data-scroll-to="travelPlan" id="travelPlan">
+            <h1 class="travelplan1">TravelPlan</h1>
+          </div>
+          <div class="frame1">
+            <button class="home" id="hOME">HOME</button>
+            <button class="contacts" id="cONTACTS">CONTACTS</button>
+            <button class="github" id="gITHUB">GITHUB</button>
+            <button class="about" id="aBOUT">ABOUT</button>
+          </div>
+        </div>
+      </nav>
+    </main>
+
+    <script>
+    document.querySelector('.searchbar').addEventListener('submit', function(event) {
+    var input = document.getElementById('youtube_url');
+    var errorMessage = document.getElementById('error-message');
+    if (!input.value) { // if the input is empty
+        errorMessage.classList.add('show'); // show the error message with smooth transition
+        event.preventDefault(); // prevent the form from being submitted
+    } else {
+        errorMessage.classList.remove('show'); // hide the error message
+        window.location.href = "./loading.html";
+    }
+});
+      var image9 = document.getElementById("image9");
+      if (image9) {
+        image9.addEventListener("click", function () {
+          window.open("https://projects.acmucsd.com");
+        });
+      }
+      
+      var uCSDProject = document.getElementById("uCSDProject");
+      if (uCSDProject) {
+        uCSDProject.addEventListener("click", function () {
+          window.open("https://projects.acmucsd.com");
+        });
+      }
+      
+      var flask = document.getElementById("flask");
+      if (flask) {
+        flask.addEventListener("click", function () {
+          window.open("https://flask.palletsprojects.com");
+        });
+      }
+      
+      var spaCy = document.getElementById("spaCy");
+      if (spaCy) {
+        spaCy.addEventListener("click", function () {
+          window.open("https://spacy.io");
+        });
+      }
+      
+      var chatGPT = document.getElementById("chatGPT");
+      if (chatGPT) {
+        chatGPT.addEventListener("click", function () {
+          window.open("https://openai.com/chatgpt");
+        });
+      }
+      
+      var vid = document.getElementById("vid");
+      if (vid) {
+        vid.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='enterLinkOf']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var notion = document.getElementById("notion");
+      if (notion) {
+        notion.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='enterLinkOf']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var articles = document.getElementById("articles");
+      if (articles) {
+        articles.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='enterLinkOf']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var sTARTNOW = document.getElementById("sTARTNOW");
+      if (sTARTNOW) {
+        sTARTNOW.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='enterLinkOf']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var getStarted = document.getElementById("getStarted");
+      if (getStarted) {
+        getStarted.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='enterLinkOf']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var travelPlan = document.getElementById("travelPlan");
+      if (travelPlan) {
+        travelPlan.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='travelPlan']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var hOME = document.getElementById("hOME");
+      if (hOME) {
+        hOME.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='hero']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var cONTACTS = document.getElementById("cONTACTS");
+      if (cONTACTS) {
+        cONTACTS.addEventListener("click", function (e) {
+          window.location.href = "/contacts";
+        });
+      }
+      
+      var gITHUB = document.getElementById("gITHUB");
+      if (gITHUB) {
+        gITHUB.addEventListener("click", function () {
+          window.open(
+            "https://github.com/acmucsd-projects/fa23-ai-team-byte-benders"
+          );
+        });
+      }
+      
+      var aBOUT = document.getElementById("aBOUT");
+      if (aBOUT) {
+        aBOUT.addEventListener("click", function (e) {
+          window.location.href = "/about";
+        });
+      }
+      </script>
+  </body>
+</html>
