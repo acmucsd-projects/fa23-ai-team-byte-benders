@@ -173,12 +173,11 @@ def hotel():
         print("Invalid Link:" + url)
         return render_template('error.html')
 
-    try:
-        if "youtu.be/" in url:
+    if "youtu.be/" in url:
             youtube_id = url.split('tu.be/')[1].split("?")[0]
-        else:
+    else:
             youtube_id = url.split("=")[1]
-
+    try:
         transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
         transcript_text = ""
         for line in transcript:
@@ -186,10 +185,10 @@ def hotel():
         print(f"Transcropt took {round((time.time() - request_start)*1000)} ms.")
         location_list = chatGPT(transcript_text)
         coord_list = (get_coordinates(location_list))
-        map = plot_points(coord_list)
-        map.save("templates/map.html")
     except:
         return render_template("error.html")
+    map = plot_points(coord_list)
+    map.save("templates/map.html")
     
     db = getattr(g, '_database', None)
     if db is not None:
@@ -216,4 +215,4 @@ def loading():
     return render_template('loading.html')
 
 if __name__ == '__main__':
-    app.run(port=8080)
+    app.run(debug=True)
