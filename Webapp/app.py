@@ -11,7 +11,7 @@ from openai import OpenAI
 
 app = Flask(__name__)
 
-client = OpenAI()
+client = OpenAI() # Want to switch back to spacy nlp? change 'chatGPT' to 'GPE_extract' in home() function!
 nlp = spacy.load('en_core_web_sm')
 country_capital = "Datasets/country.txt"
 country_code = "Datasets/country-code.csv"
@@ -34,13 +34,29 @@ def chatGPT(content):
     completion = client.chat.completions.create(
     model="gpt-3.5-turbo",
     max_tokens=1000,
+    temperature=0,
     messages=[
     {"role": "system", "content": "You will be provided with a travel guide. Your task is to list out simple names of all the cities that the travel guide recommanded. Split the entries by line breaks. Do not write anything other than the list."},
     {"role": "user", "content": f"{content}"}
     ]
     )
+    result = completion.choices[0].message.content
     print (completion.choices[0].message)
-    return completion.choices[0].message.content.split('\n')
+    if len(words) > 1800:
+        content = ' '.join(words[1800:len(words)])
+        if len(words) > 3600:
+            content = ' '.join(words[1800:3600])
+        completion2 = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        max_tokens=1000,
+        messages=[
+        {"role": "system", "content": "You will be provided with a travel guide. Your task is to list out simple names of all the cities that the travel guide recommanded. Split the entries by line breaks. Do not write anything other than the list."},
+        {"role": "user", "content": f"{content}"}
+        ]
+        )
+        result = completion.choices[0].message.content + completion2.choices[0].message.content
+        print (completion2.choices[0].message)
+    return list(set(result.split('\n')))
 
 def GPE_extract(text):
     tokens = nlp(text)
