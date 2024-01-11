@@ -64,7 +64,7 @@
         >
       </div>
       <div class="search">
-        <form class="searchbar" method="post" action="/hotel">
+        <form class="searchbar" method="post" action="/loading">
           <img class="image-10-icon" alt="" src="/static/public/image-10@2x.png" />
 
           <input type="submit" value="Submit" class="start" id="start">
@@ -139,7 +139,6 @@
         event.preventDefault(); // prevent the form from being submitted
     } else {
         errorMessage.classList.remove('show'); // hide the error message
-        window.location.href = "./loading.html";
     }
 });
       var image9 = document.getElementById("image9");

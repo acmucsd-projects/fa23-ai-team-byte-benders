@@ -4,16 +4,20 @@ from youtube_transcript_api import YouTubeTranscriptApi
 import geocoder
 import folium
 import pandas as pd
-import time, re, sqlite3
+import time, re, sqlite3, os
 from collections import Counter
 from webscrape_hotel import search_hotel
+from openai import OpenAI
 
 app = Flask(__name__)
 
+client = OpenAI() # Want to switch back to spacy nlp? change 'chatGPT' to 'GPE_extract' in home() function!
 nlp = spacy.load('en_core_web_sm')
 country_capital = "Datasets/country.txt"
 country_code = "Datasets/country-code.csv"
 hotel_database = 'Datasets/hotels.db'
+
+url = ''
 
 with open(country_capital, 'r') as file:
     countries = [line.replace('\n', "").lower() for line in file]
@@ -23,11 +27,42 @@ two_code_list = code_df['Alpha-2 code'].str.lower().to_list()
 three_code_list = code_df['Alpha-3 code'].str.lower().to_list()
 non_alphanumeric = re.compile("[^A-Za-z0-9&/\()-+'_., ]")
 
+def chatGPT(content):
+    words = content.split(' ')
+    if len(words) > 1800:
+        content = ' '.join(words[:1800])
+    completion = client.chat.completions.create(
+    model="gpt-3.5-turbo",
+    max_tokens=1000,
+    temperature=0,
+    messages=[
+    {"role": "system", "content": "You will be provided with a travel guide. Your task is to list out simple names of all the cities that the travel guide recommanded. Split the entries by line breaks. Do not write anything other than the list."},
+    {"role": "user", "content": f"{content}"}
+    ]
+    )
+    result = completion.choices[0].message.content
+    print (completion.choices[0].message)
+    if len(words) > 1800:
+        content = ' '.join(words[1800:len(words)])
+        if len(words) > 3600:
+            content = ' '.join(words[1800:3600])
+        completion2 = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        max_tokens=1000,
+        messages=[
+        {"role": "system", "content": "You will be provided with a travel guide. Your task is to list out simple names of all the cities that the travel guide recommanded. Split the entries by line breaks. Do not write anything other than the list."},
+        {"role": "user", "content": f"{content}"}
+        ]
+        )
+        result = completion.choices[0].message.content + completion2.choices[0].message.content
+        print (completion2.choices[0].message)
+    return list(set(result.split('\n')))
+
 def GPE_extract(text):
     tokens = nlp(text)
     token_list = []
     for token in tokens.ents:
-        if token.label_ == "GPE": 
+        if token.label_ == "GPE":
             gpe = token.text.strip()
             gpe = gpe.replace("the", "").replace("'s", "").replace(".", "")
             gpe = gpe.strip().title()
@@ -79,8 +114,8 @@ def plot_points(coord_list):
     
     for coord in coord_list:
         booking_html = get_hotel(coord[0],coord[3])
-        myframe = folium.IFrame(html=booking_html, width=600, height=150)
-        popup = folium.Popup(myframe, min_width=500, min_height=100)
+        myframe = folium.IFrame(html=booking_html, width=600, height=300)
+        popup = folium.Popup(myframe, min_width=500, min_height=300)
         folium.Marker([coord[1], coord[2]], popup=popup).add_to(mymap)
     print(f"All hotel pins took {round((time.time() - pp_start)*1000)} ms.")
     return mymap
@@ -132,30 +167,28 @@ def home():
 
 @app.route('/hotel', methods=['GET', 'POST'])
 def hotel():
+    global url
     request_start = time.time()
-    if request.method == "POST":
-        url = request.form.get('youtube_url')
-        if ("youtube.com/watch" not in url and "youtu.be/" not in url):
-            print("Invalid Link:" + url)
-            return render_template('error.html')
+    if ("youtube.com/watch" not in url and "youtu.be/" not in url):
+        print("Invalid Link:" + url)
+        return render_template('error.html')
 
-    try:
-        if "youtu.be/" in url:
+    if "youtu.be/" in url:
             youtube_id = url.split('tu.be/')[1].split("?")[0]
-        else:
+    else:
             youtube_id = url.split("=")[1]
-
+    try:
         transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
         transcript_text = ""
         for line in transcript:
             transcript_text += " " + line['text'].replace("\n"," ")
         print(f"Transcropt took {round((time.time() - request_start)*1000)} ms.")
-        location_list = GPE_extract(transcript_text)
+        location_list = chatGPT(transcript_text)
         coord_list = (get_coordinates(location_list))
-        map = plot_points(coord_list)
-        map.save("templates/map.html")
     except:
         return render_template("error.html")
+    map = plot_points(coord_list)
+    map.save("templates/map.html")
     
     db = getattr(g, '_database', None)
     if db is not None:
@@ -174,6 +207,12 @@ def about():
 @app.route('/contacts')
 def contacts():  
     return render_template('contacts.html')
+@app.route('/loading',methods=['GET', 'POST'])
+def loading():
+    global url
+    if request.method == "POST":
+        url = request.form.get('youtube_url')
+    return render_template('loading.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
