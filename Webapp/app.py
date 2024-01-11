@@ -4,12 +4,14 @@ from youtube_transcript_api import YouTubeTranscriptApi
 import geocoder
 import folium
 import pandas as pd
-import time, re, sqlite3
+import time, re, sqlite3, os
 from collections import Counter
 from webscrape_hotel import search_hotel
+from openai import OpenAI
 
 app = Flask(__name__)
 
+client = OpenAI()
 nlp = spacy.load('en_core_web_sm')
 country_capital = "Datasets/country.txt"
 country_code = "Datasets/country-code.csv"
@@ -25,11 +27,26 @@ two_code_list = code_df['Alpha-2 code'].str.lower().to_list()
 three_code_list = code_df['Alpha-3 code'].str.lower().to_list()
 non_alphanumeric = re.compile("[^A-Za-z0-9&/\()-+'_., ]")
 
+def chatGPT(content):
+    words = content.split(' ')
+    if len(words) > 1800:
+        content = ' '.join(words[:1800])
+    completion = client.chat.completions.create(
+    model="gpt-3.5-turbo",
+    max_tokens=1000,
+    messages=[
+    {"role": "system", "content": "You will be provided with a travel guide. Your task is to list out simple names of all the cities that the travel guide recommanded. Split the entries by line breaks. Do not write anything other than the list."},
+    {"role": "user", "content": f"{content}"}
+    ]
+    )
+    print (completion.choices[0].message)
+    return completion.choices[0].message.content.split('\n')
+
 def GPE_extract(text):
     tokens = nlp(text)
     token_list = []
     for token in tokens.ents:
-        if token.label_ == "GPE": 
+        if token.label_ == "GPE":
             gpe = token.text.strip()
             gpe = gpe.replace("the", "").replace("'s", "").replace(".", "")
             gpe = gpe.strip().title()
@@ -137,8 +154,8 @@ def hotel():
     global url
     request_start = time.time()
     if ("youtube.com/watch" not in url and "youtu.be/" not in url):
-            print("Invalid Link:" + url)
-            return render_template('error.html')
+        print("Invalid Link:" + url)
+        return render_template('error.html')
 
     try:
         if "youtu.be/" in url:
@@ -151,7 +168,7 @@ def hotel():
         for line in transcript:
             transcript_text += " " + line['text'].replace("\n"," ")
         print(f"Transcropt took {round((time.time() - request_start)*1000)} ms.")
-        location_list = GPE_extract(transcript_text)
+        location_list = chatGPT(transcript_text)
         coord_list = (get_coordinates(location_list))
         map = plot_points(coord_list)
         map.save("templates/map.html")
@@ -183,4 +200,4 @@ def loading():
     return render_template('loading.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=8080)
