@@ -15,6 +15,8 @@ country_capital = "Datasets/country.txt"
 country_code = "Datasets/country-code.csv"
 hotel_database = 'Datasets/hotels.db'
 
+url = ''
+
 with open(country_capital, 'r') as file:
     countries = [line.replace('\n', "").lower() for line in file]
 
@@ -132,30 +134,29 @@ def home():
 
 @app.route('/hotel', methods=['GET', 'POST'])
 def hotel():
+    global url
     request_start = time.time()
-    if request.method == "POST":
-        url = request.form.get('youtube_url')
-        if ("youtube.com/watch" not in url and "youtu.be/" not in url):
+    if ("youtube.com/watch" not in url and "youtu.be/" not in url):
             print("Invalid Link:" + url)
             return render_template('error.html')
 
-    #try:
-    if "youtu.be/" in url:
+    try:
+        if "youtu.be/" in url:
             youtube_id = url.split('tu.be/')[1].split("?")[0]
-    else:
+        else:
             youtube_id = url.split("=")[1]
 
-    transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
-    transcript_text = ""
-    for line in transcript:
+        transcript = YouTubeTranscriptApi.get_transcript(youtube_id)
+        transcript_text = ""
+        for line in transcript:
             transcript_text += " " + line['text'].replace("\n"," ")
-    print(f"Transcropt took {round((time.time() - request_start)*1000)} ms.")
-    location_list = GPE_extract(transcript_text)
-    coord_list = (get_coordinates(location_list))
-    map = plot_points(coord_list)
-    map.save("templates/map.html")
-    #except:
-        #return render_template("error.html")
+        print(f"Transcropt took {round((time.time() - request_start)*1000)} ms.")
+        location_list = GPE_extract(transcript_text)
+        coord_list = (get_coordinates(location_list))
+        map = plot_points(coord_list)
+        map.save("templates/map.html")
+    except:
+        return render_template("error.html")
     
     db = getattr(g, '_database', None)
     if db is not None:
@@ -174,6 +175,12 @@ def about():
 @app.route('/contacts')
 def contacts():  
     return render_template('contacts.html')
+@app.route('/loading',methods=['GET', 'POST'])
+def loading():
+    global url
+    if request.method == "POST":
+        url = request.form.get('youtube_url')
+    return render_template('loading.html')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

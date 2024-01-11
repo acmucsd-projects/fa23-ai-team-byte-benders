@@ -115,6 +115,9 @@
   justify-content: center;
 }
 .generating-your-travel {
+  justify-content: center;
+  align-content: top;
+  height: 100vh;
   margin: 0;
   align-self: stretch;
   position: relative;
