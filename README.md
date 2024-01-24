@@ -38,3 +38,5 @@ Vishal Patel [LinkedIn link](https://www.linkedin.com/in/patvishal/)
 Matthew Biehler [LinkedIn link](https://www.linkedin.com/in/matthew-biehler-7804b1271/)
 
 Yang Hu [LinkedIn link](https://www.linkedin.com/in/yanghu2003/)
+
+Aniket Iyer [LinkedIn link](https://www.linkedin.com/in/aniket-iyer/)
